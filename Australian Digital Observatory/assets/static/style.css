@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 50px 25px;
 }
 
@@ -11,17 +13,23 @@ a:hover {
     color: #33bbdf;
 }
 
-header, footer, div.page {
+header, div.page {
     width: 760px;
     margin: 0 auto;
-    background: #daeef3;
+    background: #012A4C;
+    padding: 20px 30px;
+}
+
+footer {
+    width: 760px;
+    margin: 0 auto;
     padding: 20px 30px;
 }
 
 header h1 {
-    color: #169bbd;
+    color: #FFF;
     margin: 0;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 42px;
 }
 
@@ -37,6 +45,24 @@ header nav ul li {
     padding: 0;
 }
 
+header nav ul li a {
+    color: #FFF;
+}
+
 div.page {
     background: #f1fbfe;
+}
+
+.category_label {
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+      }
 }
