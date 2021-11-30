@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 50px 25px;
 }
 
@@ -39,4 +41,18 @@ header nav ul li {
 
 div.page {
     background: #f1fbfe;
+}
+
+.category_label {
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+      }
 }
