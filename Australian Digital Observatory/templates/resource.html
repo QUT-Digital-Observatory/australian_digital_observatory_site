@@ -9,6 +9,8 @@
     <div><strong>Organisations/Institutions</strong>: {{ this.owner }}</div>    
     <div><strong>URL</strong>: <a href="{{ this.link }}" target="_blank">{{ this.link }}</a></div>  
     <div><strong>Access conditions</strong>: {{ this.access }}</div>
-    <div><strong>DOI</strong>: <a href="{{ this.doi }}" target="_blank">{{this.doi}}</a></div>
+    <div><strong>DOI</strong>: 
+        {% if this.doi != ''%}<a href="{{ this.doi }}" target="_blank">{{ this.doi }}</a> {% else %} n/a {% endif %}
+    </div>
     <div><strong>Point of contact for this {{ this.category }}</strong>: {{ this.poc }}</div>
 {% endblock %}
