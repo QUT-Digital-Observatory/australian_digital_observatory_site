@@ -1,0 +1,19 @@
+{% macro render_category_nav(active=none) %}
+  <ul>
+  {% for category in site.query('/resource-categories') %}
+    <li{% if category._id == active %} class="active"{% endif
+      %}><a href="{{ category|url }}">{{ category.name }}</a></li>
+  {% endfor %}
+  </ul>
+{% endmacro %}
+
+{% macro render_resource_list(resources) %}
+  <ul class="resources">
+  {% for resource in resources %}
+    <li class="resource">
+        <a href="{{ resource|url }}">{{ resource.title }}</a>
+        ({{ resource.category }})
+    </li>
+  {% endfor %}
+  </ul>
+{% endmacro %}

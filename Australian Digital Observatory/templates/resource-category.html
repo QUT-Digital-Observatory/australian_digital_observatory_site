@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% from "macros/resources.html" import render_category_nav,
+   render_resource_list %}
+{% block title %}Australian Digital Observatory {{ this.name }}{% endblock %}
+{% block body %}
+    <h1>{{ this.name }}</h1>
+    {{ render_resource_list(this.children) }}
+    <h1>Other categories</h1>
+    {{ render_category_nav(active=this._id) }}
+{% endblock %}

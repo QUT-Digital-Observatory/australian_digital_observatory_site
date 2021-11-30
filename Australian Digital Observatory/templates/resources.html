@@ -1,13 +1,14 @@
 {% extends "layout.html" %}
+{% from "macros/resources.html" import render_category_nav, render_resource_list %}
 {% block title %}Resources{% endblock %}
 {% block body %}
-  <h1>Resources</h1>
-  <ul class="resources">
-  {% for resource in this.children %}
-    <li class="resource">
-      <a href="{{ resource|url }}">{{ resource.title }}</a>
-      ({{ resource.category }})
-    </li>
-  {% endfor %}
-  </ul>
+    <h1>Resources</h1>
+
+    {{ this.body }}
+
+    <h2>Resource categories</h2>
+    {{ render_category_nav(active=none) }}
+
+    <h2>All resources</h2>
+    {{ render_resource_list(this.children) }}
 {% endblock %}
