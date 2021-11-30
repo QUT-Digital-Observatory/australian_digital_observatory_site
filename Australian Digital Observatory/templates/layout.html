@@ -5,24 +5,29 @@
 <body>
   <header>
     <h1>Australian Digital Observatory</h1>
-    <nav>
+    <nav id="navbar">
+      
       <ul class="nav navbar-nav">
         <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
-        {% for href, title in [
-          ['/resources', 'Resources'],
-          ['/about', 'About']
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
+          %}><a href="{{ '/'|url }}" class="dropbtn">Welcome</a></li>
+        <li class="dropdown">
+           <a href="/resources" class="dropbtn">Resources</a>
+           <div class="dropdown-content">
+           {% for category in site.query("/resource-categories") %}
+              <a href="{{ category|url }}">{{ category.name }}</a>
+           {% endfor %}
+           </div>
+        </li>
+        <li{% if this.is_child_of('/about') %} class="active"{% endif %}><a href='/about' class="dropbtn">About</a></li>  
       </ul>
+    
     </nav>
   </header>
+  
   <div class="page">
     {% block body %}{% endblock %}
   </div>
   <footer>
-    <div class="footer"> &copy; Copyright 2021 by QUT Digital Observatory. </div>
+    <div id="footer"> &copy; Copyright 2021 by QUT Digital Observatory. </div>
   </footer>
 </body>
