@@ -1,7 +1,17 @@
-title: About this Website
+title: About Us
 ---
 body:
+
+## About Australian Digital Observatory
+
+<img src="logo-qut.png">
 
 This is a website that was made with the Lektor quickstart.
 
 And it does not contain a lot of information.
+
+## Partner institutions
+
+Some descriptions about each here.
+---
+firstTitle: About Australian Digital Observatory

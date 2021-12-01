@@ -88,9 +88,8 @@ nav a:hover, .dropdown:hover, .dropdown:hover .dropbtn {
     color: #012A4C;
   }
 
-.active {
-  background-color: #666;
-  color: white;
+nav .active>a {
+  color: #0066B9;
 }
 
 li.dropdown {
@@ -99,7 +98,7 @@ li.dropdown {
   
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -116,6 +115,6 @@ li.dropdown {
   
 .dropdown-content a:hover {background-color: #f1f1f1;}
   
-.dropdown:hover .dropdown-content {
+.active:hover .dropdown-content, .dropdown:hover .dropdown-content, .active.dropdown:hover .dropdown-content {
     display: block;
   }
