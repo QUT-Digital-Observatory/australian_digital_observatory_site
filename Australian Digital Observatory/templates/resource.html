@@ -2,7 +2,7 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
     <h1>{{ this.title }}</h1>
-    <p class="category_label">{{ this.category.capitalize() }}</p>
+    <a class="category_label" href="{{ site.get('/resource-categories').children.get('/{}'.format(this.category) ) |url }}">{{ this.category.capitalize() }}</a>
     <div class="meta">{{ this.description }}</div>
     <br>
     <br>    
