@@ -83,10 +83,16 @@ ul {
     text-decoration: none;
   }
   
-nav a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+nav a:hover, .dropdown:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color: #012A4C;
   }
-  
+
+.active {
+  background-color: #666;
+  color: white;
+}
+
 li.dropdown {
     display: inline-block;
   }

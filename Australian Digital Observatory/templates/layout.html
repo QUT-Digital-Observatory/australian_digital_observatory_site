@@ -10,7 +10,7 @@
       <ul class="nav navbar-nav">
         <li{% if this._path == '/' %} class="active"{% endif
           %}><a href="{{ '/'|url }}" class="dropbtn">Welcome</a></li>
-        <li class="dropdown">
+        <li {% if this.is_child_of('/resources') %} class="active"{% endif %} class="dropdown">
            <a href="/resources" class="dropbtn">Resources</a>
            <div class="dropdown-content">
            {% for category in site.query("/resource-categories") %}
