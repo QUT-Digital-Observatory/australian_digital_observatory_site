@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% from "macros/resources.html" import render_resource_list %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+    <h2>{{ this.title }}</h2>
+    {{ this.body }}
+    <h2>Featured resources</h2>
+    {% set resources = site.get('/resources') %}
+    {{ render_resource_list(resources.children.filter(F.feature == true)) }}
+    <h2>Partners</h2>
+    Logo list
+{% endblock %}
