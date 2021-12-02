@@ -3,14 +3,13 @@
 {% block body %}
     <h1>{{ this.title }}</h1>
     <a class="category_label" href="{{ site.get('/resource-categories').children.get('/{}'.format(this.category) ) |url }}">{{ this.category.capitalize() }}</a>
-    <div class="meta">{{ this.description }}</div>
-    <br>
-    <br>    
-    <div><strong>Organisations/Institutions</strong>: {{ this.owner }}</div>    
-    <div><strong>URL</strong>: <a href="{{ this.link }}" target="_blank">{{ this.link }}</a></div>  
-    <div><strong>Access conditions</strong>: {{ this.access }}</div>
-    <div><strong>DOI</strong>: 
+    <p class="description">{{ this.description }}</p>
+    <br> 
+    <p><strong>Organisations/Institutions</strong>: {{ this.owner }}</p>    
+    <p><strong>URL</strong>: <a href="{{ this.link }}" target="_blank">{{ this.link }}</a></p>  
+    <p><strong>Access conditions</strong>: {{ this.access }}</p>
+    <p><strong>DOI</strong>: 
         {% if this.doi != ''%}<a href="{{ this.doi }}" target="_blank">{{ this.doi }}</a> {% else %} n/a {% endif %}
-    </div>
-    <div><strong>Point of contact for this {{ this.category }}</strong>: {{ this.poc }}</div>
+        </p>
+    <p><strong>Point of contact for this {{ this.category }}</strong>: {{ this.poc }}</p>
 {% endblock %}

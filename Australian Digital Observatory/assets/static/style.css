@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
     margin: 50px 25px;
 }
 
@@ -13,30 +15,41 @@ a:hover {
     color: #33bbdf;
 }
 
-header, div.page {
-    width: 760px;
+header {
+    width: 1000px;
     margin: 0 auto;
     background: #012A4C;
-    padding: 20px 30px;
+    padding: 40px 60px;
 }
 
 footer {
-    width: 760px;
+    width: 1000px;
     margin: 0 auto;
-    padding: 20px 30px;
+    padding: 40px 60px;
 }
 
 header h1 {
     color: #FFF;
     margin: 0;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 42px;
+}
+
+h1, h2, h3 {
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  line-height: 140%;
 }
 
 header nav ul {
     list-style: none;
-    margin: 0 25% 0 25%;
+    margin: 0 32% 0 32%;
     padding: 10px 0 0 0;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header nav ul li {
@@ -51,7 +64,10 @@ header nav ul li a {
 }
 
 div.page {
-    background: #f1fbfe;
+  background: #f1fbfe;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px 60px;
 }
 
 .category_label {
@@ -99,7 +115,7 @@ li.dropdown {
   
 .dropdown-content {
     display: none;
-    position: fixed;
+    position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -116,6 +132,6 @@ li.dropdown {
   
 .dropdown-content a:hover {background-color: #f1f1f1;}
   
-.active:hover .dropdown-content, .dropdown:hover .dropdown-content, .active.dropdown:hover .dropdown-content {
+.active:hover .dropdown-content ,.dropdown:hover .dropdown-content {
     display: block;
   }
