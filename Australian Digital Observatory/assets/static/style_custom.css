@@ -8,6 +8,10 @@ body {
     margin-top: 3%;
 }
 
+a.dropdown-item{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 h1, h2, h3 {
   font-weight: 800;
   font-family: 'Open Sans', sans-serif;
@@ -34,6 +38,7 @@ p {
 
 header{
   background: #012A4C;
+  padding-top: 3%;
 }
 
 header nav ul {

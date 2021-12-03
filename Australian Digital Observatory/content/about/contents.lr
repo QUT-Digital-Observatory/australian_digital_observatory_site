@@ -1,10 +1,12 @@
 title: About Us
 ---
+_template: about.html
+---
 body:
 
-### About Australian Digital Observatory
+### About the Australian Digital Observatory
 
-Social media is a rich source of data that researchers from many disciplines increasingly incorporate into their research. For a number of years, many groups across Australia have independently collected significant social media holdings to serve their local research community. The Australian Digital Observatory project seeks to sustainably align and connect selected established platforms into a national infrastructure that supports an extended and diverse array of research communities.
+Social media is a rich source of data that researchers from many disciplines increasingly incorporate into their research. For a number of years, many groups across Australia have independently collected significant social media holdings to serve their local research community. The Australian Digital Observatory is a project funded by the <a href="https://ardc.edu.au/" target="_blank">Australian Research Data Commons (ARDC)</a>, and seeks to sustainably align and connect selected established platforms into a national infrastructure that supports an extended and diverse array of research communities.
 
 This project will establish a national infrastructure for accessing and analysing dynamic digital data, including existing collections of national interest across Twitter, FlickR, YouTube, Reddit, Instagram and gaming platforms such as Steam.
 
@@ -20,11 +22,10 @@ The Australian Digital Observatory (ADO) will develop and support an ecosystem o
 
 #### Co-investment partners
 
-- [University of Melbourne](https://www.unimelb.edu.au/)
-- [University of New South Wales](https://www.unsw.edu.au/)
-- [University of Queensland](https://www.uq.edu.au/)
-- [Queensland Cyber Infrastructure Foundation](https://www.qcif.edu.au/)
-- [Google Cloud](https://cloud.google.com/)
-
----
-firstTitle: About Australian Digital Observatory
+<ul>
+<li><a href="https://www.unimelb.edu.au/" target="_blank">University of Melbourne</a></li>
+<li><a href="https://www.unsw.edu.au/" target="_blank">University of New South Wales</a></li>
+<li><a href="https://www.uq.edu.au/" target="_blank">University of Queensland</a></li>
+<li><a href="https://www.qcif.edu.au/" target="_blank">Queensland Cyber Infrastructure Foundation</a></li>
+<li><a href="https://cloud.google.com/" target="_blank">Google Cloud</a></li>
+</ul>

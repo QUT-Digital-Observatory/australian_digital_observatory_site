@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <h2>{{ this.title }}</h2>
+  {{ this.body }}
+
+  <div class="row align-items-center justify-content-center">
+    <div class="col">
+      <img src="/images/qut-logo-small.png">
+    </div>
+    <div class="col">
+      <img src="/images/uni-melb-logo.svg ">
+    </div>
+    <div class="col">
+      <img src="/images/unsw-logo.svg">
+    </div>
+  </div>
+
+  <div class="row align-items-center justify-content-center">
+    <div class="col">
+      <img src="/images/uq-logo.svg">
+    </div>
+    <div class="col">
+      <img src="/images/qcif-logo-small.jpg">
+    </div>
+    <div class="col">
+      <img src="/images/google-cloud-logo-small.png">
+    </div>
+  </div>
+
+{% endblock %}
