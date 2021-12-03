@@ -6,6 +6,7 @@
     <p class="description">{{ this.description }}</p>
     <br> 
     <p><strong>Organisations/Institutions</strong>: {{ this.owner }}</p>    
+    <p><strong>First published on:</strong> {{ this.datePublished.strftime("%d-%m-%Y") if this.datePublished }}</p>
     <p><strong>URL</strong>: <a href="{{ this.link }}" target="_blank">{{ this.link }}</a></p>  
     <p><strong>Access conditions</strong>: {{ this.access }}</p>
     <p><strong>DOI</strong>: 
