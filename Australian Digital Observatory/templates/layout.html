@@ -1,33 +1,41 @@
 <!doctype html>
 <meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="{{ '/static/style_custom.css'|url }}">
 <title>{% block title %}Welcome{% endblock %} — Australian Digital Observatory</title>
 <body>
-  <header>
-    <h1>Australian Digital Observatory</h1>
-    <nav id="navbar">
+  <header class="container px-5">
+    <h1 class="display-1">Australian Digital Observatory</h1>
+    <nav class="container pt-4">
       
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}" class="dropbtn">Welcome</a></li>
-        <li {% if this.is_child_of('/resources') %} class="active"{% endif %} class="dropdown">
-           <a href="/resources" class="dropbtn">Resources</a>
-           <div class="dropdown-content">
-           {% for category in site.query("/resource-categories") %}
-              <a href="{{ category|url }}">{{ category.name }}</a>
-           {% endfor %}
-           </div>
+      <ul class="nav justify-content-center nav-pills nav-justified">
+        <li class="nav-item">
+          <a href="{{ '/'|url }}" {% if this._path == '/' %} class="active nav-link"{% endif%} class="nav-link">Welcome</a>
         </li>
-        <li{% if this.is_child_of('/about') %} class="active"{% endif %}><a href='/about' class="dropbtn">About</a></li>  
+        <li class="dropdown nav-item">
+           <a href="#" {% if this.is_child_of('/resources') or this.is_child_of('resource-categories') %} class="active nav-link dropdown-toggle"{% endif %} class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+           <ul class="dropdown-menu">
+             <li><a href="/resources" class="dropdown-item">About ADO resources</a></li>
+             <li><hr class="dropdown-divider"></hr></li>
+           {% for category in site.query("/resource-categories") %}
+              <li><a href="{{ category|url }}" class="dropdown-item">{{ category.name }}</a></li>
+           {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href='/about' {% if this.is_child_of('/about') %} class="active nav-link"{% endif %} class="dropbtn nav-link">About</a>
+        </li>  
       </ul>
     
     </nav>
   </header>
   
-  <div class="page">
+  <div class="container pt-5 px-5">
     {% block body %}{% endblock %}
   </div>
-  <footer>
+  <footer class="container p-5">
     <div id="footer"> &copy; Copyright 2021 by QUT Digital Observatory. </div>
   </footer>
 </body>

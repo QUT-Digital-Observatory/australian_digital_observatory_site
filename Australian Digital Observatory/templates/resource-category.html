@@ -3,9 +3,9 @@
    render_resource_list %}
 {% block title %}Australian Digital Observatory {{ this.name }}{% endblock %}
 {% block body %}
-    <h1>{{ this.name }}</h1>
+    <h2>{{ this.name }}</h2>
     <p>{{ this.body }}</p>
     {{ render_resource_list(this.children) }}
-    <h1>Other categories</h1>
+    <h2>Other categories</h2>
     {{ render_category_nav(active=this._id) }}
 {% endblock %}

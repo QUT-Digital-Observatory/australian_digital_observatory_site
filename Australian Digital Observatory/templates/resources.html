@@ -2,13 +2,13 @@
 {% from "macros/resources.html" import render_category_nav, render_resource_list %}
 {% block title %}Resources{% endblock %}
 {% block body %}
-    <h1>Resources</h1>
+    <h2>About Australian Digital Observatory's Resources</h2>
 
     {{ this.body }}
 
-    <h2>Resource categories</h2>
+    <h3>Resource categories</h3>
     {{ render_category_nav(active=none) }}
 
-    <h2>All resources</h2>
+    <h3>All resources</h3>
     {{ render_resource_list(this.children) }}
 {% endblock %}
