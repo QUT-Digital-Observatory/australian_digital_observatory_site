@@ -1,0 +1,19 @@
+title: 2020 Queensland Election
+---
+access: Use of this dataset to rehydrate tweets is solely for non-commercial research purposes and subject to Twitter's terms, including: https://twitter.com/en/tos https://twitter.com/en/privacy https://developer.twitter.com/en/developer-terms/agreement-and-policy It is also a condition of use of the dataset that you provide attribution of the dataset to the Digital Observatory.
+---
+category: datasets
+---
+datePublished: 2021-12-13
+---
+description:
+
+This dataset contains the tweet IDs from the official Twitter accounts of 133 candidates in the 2020 Queensland state election, beginning 30 September 2020 and ending 3 November 2020 (shortly after election day on 31 October 2020). There are approximately 4,400 tweet IDs in the dataset; these IDs are suitable for rehydration using the Twitter API to obtain the tweets' content and metadata, subject to availability. 
+---
+doi:
+
+ 
+---
+owner: QUT Digital Observatory
+---
+poc: Dr Marissa Takahashi (digitalobservatory@qut.edu.au)
