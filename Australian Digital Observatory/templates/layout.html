@@ -19,7 +19,7 @@
            <ul class="dropdown-menu">
              <li><a href="/resources" class="dropdown-item">About ADO resources</a></li>
              <li><hr class="dropdown-divider"></hr></li>
-             <li><h6 class="dropdown-header">Resource categories</h6></li>
+             <li><h6 class="dropdown-header">Categories</h6></li>
            {% for category in site.query("/resource-categories") %}
               <li><a href="{{ category|url }}" class="dropdown-item">{{ category.name }}</a></li>
            {% endfor %}
