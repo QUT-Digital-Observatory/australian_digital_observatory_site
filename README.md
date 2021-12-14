@@ -50,3 +50,12 @@
 4. Create a pull request on GitHub against the `main` branch. If you forked the
    repository in your initial setup, ensure your pull request is against the `main`
    branch of the Digital Observatory organisation's version of the repository.
+
+## License and Copyright
+
+The code in this repository used to generate this site is licensed under the MIT open source
+license. We welcome other projects using our website process as a starting point to develop their
+own sites.
+
+The content of the website (i.e. the resource descriptions and the contents of the 
+`gh-pages` branch) are licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/).
