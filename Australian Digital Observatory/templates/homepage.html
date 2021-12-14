@@ -1,10 +1,12 @@
 {% extends "layout.html" %}
 {% from "macros/resources.html" import render_resource_list %}
+{% from "macros/partners.html" import render_partner_logos %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
     <div class="container-fluid fs-5">
     <h2>{{ this.title }}</h2>
     {{ this.body }}
+    {{ render_partner_logos() }}
     </div>
     <hr class="my-5">
     <div class="container-fluid">
@@ -23,10 +25,5 @@
             </div></div>
         {% endfor %}
     </div>
-    </div>
-    <hr class="my-5">
-    <div class="container-fluid">
-    <h2>Partners</h2>
-    Logo list
     </div>
 {% endblock %}
