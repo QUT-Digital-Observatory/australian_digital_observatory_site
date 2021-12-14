@@ -12,7 +12,7 @@
     <div class="container-fluid">
     <h2>Featured resources</h2>
     {% set resources = site.get('/resources') %}
-    <div class="row row-cols-3 resources">
+    <div class="row row-cols-1 row-cols-md-3 g-4 resources">
         {% for resource in resources.children.filter(F.feature == true) %}
             <div class="col">
             <div class="card bg-light">
