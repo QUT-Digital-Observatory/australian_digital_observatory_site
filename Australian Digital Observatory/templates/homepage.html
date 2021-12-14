@@ -2,11 +2,31 @@
 {% from "macros/resources.html" import render_resource_list %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
+    <div class="container-fluid fs-5">
     <h2>{{ this.title }}</h2>
     {{ this.body }}
+    </div>
+    <hr class="my-5">
+    <div class="container-fluid">
     <h2>Featured resources</h2>
     {% set resources = site.get('/resources') %}
-    {{ render_resource_list(resources.children.filter(F.feature == true)) }}
+    <div class="row row-cols-3 resources">
+        {% for resource in resources.children.filter(F.feature == true) %}
+            <div class="col">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="{{ resource|url }}">{{ resource.title }}</a></h4>
+                    <p class="card-text">{{ resource.description }}</p>
+                    <p class="card-text">Provided by {{ resource.owner }}</p>
+                    <span class="badge bg-primary rounded-pill">{{ resource.category }}</span>
+                </div>
+            </div></div>
+        {% endfor %}
+    </div>
+    </div>
+    <hr class="my-5">
+    <div class="container-fluid">
     <h2>Partners</h2>
     Logo list
+    </div>
 {% endblock %}

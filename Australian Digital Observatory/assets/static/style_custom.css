@@ -12,7 +12,7 @@ a.dropdown-item{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: 800;
   font-family: 'Open Sans', sans-serif;
   color: #0066b9;
@@ -53,19 +53,24 @@ header nav ul {
 
 
 .category_label {
-        background-color: #ddd;
-        border: none;
-        color: black;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 16px;
-      }
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
 
 
 .active.list-group-item a {
   color: white;
 }
+
+/*.resources .panel {*/
+/*    background:  #EFF6FB;*/
+/*    border: 1px solid #DBDBDB;*/
+/*}*/

@@ -8,10 +8,12 @@ description: The Australian Twittersphere is a longitudinal, curated collection 
 ---
 access: Other
 ---
-doi:
+doi: 
 ---
 link: https://www.qut.edu.au/research/why-qut/infrastructure/digital-observatory
 ---
 owner: Digital Observatory
 ---
 poc: Dr Marissa Takahashi - digitalobservatory@qut.edu.au
+---
+feature: yes
