@@ -6,13 +6,14 @@ body {
     font-weight: 400;
     margin: 10%;
     margin-top: 0%;
+    font-size: 18px;
 }
 
 a.dropdown-item{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-weight: 800;
   font-family: 'Open Sans', sans-serif;
   color: #0066b9;
@@ -22,6 +23,7 @@ h1.display-1 {
   font-size: 55px;
   text-align: center;
   color: white;
+  font-weight: bolder;
 }
 
 h2 {
