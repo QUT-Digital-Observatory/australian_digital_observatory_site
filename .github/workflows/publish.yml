@@ -32,12 +32,11 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install lektor
-      
-      - name: Use Lektor directory
-        run: cd 'Australian Digital Observatory'
 
       - name: Build with Lektor
-        run: lektor build
+        run: |
+          cd 'Australian Digital Observatory'
+          lektor build
 
       - name: Commit to gh-pages
         run: lektor deploy ghpages
