@@ -38,4 +38,5 @@ jobs:
         run: lektor build
 
       - name: Commit to gh-pages
+        working-directory: 'Australian Digital Observatory'
         run: lektor deploy ghpages
