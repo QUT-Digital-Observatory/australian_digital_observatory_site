@@ -34,9 +34,7 @@ jobs:
           pip install lektor
 
       - name: Build with Lektor
-        working-directory: 'Australian Digital Observatory'
-        run: lektor build
+        run: lektor --project 'Australian Digital Observatory' build
 
       - name: Commit to gh-pages
-        working-directory: 'Australian Digital Observatory'
-        run: lektor deploy ghpages
+        run: lektor --project 'Australian Digital Observatory' deploy ghpages
