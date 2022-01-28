@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin: 10%;
+    margin-top: 0%;
+    font-size: 18px;
+}
+
+a.dropdown-item{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+  color: #0066b9;
+}
+
+h1.display-1 {
+  font-size: 55px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+
+h2 {
+  margin-bottom: 3%;
+}
+
+h3, h4 {
+  line-height: 140%;
+}
+
+p {
+  line-height: 140%;
+}
+
+header{
+  background: #012A4C;
+  padding-top: 3%;
+}
+
+header nav ul {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.nav-link {
+    color: #FFF;
+    font-weight: 1000;
+}
+
+
+.category_label {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+
+.active.list-group-item a {
+  color: white;
+}
+
+/*.resources .panel {*/
+/*    background:  #EFF6FB;*/
+/*    border: 1px solid #DBDBDB;*/
+/*}*/
