@@ -1,8 +1,5 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Publish
 
-# Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
@@ -11,14 +8,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   publish:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
@@ -33,8 +26,27 @@ jobs:
           pip install --upgrade pip
           pip install lektor
 
+      # Lektor build will store the build files in a temporary directory for later.
+      # We want to keep the readme etc updated also!
       - name: Build with Lektor
-        run: lektor --project 'Australian Digital Observatory' build
+        run: |
+          lektor --project 'Australian Digital Observatory' build --output-path $RUNNER_TEMP/build
+          cp .gitignore README.md LICENSE $RUNNER_TEMP/build
 
-      - name: Commit to gh-pages
-        run: lektor --project 'Australian Digital Observatory' deploy ghpages
+      - name: Setup git config
+        run: |
+          git config user.name "lektor deploy"
+          git config user.email "<>"
+
+      - name: Switch to gh-pages
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+
+      # Gets the built website files from the temporary directory and commits them to gh-pages branch
+      - name: Commit build to gh-pages
+        run: |
+          cp -r $RUNNER_TEMP/build/* .
+          git add *
+          git commit -m "Automated commit for deploy"
+          git push origin gh-pages
