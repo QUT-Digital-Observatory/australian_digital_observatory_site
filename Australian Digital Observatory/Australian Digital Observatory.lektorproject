@@ -1,7 +1,0 @@
-[project]
-name = Australian Digital Observatory
-locale = en_AU
-
-[servers.ghpages]
-default = yes
-target = ghpages://QUT-Digital-Observatory/australian_digital_observatory_site
