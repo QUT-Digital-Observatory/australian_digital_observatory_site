@@ -51,6 +51,28 @@
    repository in your initial setup, ensure your pull request is against the `main`
    branch of the Digital Observatory organisation's version of the repository.
 
+## Notes on deployment
+
+The Australian Digital Observatory website is published on GitHub Pages, using a custom domain.
+
+### CI for build and deploy
+The site build and deploy process is run on GitHub Actions, with `.github/workflows/publish.yml`.
+This workflow calls `lektor build` to produce the static site whenever changes are merged to the
+`main` branch in the GitHub repository, and then commits the static site files to the `gh_pages` branch.
+
+The `gh_pages` branch should not be modified by any other process than by this GitHub action.
+
+### Domain
+
+The digitalobservatory.net.au domain is managed by the QUT Digital Observatory, and DNS records must be configured with 
+the domain name provider to point to the GitHub pages server as appropriate.
+
+Configuration of the domain on the GitHub side requires the `CNAME` file to be in the repository
+(including in the `gh_pages` branch). 
+
+See [the GitHub documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) 
+for more information as to how to (re)configure the domain.
+
 ## License and Copyright
 
 The code in this repository used to generate this site is licensed under the MIT open source
