@@ -6,7 +6,26 @@ body {
     font-weight: 400;
     margin: 10%;
     margin-top: 0%;
-    font-size: 18px;
+}
+
+body {
+  font-size: 18px;
+}
+
+p {
+  line-height: 140%;
+}
+
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 15px;
+}
+
+  p {
+    font-size: 15px;
+    line-height: 160%;
+  }
 }
 
 a.dropdown-item{
@@ -20,7 +39,6 @@ h1, h2, h3, h4, h5 {
 }
 
 h1.display-1 {
-  font-size: 55px;
   text-align: center;
   color: white;
   font-weight: bolder;
@@ -34,9 +52,8 @@ h3, h4 {
   line-height: 140%;
 }
 
-p {
-  line-height: 140%;
-}
+
+
 
 header{
   background: #012A4C;
