@@ -31,7 +31,7 @@ jobs:
       - name: Build with Lektor
         run: |
           lektor --project 'Australian Digital Observatory' build --output-path $RUNNER_TEMP/build
-          cp .gitignore README.md LICENSE $RUNNER_TEMP/build
+          cp .gitignore README.md LICENSE CNAME $RUNNER_TEMP/build
 
       - name: Setup git config
         run: |
