@@ -1,6 +1,20 @@
 # Australian Digital Observatory website
 
+This repository is open-sourced to make the mechanics of building the website
+easily copyable for other research infrastructures.
+
+If you are a part of the Australian Digital Observatory ARDC Platform and wish
+to contribute website content but do not have access, please contact digitalobservatory@qut.edu.au
+with your node affiliation and GitHub username, and you will be added to the repository.
+
 ## Local development instructions
+
+In order to run the Lektor local development server you will need:
+
+1. A command-line terminal/shell - Git Bash or Anaconda Prompt should work fine for Windows users
+2. Python 3 installed and usable
+3. Recommended: a dedicated Python virtual environment set up, such as an Anaconda/Conda environment or any 
+   virtualenv-based environment.
 
 ### Initial setup
 
