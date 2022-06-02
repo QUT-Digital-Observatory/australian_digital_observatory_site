@@ -10,10 +10,12 @@ infrastructure for accessing and analysing dynamic digital data, including exist
 collections of national interest across Twitter, FlickR, YouTube, Reddit, Instagram and
 gaming platforms such as Steam.
 
-The Australian Digital Observatory will create an interdisciplinary team of data science
-researchers and support staff at key locations around Australia who will offer
-data-related services, training, and research support in data collection, storage,
+The Australian Digital Observatory (ADO) is creating an interdisciplinary team of data science
+researchers and support staff at key locations around Australia who offer
+data-related [services](../resources/categories/services/), [training](../resources/categories/training-workshop/), and research support in data collection, storage,
 tidying, pre-processing, analytics, and visualisation to support academics’ research
 data pipelines. These tasks can be time-consuming and often involve a steep learning
-curve for specific technical skills. The Australian Digital Observatory can reduce or
+curve for specific technical skills. The ADO can reduce or
 eliminate this burden so that researchers can focus on analysis and interpretation.
+
+The ADO is curating a broad [ecosystem](../the-ado-ecosystem/) encompassing [software tools](../resources/categories/software/) and [datasets](../resources/categories/datasets/), as well as all of the above.
