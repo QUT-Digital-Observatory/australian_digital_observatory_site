@@ -15,3 +15,33 @@ The ADO ecosystem aims to equip researchers with a set of modular, open source, 
 This modular ecosystem approach gives flexibility, allowing researchers to pick and choose [resources](../resources) that are relevant and suitable for them, without being locked in to a specific stack (e.g., proprietary formats/tools, specific cloud infrastructure). The modular approach also recognises different entry levels in terms of researchers’ skills and needs. Furthermore, smaller tools are easier to maintain, and focusing on modularity and interoperability allows making use of and supporting existing tools and resources already in the community rather than reinventing the wheel.
 
 In designing and curating the ADO ecosystem, we take inspiration from the open source software community and [the Unix philosophy](https://medium.com/ingeniouslysimple/philosophy-of-unix-development-aa0104322491) of designing interoperable tools that each do one thing well, and from foundational tooling ecosystems such as [the R Tidyverse](https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/#:~:text=The%20tidyverse%20is%20a%20coherent,being%20expanded%20by%20several%20contributors.), which has well demonstrated the suitability of such a structure to the academic research environment. We hope to learn from these communities, and also to contribute back to them.
+
+### Example workflows
+
+Here are some examples of research workflows that benefit from our ecosystem approach. 
+
+**Twitter conversation analysis**. A researcher is interested in the Twitter conversation around Australia’s federal election. The workflow for answering this problem would include preliminary feasibility check (to ensure there are sufficient data for analysis), collect, process, and understand the data, followed by analysis.
+
+To implement this workflow, we use the following tools:
+
+<ul>
+<li><a href="https://www.ado.eresearch.unimelb.edu.au/tutorials/" target="_blank">ADORed</a>: high-level social media analysis via interactive dashboard. It can be used to derive a list of tweet IDs relevant to the research question.</li>
+<li><a href="https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/" target="_blank">twarc hydrate</a>: open-source command-line tool for extracting data from Twitter API. It can be used to hydrate full tweet content from tweet IDs.</li>
+<li><a href="https://pypi.org/project/tidy-tweet/" target="_blank">tidy_tweet</a>: in-development open-source Python library for processing raw responses from Twitter API.</li>
+<li>tweet_exploR: in-development R package providing descriptive statistics of Twitter data.</li>
+</ul>
+
+The chart below illustrates the research workflow, as well as the specific tools used in each phase.
+
+<img src="example-workflow-sans.png" alt="DO example workflow for Twitter analysis" class="img-fluid rounded mx-auto d-block" >
+
+<br> 
+
+**Multi-platform content analysis**. Many research projects require data from multiple sources. For example, a researcher is interested in the dynamics and development of content and networks related to the Critical Race Theory in light of the Black Lives Matter movement. Analyses would require data from Twitter, Youtube, Reddit, Wikipedia, as well as scholarly citation networks. A set of different bespoke tools are developed and used to support this workflow:
+
+- twarc hydrate: open-source command-line tool for extracting data from Twitter API. It can be used to hydrate full tweet content from tweet IDs.
+- tidy_tweet: in-development open-source Python library for processing raw responses from Twitter API.
+- youtube_collector: propriety script to collect and process YouTube data.
+- reddit_collector: propriety script to collect and process Reddit data, utilising the open Pushshift data platform.
+- wikipedia_collector: propriety script to collect and process Wikipedia data.
+- citation_collector: propriety script to collect and process scholarly citation data from OpenAlex database.
