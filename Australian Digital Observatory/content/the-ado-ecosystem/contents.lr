@@ -6,6 +6,8 @@ _discoverable: yes
 ---
 body:
 
+## Introduction
+
 The Australian Digital Observatory (ADO) is curating an [ecosystem of resources](../resources) for researchers working with digital human data from the internet. This ecosystem is intended to be useful to a wide range of disciplines, particularly humanities and social sciences, data science, public health, business, law, and many others.
 
 Research projects are, by definition, all unique: the very purpose of research is to make new contributions. Therefore, there is no one-size-fits-all system for obtaining and pre-processing research data, especially in the humanities and social sciences. However, there are many overlapping methods and skills that are part of the research data lifecycle including (but not limited to) collecting, tidying, analysing, and publishing data.
@@ -55,3 +57,5 @@ Foundational open source projects and communities:
 -   The Unix, Linux, and Ubuntu operating systems and communities 
 -   The broader open source and open data communities (the ADO 💙s [linux.conf.au](https://linux.conf.au/ "https://linux.conf.au/"))
 
+---
+show_toc: yes
