@@ -39,9 +39,11 @@ The chart below illustrates the research workflow, as well as the specific tools
 
 **Multi-platform content analysis**. Many research projects require data from multiple sources. For example, a researcher is interested in the dynamics and development of content and networks related to the Critical Race Theory in light of the Black Lives Matter movement. Analyses would require data from Twitter, Youtube, Reddit, Wikipedia, as well as scholarly citation networks. A set of different bespoke tools are developed and used to support this workflow:
 
-- twarc hydrate: open-source command-line tool for extracting data from Twitter API. It can be used to hydrate full tweet content from tweet IDs.
-- tidy_tweet: in-development open-source Python library for processing raw responses from Twitter API.
-- youtube_collector: propriety script to collect and process YouTube data.
-- reddit_collector: propriety script to collect and process Reddit data, utilising the open Pushshift data platform.
-- wikipedia_collector: propriety script to collect and process Wikipedia data.
-- citation_collector: propriety script to collect and process scholarly citation data from OpenAlex database.
+<ul>
+<li><a href="https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/" target="_blank">twarc hydrate</a>: open-source command-line tool for extracting data from Twitter API. It can be used to hydrate full tweet content from tweet IDs.</li>
+<li><a href="https://pypi.org/project/tidy-tweet/" target="_blank">tidy_tweet</a>: in-development open-source Python library for processing raw responses from Twitter API.</li>
+<li><a href="/resources/research-project-support/">youtube_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing YouTube data (which is also currently being developed into an open-source library).</li>
+<li><a href="/resources/research-project-support/">reddit_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing Reddit data via the open Pushshift data platform.</li>
+<li><a href="/resources/research-project-support/">wikipedia_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing Wikipedia data.</li>
+<li><a href="/resources/research-project-support/">citation_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing scholarly citation data from OpenAlex database.</li>
+</ul>
