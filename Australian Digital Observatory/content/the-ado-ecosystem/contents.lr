@@ -6,6 +6,9 @@ _discoverable: yes
 ---
 body:
 
+
+## Introduction
+
 The Australian Digital Observatory (ADO) is curating an [ecosystem of resources](../resources) for researchers working with digital human data from the internet. This ecosystem is intended to be useful to a wide range of disciplines, particularly humanities and social sciences, data science, public health, business, law, and many others.
 
 Research projects are, by definition, all unique: the very purpose of research is to make new contributions. Therefore, there is no one-size-fits-all system for obtaining and pre-processing research data, especially in the humanities and social sciences. However, there are many overlapping methods and skills that are part of the research data lifecycle including (but not limited to) collecting, tidying, analysing, and publishing data.
@@ -15,3 +18,45 @@ The ADO ecosystem aims to equip researchers with a set of modular, open source, 
 This modular ecosystem approach gives flexibility, allowing researchers to pick and choose [resources](../resources) that are relevant and suitable for them, without being locked in to a specific stack (e.g., proprietary formats/tools, specific cloud infrastructure). The modular approach also recognises different entry levels in terms of researchers’ skills and needs. Furthermore, smaller tools are easier to maintain, and focusing on modularity and interoperability allows making use of and supporting existing tools and resources already in the community rather than reinventing the wheel.
 
 In designing and curating the ADO ecosystem, we take inspiration from the open source software community and [the Unix philosophy](https://medium.com/ingeniouslysimple/philosophy-of-unix-development-aa0104322491) of designing interoperable tools that each do one thing well, and from foundational tooling ecosystems such as [the R Tidyverse](https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/#:~:text=The%20tidyverse%20is%20a%20coherent,being%20expanded%20by%20several%20contributors.), which has well demonstrated the suitability of such a structure to the academic research environment. We hope to learn from these communities, and also to contribute back to them.
+
+
+## What other resources are there for researchers?
+
+The ADO Ecosystem is a part of a broader community and ecosystem of open source or openly licensed resources and methods. We’d like to share a list of projects whose work we make use of in our own resources, and which we also frequently recommend to researchers to use either with our workflows or in their own right.
+
+Data collection resources:
+
+-   [twarc](https://twarc-project.readthedocs.io/en/latest/ "https://twarc-project.readthedocs.io/en/latest/"): Command-line utility and Python library for collecting Twitter data    
+-   [Wayback Machine](http://web.archive.org/ "http://web.archive.org/"): The Internet Archive and its historical collection of webpages
+-   [Webrecorder](https://webrecorder.net/ "https://webrecorder.net/"): Utility for creating and curating targeted datasets of webpage archives
+-   [Pushshift API](https://github.com/pushshift/api "https://github.com/pushshift/api"): Reddit data archive
+-   [GLAM Workbench](https://glam-workbench.net/ "https://glam-workbench.net/"): A broad group of utilities and instructional examples for collecting and utilising data from galleries, libraries, archives, and museums
+
+Data analysis resources:
+
+-   [Language Technology and Data Analysis Laboratory (LADAL)](https://slcladal.github.io/ "https://slcladal.github.io/"): Collection of tutorials and examples for computational linguistics and text analytics, primarily written in R
+-   [Australian Text Analytics Platform (ATAP)](https://www.atap.edu.au/ "https://www.atap.edu.au/"): Tools and training for analysing, processing, and exploring text
+
+Data storage and organisation tools:
+
+-   [DBeaver](https://dbeaver.io/ "https://dbeaver.io/"): Multiplatform database client
+-   [SQLite](https://www.sqlite.org/index.html "https://www.sqlite.org/index.html"): File-based database system
+-   [Datasette](https://datasette.io/ "https://datasette.io/"): Web-based interface for SQLite databases
+-   [ClickHouse](https://clickhouse.com "https://clickhouse.com"): Fast analytical column-store database
+
+Computational skills for research resources:
+
+-   [The Carpentries](https://carpentries.org/ "https://carpentries.org/"): Community training organisation for teaching researchers computational and data science skills
+-   [The Programming Historian](https://programminghistorian.org/ "https://programminghistorian.org/"): A broad collection of computational skills tutorials specifically targeted at humanities and social science researchers
+-   [ResBaz](https://github.com/resbaz "https://github.com/resbaz"): A worldwide collection of gatherings centred around digital skills for research
+-   [Hacky Hours (Queensland)](https://www.qcif.edu.au/support/hacky-hour/ "https://www.qcif.edu.au/support/hacky-hour/"): Peer support sessions for technical skills for research
+
+Foundational open source projects and communities:
+
+-   The [R language](https://www.r-project.org/ "https://www.r-project.org/"), and the R [Tidyverse](https://www.tidyverse.org/ "https://www.tidyverse.org/") (the ADO 💙s [RLadies](https://rladies.org/ "https://rladies.org/"))
+-   The [Python language](https://www.python.org/ "https://www.python.org/") and community (the ADO 💙s [PyConAU](https://pycon.org.au "https://pycon.org.au") and [PyLadies](https://pyladies.com/ "https://pyladies.com/"))
+-   The Unix, Linux, and Ubuntu operating systems and communities 
+-   The broader open source and open data communities (the ADO 💙s [linux.conf.au](https://linux.conf.au/ "https://linux.conf.au/"))
+
+---
+show_toc: yes
