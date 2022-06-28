@@ -23,28 +23,31 @@ In designing and curating the ADO ecosystem, we take inspiration from the open s
 
 Here are some examples of research workflows that benefit from our ecosystem approach.
 
-**Twitter conversation analysis**. A researcher is interested in the Twitter conversation around Australia’s federal election. The workflow for answering this problem would include preliminary feasibility check (to ensure there are sufficient data for analysis), collect, process, and understand the data, followed by analysis.
+#### Twitter conversation analysis
 
+A researcher is interested in the Twitter conversation around Australia’s federal election. The workflow for answering this problem would include a preliminary feasibility check (to ensure there are sufficient data for analysis), followed by data collection, processing, and analysis.
 To implement this workflow, we use the following tools:
 
 <ul>
-<li><a href="https://www.ado.eresearch.unimelb.edu.au/tutorials/" target="_blank">ADORed</a>: high-level social media analysis via interactive dashboard. It can be used to derive a list of tweet IDs relevant to the research question.</li>
-<li><a href="https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/" target="_blank">twarc hydrate</a>: open-source command-line tool for extracting data from Twitter API. It can be used to hydrate full tweet content from tweet IDs.</li>
-<li><a href="https://pypi.org/project/tidy-tweet/" target="_blank">tidy_tweet</a>: in-development open-source Python library for processing raw responses from Twitter API.</li>
-<li>tweet_exploR: in-development R package providing descriptive statistics of Twitter data.</li>
+<li><a href="https://www.ado.eresearch.unimelb.edu.au/tutorials/">ADOReD</a>: high-level social media analysis via an interactive dashboard. It can be used to derive a list of tweet IDs relevant to the research question.</li>
+<li><a href="https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/">twarc hydrate</a>: open-source command-line tool for extracting data from Twitter API. It can be used to hydrate full tweet content from tweet IDs.</li>
+<li><a href="https://pypi.org/project/tidy-tweet/">tidy_tweet</a>: in-development open-source Python library for processing raw responses from Twitter API into an SQLite database.</li>
+<li>tweet_exploR: in-development R package providing descriptive statistics and visualisation of Twitter data within an SQLite database produced by tidy_tweet.</li>
 </ul>
 
 The chart below illustrates the research workflow, as well as the specific tools used in each phase.
 
-<img src="example-workflow-sans.png" alt="DO example workflow for Twitter analysis" class="img-fluid rounded mx-auto d-block" >
+<img src="example-workflow.png" alt="DO example workflow for Twitter analysis" class="img-fluid rounded mx-auto d-block" >
 
 <br>
 
-**Multi-platform content analysis**. Many research projects require data from multiple sources. For example, a researcher is interested in the dynamics and development of content and networks related to the Critical Race Theory in light of the Black Lives Matter movement. Analyses would require data from Twitter, Youtube, Reddit, Wikipedia, as well as scholarly citation networks. A set of different bespoke tools are developed and used to support this workflow:
+#### Multi-platform content analysis
+
+Many research projects require data from multiple sources. For example, a researcher is interested in the dynamics and development of content and networks related to the Critical Race Theory in light of the Black Lives Matter movement. Analyses would require data from Twitter, Youtube, Reddit, Wikipedia, as well as scholarly citation networks. A set of different bespoke tools are developed and used to support this workflow:
 
 <ul>
-<li><a href="https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/" target="_blank">twarc hydrate</a>: open-source command-line tool for extracting data from Twitter API. It can be used to hydrate full tweet content from tweet IDs.</li>
-<li><a href="https://pypi.org/project/tidy-tweet/" target="_blank">tidy_tweet</a>: in-development open-source Python library for processing raw responses from Twitter API.</li>
+<li><a href="https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/">twarc hydrate</a>: open-source command-line tool for extracting data from Twitter API. It can be used to hydrate full tweet content from tweet IDs.</li>
+<li><a href="https://pypi.org/project/tidy-tweet/">tidy_tweet</a>: in-development open-source Python library for processing raw responses from Twitter API into an SQLite database.</li>
 <li><a href="/resources/research-project-support/">youtube_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing YouTube data (which is also currently being developed into an open-source library).</li>
 <li><a href="/resources/research-project-support/">reddit_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing Reddit data via the open Pushshift data platform.</li>
 <li><a href="/resources/research-project-support/">wikipedia_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing Wikipedia data.</li>
@@ -88,3 +91,6 @@ Foundational open source projects and communities:
 -   The [Python language](https://www.python.org/ "https://www.python.org/") and community (the ADO 💙s [PyConAU](https://pycon.org.au "https://pycon.org.au") and [PyLadies](https://pyladies.com/ "https://pyladies.com/"))
 -   The Unix, Linux, and Ubuntu operating systems and communities 
 -   The broader open source and open data communities (the ADO 💙s [linux.conf.au](https://linux.conf.au/ "https://linux.conf.au/"))
+
+---
+show_toc: True
