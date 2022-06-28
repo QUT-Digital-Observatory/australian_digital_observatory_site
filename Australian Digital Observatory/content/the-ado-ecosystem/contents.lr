@@ -23,7 +23,11 @@ In designing and curating the ADO ecosystem, we take inspiration from the open s
 
 Here are some examples of research workflows that benefit from our ecosystem approach.
 
+<<<<<<< HEAD
 #### Twitter conversation analysis
+=======
+**Twitter conversation analysis**. A researcher is interested in the Twitter conversation around Australia’s federal election. The workflow for answering this problem would include a preliminary feasibility check (to ensure there are sufficient data for analysis), followed by data collection, processing, and analysis.
+>>>>>>> 8c642412135e9fd755c196129ffab329883f9c17
 
 A researcher is interested in the Twitter conversation around Australia’s federal election. The workflow for answering this problem would include a preliminary feasibility check (to ensure there are sufficient data for analysis), followed by data collection, processing, and analysis.
 To implement this workflow, we use the following tools:
