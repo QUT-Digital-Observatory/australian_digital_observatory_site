@@ -6,6 +6,9 @@ _discoverable: yes
 ---
 body:
 
+
+## Introduction
+
 The Australian Digital Observatory (ADO) is curating an [ecosystem of resources](../resources) for researchers working with digital human data from the internet. This ecosystem is intended to be useful to a wide range of disciplines, particularly humanities and social sciences, data science, public health, business, law, and many others.
 
 Research projects are, by definition, all unique: the very purpose of research is to make new contributions. Therefore, there is no one-size-fits-all system for obtaining and pre-processing research data, especially in the humanities and social sciences. However, there are many overlapping methods and skills that are part of the research data lifecycle including (but not limited to) collecting, tidying, analysing, and publishing data.
@@ -18,7 +21,7 @@ In designing and curating the ADO ecosystem, we take inspiration from the open s
 
 ### Example workflows
 
-Here are some examples of research workflows that benefit from our ecosystem approach. 
+Here are some examples of research workflows that benefit from our ecosystem approach.
 
 **Twitter conversation analysis**. A researcher is interested in the Twitter conversation around Australia’s federal election. The workflow for answering this problem would include preliminary feasibility check (to ensure there are sufficient data for analysis), collect, process, and understand the data, followed by analysis.
 
@@ -35,7 +38,7 @@ The chart below illustrates the research workflow, as well as the specific tools
 
 <img src="example-workflow-sans.png" alt="DO example workflow for Twitter analysis" class="img-fluid rounded mx-auto d-block" >
 
-<br> 
+<br>
 
 **Multi-platform content analysis**. Many research projects require data from multiple sources. For example, a researcher is interested in the dynamics and development of content and networks related to the Critical Race Theory in light of the Black Lives Matter movement. Analyses would require data from Twitter, Youtube, Reddit, Wikipedia, as well as scholarly citation networks. A set of different bespoke tools are developed and used to support this workflow:
 
@@ -47,3 +50,41 @@ The chart below illustrates the research workflow, as well as the specific tools
 <li><a href="/resources/research-project-support/">wikipedia_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing Wikipedia data.</li>
 <li><a href="/resources/research-project-support/">citation_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing scholarly citation data from OpenAlex database.</li>
 </ul>
+
+## What other resources are there for researchers?
+
+The ADO Ecosystem is a part of a broader community and ecosystem of open source or openly licensed resources and methods. We’d like to share a list of projects whose work we make use of in our own resources, and which we also frequently recommend to researchers to use either with our workflows or in their own right.
+
+Data collection resources:
+
+-   [twarc](https://twarc-project.readthedocs.io/en/latest/ "https://twarc-project.readthedocs.io/en/latest/"): Command-line utility and Python library for collecting Twitter data
+-   [Wayback Machine](http://web.archive.org/ "http://web.archive.org/"): The Internet Archive and its historical collection of webpages
+-   [Webrecorder](https://webrecorder.net/ "https://webrecorder.net/"): Utility for creating and curating targeted datasets of webpage archives
+-   [Pushshift API](https://github.com/pushshift/api "https://github.com/pushshift/api"): Reddit data archive
+-   [GLAM Workbench](https://glam-workbench.net/ "https://glam-workbench.net/"): A broad group of utilities and instructional examples for collecting and utilising data from galleries, libraries, archives, and museums
+
+Data analysis resources:
+
+-   [Language Technology and Data Analysis Laboratory (LADAL)](https://slcladal.github.io/ "https://slcladal.github.io/"): Collection of tutorials and examples for computational linguistics and text analytics, primarily written in R
+-   [Australian Text Analytics Platform (ATAP)](https://www.atap.edu.au/ "https://www.atap.edu.au/"): Tools and training for analysing, processing, and exploring text
+
+Data storage and organisation tools:
+
+-   [DBeaver](https://dbeaver.io/ "https://dbeaver.io/"): Multiplatform database client
+-   [SQLite](https://www.sqlite.org/index.html "https://www.sqlite.org/index.html"): File-based database system
+-   [Datasette](https://datasette.io/ "https://datasette.io/"): Web-based interface for SQLite databases
+-   [ClickHouse](https://clickhouse.com "https://clickhouse.com"): Fast analytical column-store database
+
+Computational skills for research resources:
+
+-   [The Carpentries](https://carpentries.org/ "https://carpentries.org/"): Community training organisation for teaching researchers computational and data science skills
+-   [The Programming Historian](https://programminghistorian.org/ "https://programminghistorian.org/"): A broad collection of computational skills tutorials specifically targeted at humanities and social science researchers
+-   [ResBaz](https://github.com/resbaz "https://github.com/resbaz"): A worldwide collection of gatherings centred around digital skills for research
+-   [Hacky Hours (Queensland)](https://www.qcif.edu.au/support/hacky-hour/ "https://www.qcif.edu.au/support/hacky-hour/"): Peer support sessions for technical skills for research
+
+Foundational open source projects and communities:
+
+-   The [R language](https://www.r-project.org/ "https://www.r-project.org/"), and the R [Tidyverse](https://www.tidyverse.org/ "https://www.tidyverse.org/") (the ADO 💙s [RLadies](https://rladies.org/ "https://rladies.org/"))
+-   The [Python language](https://www.python.org/ "https://www.python.org/") and community (the ADO 💙s [PyConAU](https://pycon.org.au "https://pycon.org.au") and [PyLadies](https://pyladies.com/ "https://pyladies.com/"))
+-   The Unix, Linux, and Ubuntu operating systems and communities 
+-   The broader open source and open data communities (the ADO 💙s [linux.conf.au](https://linux.conf.au/ "https://linux.conf.au/"))
