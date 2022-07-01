@@ -8,8 +8,14 @@ description: This data set will contain Foursquare check-ins across all major ci
 ---
 poc: Prof Richard Sinnott (rsinnott@unimelb.edu.au)
 ---
-doi:
+doi: 
 ---
 link: https://www.ado.eresearch.unimelb.edu.au/
 ---
 owner: University of Melbourne
+---
+tags:
+
+explore
+collect
+analyse
