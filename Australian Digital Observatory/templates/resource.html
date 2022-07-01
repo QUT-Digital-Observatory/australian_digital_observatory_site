@@ -3,14 +3,26 @@
 {% block body %}
     <h2>{{ this.title }}</h2>
     <a class="category_label" href="{{ site.get('/resource-categories').children.get('/{}'.format(this.category) ) |url }}">{{ this.category.capitalize() }}</a>
+    {% if this.tags %}
+      {% for t in this.tags %}
+        <a class="tag_label" href="{{ ('/resources@tag/' ~ t.lower())|url }}">#{{ t }}</a>
+      {% endfor %}
+    {% endif %}
     <p class="description">{{ this.description }}</p>
-    <br> 
-    <p><strong>Organisations/Institutions</strong>: {{ this.owner }}</p>    
+    <br>
+    <p><strong>Organisations/Institutions</strong>: {{ this.owner }}</p>
+    {% if this.datePublished %}
     <p><strong>First published on:</strong> {{ this.datePublished.strftime("%d-%m-%Y") if this.datePublished }}</p>
-    <p><strong>URL</strong>: <a href="{{ this.link }}" target="_blank">{{ this.link }}</a></p>  
+    {% endif %}
+    <p><strong>URL</strong>: <a href="{{ this.link }}" target="_blank">{{ this.link }}</a></p>
+    {% if this.access %}
     <p><strong>Access conditions</strong>: {{ this.access }}</p>
-    <p><strong>DOI</strong>: 
+    {% endif %}
+    {% if this.doi %}
+    <p><strong>DOI</strong>:
         {% if this.doi != '' %}<a href="{{ this.doi }}" target="_blank">{{ this.doi }}</a> {% else %} n/a {% endif %}
         </p>
+    {% endif %}
     <p><strong>Point of contact for this {{ this.category }}</strong>: {{ this.poc }}</p>
+
 {% endblock %}

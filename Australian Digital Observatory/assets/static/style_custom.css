@@ -71,7 +71,7 @@ header nav ul {
 }
 
 
-.category_label {
+.category_label, .tag_label {
     background-color: #ddd;
     border: none;
     color: black;
@@ -84,6 +84,9 @@ header nav ul {
     border-radius: 16px;
 }
 
+.tag_label {
+  background-color: transparent;
+}
 
 .active.list-group-item a {
   color: white;
