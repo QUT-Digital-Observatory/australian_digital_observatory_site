@@ -19,6 +19,42 @@ This modular ecosystem approach gives flexibility, allowing researchers to pick 
 
 In designing and curating the ADO ecosystem, we take inspiration from the open source software community and [the Unix philosophy](https://medium.com/ingeniouslysimple/philosophy-of-unix-development-aa0104322491) of designing interoperable tools that each do one thing well, and from foundational tooling ecosystems such as [the R Tidyverse](https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/#:~:text=The%20tidyverse%20is%20a%20coherent,being%20expanded%20by%20several%20contributors.), which has well demonstrated the suitability of such a structure to the academic research environment. We hope to learn from these communities, and also to contribute back to them.
 
+### Example workflows
+
+Here are some examples of research workflows that benefit from our ecosystem approach.
+
+#### Twitter conversation analysis
+
+**Twitter conversation analysis**. A researcher is interested in the Twitter conversation around Australia’s federal election. The workflow for answering this problem would include a preliminary feasibility check (to ensure there are sufficient data for analysis), followed by data collection, processing, and analysis.
+
+A researcher is interested in the Twitter conversation around Australia’s federal election. The workflow for answering this problem would include a preliminary feasibility check (to ensure there are sufficient data for analysis), followed by data collection, processing, and analysis.
+To implement this workflow, we use the following tools:
+
+<ul>
+<li><a href="https://www.ado.eresearch.unimelb.edu.au/tutorials/">ADOReD</a>: high-level social media analysis via an interactive dashboard. It can be used to derive a list of tweet IDs relevant to the research question.</li>
+<li><a href="https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/">twarc hydrate</a>: open-source command-line tool for extracting data from Twitter API. It can be used to hydrate full tweet content from tweet IDs.</li>
+<li><a href="https://pypi.org/project/tidy-tweet/">tidy_tweet</a>: in-development open-source Python library for processing raw responses from Twitter API into an SQLite database.</li>
+<li>tweet_exploR: in-development R package providing descriptive statistics and visualisation of Twitter data within an SQLite database produced by tidy_tweet.</li>
+</ul>
+
+The chart below illustrates the research workflow, as well as the specific tools used in each phase.
+
+<img src="example-workflow.png" alt="DO example workflow for Twitter analysis" class="img-fluid rounded mx-auto d-block" >
+
+<br>
+
+#### Multi-platform content analysis
+
+Many research projects require data from multiple sources. For example, a researcher is interested in the dynamics and development of content and networks related to the Critical Race Theory in light of the Black Lives Matter movement. Analyses would require data from Twitter, Youtube, Reddit, Wikipedia, as well as scholarly citation networks. A set of different bespoke tools are developed and used to support this workflow:
+
+<ul>
+<li><a href="https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/">twarc hydrate</a>: open-source command-line tool for extracting data from Twitter API. It can be used to hydrate full tweet content from tweet IDs.</li>
+<li><a href="https://pypi.org/project/tidy-tweet/">tidy_tweet</a>: in-development open-source Python library for processing raw responses from Twitter API into an SQLite database.</li>
+<li><a href="/resources/research-project-support/">youtube_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing YouTube data (which is also currently being developed into an open-source library).</li>
+<li><a href="/resources/research-project-support/">reddit_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing Reddit data via the open Pushshift data platform.</li>
+<li><a href="/resources/research-project-support/">wikipedia_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing Wikipedia data.</li>
+<li><a href="/resources/research-project-support/">citation_collector</a>: custom script developed by QUT Digital Observatory to assist with collecting and processing scholarly citation data from OpenAlex database.</li>
+</ul>
 
 ## What other resources are there for researchers?
 
@@ -26,7 +62,7 @@ The ADO Ecosystem is a part of a broader community and ecosystem of open source 
 
 Data collection resources:
 
--   [twarc](https://twarc-project.readthedocs.io/en/latest/ "https://twarc-project.readthedocs.io/en/latest/"): Command-line utility and Python library for collecting Twitter data    
+-   [twarc](https://twarc-project.readthedocs.io/en/latest/ "https://twarc-project.readthedocs.io/en/latest/"): Command-line utility and Python library for collecting Twitter data
 -   [Wayback Machine](http://web.archive.org/ "http://web.archive.org/"): The Internet Archive and its historical collection of webpages
 -   [Webrecorder](https://webrecorder.net/ "https://webrecorder.net/"): Utility for creating and curating targeted datasets of webpage archives
 -   [Pushshift API](https://github.com/pushshift/api "https://github.com/pushshift/api"): Reddit data archive
@@ -59,4 +95,4 @@ Foundational open source projects and communities:
 -   The broader open source and open data communities (the ADO 💙s [linux.conf.au](https://linux.conf.au/ "https://linux.conf.au/"))
 
 ---
-show_toc: yes
+show_toc: True
