@@ -4,7 +4,7 @@ access: As per https://foursquare.com/legal/api/licenseagreement
 ---
 category: datasets
 ---
-description: This data set will contain Foursquare check-ins across all major cities of Australia. (Ad hoc data colllections made 2014-2016)
+description: This data set will contain Foursquare check-ins across all major cities of Australia. (Ad hoc data collections made 2014-2016).
 ---
 poc: Prof Richard Sinnott (rsinnott@unimelb.edu.au)
 ---
