@@ -1,0 +1,17 @@
+title: ADOReD
+---
+category: datasets
+---
+description: The Melbourne eResearch Group at the University of Melbourne has set up an API and a Dashboard that allow users to perform some analysis on social media posts, such as word similarity, topic modelling, sentiment analysis, and tweet counts. The first step to access either the API or the Dashboard is to request an API key -API keys are conditionals to non-commercial use and other limitations. Once an API key is obtained, you can either access the Dashboard or, if coding is your thing, you can access the API directly. With either the Dashboard or the API you can download the IDs of tweets (Twitter social media posts), which can be used to get the actual tweet data via the Twitter API for later analysis.
+---
+access: Other
+---
+link: https://www.ado.eresearch.unimelb.edu.au/
+---
+owner: University of Melbourne
+---
+poc: Richard O. Sinnott - rsinnott@unimelb.edu.au
+---
+datePublished: 2022-07-07
+---
+feature: yes
