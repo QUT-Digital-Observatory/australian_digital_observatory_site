@@ -4,12 +4,17 @@ access: As per https://help.flickr.com/copyright-and-intellectual-property-polic
 ---
 category: datasets
 ---
-description: This data set will contain FlickR posts made across all major cities of Australia. (Ad hoc data colllections made 2014-2016).
+description: This data set will contain FlickR posts made across all major cities of Australia. (Ad hoc data collections made 2014-2016).
 ---
-doi:
+doi: 
 ---
 link: https://www.ado.eresearch.unimelb.edu.au/
 ---
 poc: Prof Richard Sinnott (rsinnott@unimelb.edu.au)
 ---
 owner: University of Melbourne
+---
+tags:
+
+explore
+collect

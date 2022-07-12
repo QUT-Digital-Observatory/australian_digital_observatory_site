@@ -10,7 +10,7 @@ description:
 
 A small command line tool and set of functions for studying coordination networks in Twitter and other social media data.
 
-The coordination network toolkit allows the visualisation of co-occurring activity on social media and other platforms by creating networks that describe when accounts perform the same or similar action at similar times. These networks allow the qualitative analysis of online activities - for example to identify coordinated inauthentic behaviour such as artificially boosting the apparent popularity of a social media post by automatically replying.
+The *Coordination Network Toolkit* allows the visualisation of co-occurring activity on social media and other platforms by creating networks that describe when accounts perform the same or similar action at similar times. These networks allow the qualitative analysis of online activities - for example to identify coordinated inauthentic behaviour such as artificially boosting the apparent popularity of a social media post by automatically replying.
 ---
 doi: https://doi.org/10.25912/RDF_1632782596538
 ---
@@ -21,3 +21,8 @@ link: https://github.com/QUT-Digital-Observatory/coordination-network-toolkit
 owner: QUT Digital Observatory; QUT School of Communications
 ---
 poc: digitalobservatory@qut.edu.au
+---
+tags:
+
+tidy and model
+analyse

@@ -4,12 +4,17 @@ access: As per https://developer.twitter.com/en/developer-terms/agreement-and-po
 ---
 category: datasets
 ---
-description: Growing collection of tweets (> 3M) harvested using the Twitter Academic license, which allows a max of 10M tweets per-month. The tweets are collected using the Twittere v2 stream API and include only geo-located tweets and tweets by user that have indicated Australia as their location.
+description: Growing collection of tweets (> 3M) harvested using the Twitter Academic license, which allows a max of 10M tweets per-month. The tweets are collected using the Twitter v2 stream API and include only geo-located tweets and tweets by user that have indicated Australia as their location.
 ---
-doi:
+doi: 
 ---
 link: https://www.ado.eresearch.unimelb.edu.au/
 ---
 owner: University of Melbourne
 ---
 poc: Prof Richard Sinnott (rsinnott@unimelb.edu.au)
+---
+tags:
+
+explore
+collect
