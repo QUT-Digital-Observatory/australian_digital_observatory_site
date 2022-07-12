@@ -3,12 +3,14 @@
 {% block body %}
     <h2>{{ this.title }}</h2>
     <a class="category_label" href="{{ site.get('/resource-categories').children.get('/{}'.format(this.category) ) |url }}">{{ this.category.capitalize() }}</a>
+    <p class="description">{{ this.description }}</p>
+    <p><strong><a href='/the-ado-ecosystem/#what-is-it-for'>Data-centric activities</a> this resource may assist with:</strong>
     {% if this.tags %}
       {% for t in this.tags %}
         <a class="tag_label" href="{{ ('/resources@tag/' ~ t.lower())|url }}">#{{ t }}</a>
       {% endfor %}
     {% endif %}
-    <p class="description">{{ this.description }}</p>
+    </p>
     <br>
     <p><strong>Organisations/Institutions</strong>: {{ this.owner }}</p>
     {% if this.datePublished %}

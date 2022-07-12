@@ -85,7 +85,7 @@ header nav ul {
 }
 
 .tag_label {
-  background-color: transparent;
+  padding: 1px 10px;
 }
 
 .active.list-group-item a {

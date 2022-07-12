@@ -23,7 +23,7 @@ In designing and curating the ADO ecosystem, we take inspiration from the open s
 
 The ADO ecosystem aims to support researchers to make use of dynamic digital human data on the internet. This includes social media data, review websites, blogs, shared knowledge bases such as Wikipedia, and forums such as Reddit. Data collected from these sources can include the written words, metadata, platform structures and affordances, user contributions/changes - basically any and all of the facets of data that make up our digital internet activities.
 
-Working with dynamic digital human data on the internet poses a number of challenges, especially for researchers from disciplines that traditionally do not require computational methods. These data-centric challenges can be framed in terms of the research lifecycle: **explore**; **collect**; **tidy and model**; **store and organise**; **analyse**; and **publish**. The ADO ecosystem provides resources to help researchers address these challenges in the form of:
+Working with dynamic digital human data on the internet poses a number of challenges, especially for researchers from disciplines that traditionally do not require computational methods. These data-centric challenges can be framed in terms of the research lifecycle activities: **explore**; **collect**; **tidy and model**; **store and organise**; **analyse**; and **publish**. The ADO ecosystem provides resources to help researchers address these challenges in the form of:
 
 - *[Datasets and data sources](/resources/categories/datasets/)* to assist with finding and collecting data;
 - *[Software and technical utilities/systems](/resources/categories/software/)* to assist with processing and analysing data;
