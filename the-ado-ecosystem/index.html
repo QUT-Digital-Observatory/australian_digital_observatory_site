@@ -24,15 +24,15 @@
              <li><hr class="dropdown-divider"></hr></li>
              <li><h6 class="dropdown-header">Categories</h6></li>
            
-              <li><a href="../resources/categories/datasets/" class="dropdown-item">Datasets</a></li>
+              <li><a href="../resources/categories/datasets/" class="dropdown-item">Datasets and data sources</a></li>
+           
+              <li><a href="../resources/categories/documentation/" class="dropdown-item">Documentation</a></li>
            
               <li><a href="../resources/categories/publications/" class="dropdown-item">Publications</a></li>
            
               <li><a href="../resources/categories/services/" class="dropdown-item">Services</a></li>
            
-              <li><a href="../resources/categories/software/" class="dropdown-item">Software</a></li>
-           
-              <li><a href="../resources/categories/training-workshop/" class="dropdown-item">Training/Workshop</a></li>
+              <li><a href="../resources/categories/software/" class="dropdown-item">Software and technical utilities/systems</a></li>
            
           </ul>
         </li>
@@ -50,15 +50,19 @@
     
       <ul class="toc">
       
-        <li><a href="#introduction">Introduction</a><ul>
+        <li><a href="#introduction">Introduction</a></li>
+      
+        <li><a href="#what-is-it-for">What is it for?</a></li>
+      
         <li><a href="#example-workflows">Example workflows</a><ul>
         <li><a href="#twitter-conversation-analysis">Twitter conversation analysis</a></li>
       
         <li><a href="#multi-platform-content-analysis">Multi-platform content analysis</a></li>
       </ul></li>
-      </ul></li>
       
         <li><a href="#what-other-resources-are-there-for-researchers">What other resources are there for researchers?</a></li>
+      
+        <li><a href="#the-future-of-the-ado-ecosystem">The future of the ADO ecosystem</a></li>
       
       </ul>
     
@@ -67,9 +71,16 @@
 <p>The ADO ecosystem aims to equip researchers with a set of modular, open source, interoperable methods and processes to assist with these tasks. Researchers can engage with and benefit from the ADO ecosystem by accessing tools, training, and project support services.</p>
 <p>This modular ecosystem approach gives flexibility, allowing researchers to pick and choose <a href="../resources">resources</a> that are relevant and suitable for them, without being locked in to a specific stack (e.g., proprietary formats/tools, specific cloud infrastructure). The modular approach also recognises different entry levels in terms of researchers’ skills and needs. Furthermore, smaller tools are easier to maintain, and focusing on modularity and interoperability allows making use of and supporting existing tools and resources already in the community rather than reinventing the wheel.</p>
 <p>In designing and curating the ADO ecosystem, we take inspiration from the open source software community and <a href="https://medium.com/ingeniouslysimple/philosophy-of-unix-development-aa0104322491">the Unix philosophy</a> of designing interoperable tools that each do one thing well, and from foundational tooling ecosystems such as <a href="https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/#:~:text=The%20tidyverse%20is%20a%20coherent,being%20expanded%20by%20several%20contributors.">the R Tidyverse</a>, which has well demonstrated the suitability of such a structure to the academic research environment. We hope to learn from these communities, and also to contribute back to them.</p>
-<h3 id="example-workflows">Example workflows</h3><p>Here are some examples of research workflows that benefit from our ecosystem approach.</p>
-<h4 id="twitter-conversation-analysis">Twitter conversation analysis</h4><p><strong>Twitter conversation analysis</strong>. A researcher is interested in the Twitter conversation around Australia’s federal election. The workflow for answering this problem would include a preliminary feasibility check (to ensure there are sufficient data for analysis), followed by data collection, processing, and analysis.</p>
-<p>A researcher is interested in the Twitter conversation around Australia’s federal election. The workflow for answering this problem would include a preliminary feasibility check (to ensure there are sufficient data for analysis), followed by data collection, processing, and analysis.
+<h2 id="what-is-it-for">What is it for?</h2><p>The ADO ecosystem aims to support researchers to make use of dynamic digital human data on the internet. This includes social media data, review websites, blogs, shared knowledge bases such as Wikipedia, and forums such as Reddit. Data collected from these sources can include the written words, metadata, platform structures and affordances, user contributions/changes - basically any and all of the facets of data that make up our digital internet activities.</p>
+<p>Working with dynamic digital human data on the internet poses a number of challenges, especially for researchers from disciplines that traditionally do not require computational methods. These data-centric challenges can be framed in terms of the research lifecycle activities: <strong>explore</strong>; <strong>collect</strong>; <strong>tidy and model</strong>; <strong>store and organise</strong>; <strong>analyse</strong>; and <strong>publish</strong>. The ADO ecosystem provides resources to help researchers address these challenges in the form of:</p>
+<ul>
+<li><em><a href="../resources/categories/datasets/">Datasets and data sources</a></em> to assist with finding and collecting data;</li>
+<li><em><a href="../resources/categories/software/">Software and technical utilities/systems</a></em> to assist with processing and analysing data;</li>
+<li><em><a href="../resources/categories/documentation/">Documentation</a></em> to guide researchers on best practice, workflows, and technical methods;</li>
+<li><em><a href="../resources/categories/services/">Services</a></em> for more specialised support (e.g., data-related consulting, bespoke software development, training).</li>
+</ul>
+<h2 id="example-workflows">Example workflows</h2><p>Here are some examples of research workflows that benefit from our ecosystem approach.</p>
+<h3 id="twitter-conversation-analysis">Twitter conversation analysis</h3><p>A researcher is interested in the Twitter conversation around Australia’s federal election. The workflow for answering this problem would include a preliminary feasibility check (to ensure there are sufficient data for analysis), followed by data collection, processing, and analysis.
 To implement this workflow, we use the following tools:</p>
 <ul>
 <li><a href="https://www.ado.eresearch.unimelb.edu.au/tutorials/">ADOReD</a>: high-level social media analysis via an interactive dashboard. It can be used to derive a list of tweet IDs relevant to the research question.</li>
@@ -79,7 +90,7 @@ To implement this workflow, we use the following tools:</p>
 </ul><p>The chart below illustrates the research workflow, as well as the specific tools used in each phase.</p>
 <p><img src="example-workflow.png" alt="DO example workflow for Twitter analysis" class="img-fluid rounded mx-auto d-block" ></p>
 <p><br></p>
-<h4 id="multi-platform-content-analysis">Multi-platform content analysis</h4><p>Many research projects require data from multiple sources. For example, a researcher is interested in the dynamics and development of content and networks related to the Critical Race Theory in light of the Black Lives Matter movement. Analyses would require data from Twitter, Youtube, Reddit, Wikipedia, as well as scholarly citation networks. A set of different bespoke tools are developed and used to support this workflow:</p>
+<h3 id="multi-platform-content-analysis">Multi-platform content analysis</h3><p>Many research projects require data from multiple sources. For example, a researcher is interested in the dynamics and development of content and networks related to the Critical Race Theory in light of the Black Lives Matter movement. Analyses would require data from Twitter, Youtube, Reddit, Wikipedia, as well as scholarly citation networks. A set of different bespoke tools are developed and used to support this workflow:</p>
 <ul>
 <li><a href="https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/">twarc hydrate</a>: open-source command-line tool for extracting data from Twitter API. It can be used to hydrate full tweet content from tweet IDs.</li>
 <li><a href="https://pypi.org/project/tidy-tweet/">tidy_tweet</a>: in-development open-source Python library for processing raw responses from Twitter API into an SQLite database.</li>
@@ -122,6 +133,7 @@ To implement this workflow, we use the following tools:</p>
 <li>The Unix, Linux, and Ubuntu operating systems and communities </li>
 <li>The broader open source and open data communities (the ADO 💙s <a href="https://linux.conf.au/" title="https://linux.conf.au/">linux.conf.au</a>)</li>
 </ul>
+<h2 id="the-future-of-the-ado-ecosystem">The future of the ADO ecosystem</h2><p>The current state of the ADO ecosystem is just the start of our journey! We plan to continue creating more tutorials, tools, documented workflows, and more, as well as refining and developing the resources already published so that they stay relevant and useful to researchers’ needs. We always love to hear from researchers and the rest of the community so that we can share, discuss, and work together to solve problems and enable research. Reach out to us anytime, and watch this space!</p>
 
 
   </div>
