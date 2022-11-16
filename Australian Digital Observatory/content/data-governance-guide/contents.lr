@@ -1,0 +1,186 @@
+_model: page
+---
+show_toc: yes
+---
+body:
+
+As human lives are becoming more digitised now than ever, we see new forms of data, especially social media data and streaming data, increasingly incorporated in research endeavours. While there are standard practices regarding dealing with traditional research data, no such standards exist for these **human-related dynamic digital data**. This calls for a new data governance framework to guide researchers or anyone working with digital data.
+
+### What is data governance and why is it important?
+
+According to [DAMA International’s Body of Knowledge](https://www.dama.org/cpages/body-of-knowledge), data governance is defined as "the exercise of authority and control (planning, monitoring, and enforcement) over the management of data assets".
+The purpose of data governance is to ensure that data is managed properly and according to policies and best practices.
+
+### Data governance framework for human-related dynamic digital data
+
+Because of their human-related nature, using dynamic digital data for research purposes inevitably entails many technical, ethical, and legal challenges. Therefore, this data governance framework aims to provide researchers with some guiding principles to navigate these challenges when working with dynamic digital data.
+
+The framework outlines the general data considerations relevant to each stage of the research data lifecycle (i.e., collection, storage, pre-processing, analysis, sharing, publishing, and archiving). In doing so, we attempt to describe the current best practices, underpinned by the [FAIR](https://www.nature.com/articles/sdata201618) and [CARE](https://www.nature.com/articles/s41597-021-00892-0) principles, that are aligned with the research community’s goals and emerging directions.
+
+<div class="breakout infobox">
+
+    <h4> FAIR and CARE principles </h4>
+
+    <p> The <a href="https://www.nature.com/articles/sdata201618">FAIR principles</a>: data resources, tools, vocabularies and infrastructures should be Findable, Accessible, Interoperable, and Reusable. The FAIR principles may be adhered to in any combination and incrementally - it is not and 'all or nothing' framework. </p>
+
+    <p> The <a href="https://www.nature.com/articles/s41597-021-00892-0">CARE principles</a> propose how research data are used to foster the wellbeing of people. The concerns related to the purpose of data are Collective benefit, Authority to control, Responsibility, and Ethics. </p>
+
+</div>
+
+#### 1. Tensions to consider when working with human-related dynamic digital data
+
+A challenge for researchers working with human-related dynamic digital data is navigating the tensions inherent in this type of data:
+
+- ___Respect for data subject’s privacy rights___ versus ___Compliance with platforms’ terms of service___.
+
+- ___Methodological transparency for research excellence___ versus ___Black box algorithms run by technology platforms___.
+
+- ___Preservation of ephemeral data (e.g., digital trace data) that reflects cultural and social legacy___ versus ___Users’ privacy rights and the right to be forgotten___ (this tension relates to the merits of collecting as much of these transient data because it may hold answers to research questions that are yet to be determined).
+
+- ___Indiscriminate collection of data (i.e., collecting all we can just because we can)___ versus ___Targeted collection of data to answer specific research questions___.
+
+- Harmonization of multi-platform terms of service demands and expectations.
+
+<div class="breakout infobox">
+
+    <h4> Legal and ethical landscape </h4>
+
+    <p> In addition to data governance considerations, in Australia there are also legal and ethical implications around the use of human data. For example, mishandling of personal data might lead to violation of the Privacy Act 1988. Also, depending on the subjects’ geographical backgrounds of your research, you might have to comply with data regulations in different regions such as the General Data Protection Regulation (GDPR). As a researcher, it is advisable to be aware of this ethical and legal landscape. Read more about the different legislation and ethical guidelines that might be relevant to Australian researchers:</p>
+
+    <ul>
+        <li> <a href="https://www.oaic.gov.au/privacy/the-privacy-act/history-of-the-privacy-act">History of the Privacy Act</a></li>
+        <li> <a href="https://www.oaic.gov.au/privacy/guidance-and-advice/australian-entities-and-the-eu-general-data-protection-regulation">The EU General Data Protection Regulation (GDPR)</a></li>
+        <li> <a href="https://www.nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2007-updated-2018">National Statement on Ethical Conduct in Human Research</a></li>
+        <li> <a href="https://aoir.org/reports/ethics3.pdf">Association of Internet Researchers’s Ethical Guidelines For Internet Research 3.0</a></li>
+    </ul>
+</div>
+
+#### 2. Data Considerations Throughout the Research Data Lifecycle
+
+Good data governance requires considering data implications throughout the entire research data lifecycle: collecting, storing, analysing, sharing, and archiving data. Below are some concerns which researchers should take into account at each phase of the data lifecycle.
+
+
+<div class="accordion" id="dataLifecycleAccordion">
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Data collection
+            </button>
+        </h4>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#dataLifecycleAccordion">
+            <div class="accordion-body">
+                <ul>
+                    <li>Is the data collection documented with methodology and metadata that enables its future reusability and reproducibility, in accordance with the FAIR principles?</li>
+                    <li>Is data collection justified in terms of its research merits?</li>
+                    <li>Have considerations been made regarding privacy, consent, the data platform(s) terms of service(s), copyright, and the ephemerality (short life-span) of data?</li>
+                    <li>What are the procedures in place to deal with the rights of data subjects to withdraw and erasure?</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="headingTwo">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            Data storage
+            </button>
+        </h4>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#dataLifecycleAccordion">
+            <div class="accordion-body">
+                <ul>
+                    <li>Who has access to the data?</li>
+                    <li>Who is the data owner?</li>
+                    <li>Who is the data steward?</li>
+                    <li>How is access secured?</li>
+                    <li>What and where is the data management plan?</li>
+                    <li>Where are the data physically stored?</li>
+                    <li>What are the legal implications of the geography of storage?</li>
+                    <li>What is the risk of compromise and data breach?</li>
+                    <li>How long is it stored? In what format?</li>
+                    <li>How is anonymisation of data enabled? How to mitigate the risk of re-identification?</li>
+                    <li>Will it be encrypted? What encryption method will be used?Dynamic Human-Related Digital Data</li>
+                    <li>What are the other data attributes to be considered (Richness, Complexity, Type (text, image, link, video, etc), Size)?</li>
+                    <li>What is the process for deletion of data?</li>
+                    <li>What about uncharacterizable data?</li>
+                    <li>What are the costs of storing data?</li>
+                    <li>How to ensure sustainability?</li>
+                    <li>What to do with sensitive and objectionable content?</li>
+                    <li>How to deal with data for marginalised and sensitive population?</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="heading3">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+            Data analysis
+            </button>
+        </h4>
+        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#dataLifecycleAccordion">
+            <div class="accordion-body">
+                <p>The research study design and planning will specify the type of analyses of the data. These analyses should consider the following:</p>
+                <ul>
+                    <li>What is the purpose of processing?</li>
+                    <li>What are the privacy implications of processing personal and relational data?</li>
+                    <li>How will the results of the analyses be reported? Will they be publicly or privately disseminated?</li>
+                    <li>If public (e.g., academic publication), how will consent from the data subject be obtained? If a waiver is acquired, on what basis?</li>
+                    <li>How will the data subjects’ privacy be respected and their contributions honoured?</li>
+                    <li>How to mitigate the risk of harm to data subjects?</li>
+                    <li>How to mitigate the risk of re-identification?</li>
+                    <li>How to manifest duty of care to the data subjects?</li>
+                    <li>How to protect the researchers, especially those working with potentially emotionally taxing topis such as hate speech, suicide, etc.)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="heading4">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+            Data sharing
+            </button>
+        </h4>
+        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#dataLifecycleAccordion">
+            <div class="accordion-body">
+                <p>Sharing research data is in line with the FAIR (<strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, and <strong>R</strong>eusable) principles and comply with the requirements of many research funding agencies and publishers. However, sharing of dynamic digital data such as social media data is fraught with challenges. Sharing data in ways that are legal and ethical is accepted best practice. Some of the key legal and ethical challenges are:</p>
+                <ul>
+                    <li>Privacy constraints (consent and anonymity)</li>
+                    <li>Copyright (platform users own the copyright to their posts)</li>
+                    <li>Terms of service restrictions</li>
+                    <li>Research integrity (i.e. research reproducibility, transparency, provenance)</li>
+                </ul>
+                <p>Other considerations are:</p>
+                <ul>
+                    <li>What data is being shared (e.g. data as collected, data as transformed, or data as analysed) as well as the potential consequences?</li>
+                    <li>Data provenance (documentation of data origin and methodology)</li>
+                    <li>How data is being shared to ensure methodological transparency?</li>
+                    <li>What is the cost of not sharing? What is the total cost of duplication of effort across multiple groups? How much will it cost to maintain?</li>
+                    <li>Who to share with? Concerns of accessibility or equity?</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="heading5">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+            Data archiving
+            </button>
+        </h4>
+        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#dataLifecycleAccordion">
+            <div class="accordion-body">
+                <p>Archiving of research data for future use and preservation is the domain of data archives. However, for the duration of the project, the following questions should be considered:</p>
+                <ul>
+                    <li>Archive duration</li>
+                    <li>Potential transfer to designated national data archives</li>
+                    <li>Integrity of data</li>
+                    <li>Context</li>
+                    <li>Provenance</li>
+                    <li>Preservation</li>
+                    <li>Dynamism</li>
+                    <li>Transparency</li>
+                    <li>Limited data</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+---
+title: Data Governance for Human-Related Dynamic Digital Data: A General Guide for Researchers
