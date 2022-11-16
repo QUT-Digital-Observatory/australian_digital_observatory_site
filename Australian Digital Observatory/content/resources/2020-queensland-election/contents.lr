@@ -1,18 +1,16 @@
 title: 2020 Queensland Election
 ---
-access: Use of this dataset to rehydrate tweets is solely for non-commercial research purposes and subject to Twitter's terms, including: https://twitter.com/en/tos https://twitter.com/en/privacy https://developer.twitter.com/en/developer-terms/agreement-and-policy It is also a condition of use of the dataset that you provide attribution of the dataset to the Digital Observatory.
+access: Use of this dataset to rehydrate tweets is solely for non-commercial research purposes and subject to Twitter's terms, including: https://twitter.com/en/tos, https://twitter.com/en/privacy, https://developer.twitter.com/en/developer-terms/agreement-and-policy. It is also a condition of use of the dataset that you provide attribution of the dataset to the Digital Observatory.
 ---
 category: datasets
 ---
-datePublished: 2021-12-13
+datePublished: 2022-10-07
 ---
 description:
 
-This dataset contains the tweet IDs from the official Twitter accounts of 133 candidates in the 2020 Queensland state election, beginning 30 September 2020 and ending 3 November 2020 (shortly after election day on 31 October 2020). There are approximately 4,400 tweet IDs in the dataset; these IDs are suitable for rehydration using the Twitter API to obtain the tweets' content and metadata, subject to availability. 
+This is a curated collection of tweets from the official Twitter accounts candidates in the 2020 Queensland state election, from 17 October 2020 to 03 November 2020 (shortly after election day on 31 October 2020). This dataset consists of three (3) .csv files, including two containing Tweet IDs and one containing candidate information. Use of the two Tweet ID .csv files to rehydrate tweets is solely for non-commercial research purposes and subject to Twitter's terms, including Twitter Terms of Service, Privacy Policy, Developer Agreement and Policy. 
 ---
-doi:
-
- TBA
+doi: https://doi.org/10.25912/RDF_1665115527020
 ---
 owner: QUT Digital Observatory
 ---
@@ -23,4 +21,4 @@ tags:
 explore
 collect
 ---
-link: 
+link: https://researchdatafinder.qut.edu.au/display/n18105

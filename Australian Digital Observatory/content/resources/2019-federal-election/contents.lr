@@ -1,12 +1,12 @@
 title: 2019 Federal Election
 ---
-access: Use of this dataset to rehydrate tweets is solely for non-commercial research purposes and subject to Twitter's terms, including: https://twitter.com/en/tos https://twitter.com/en/privacy https://developer.twitter.com/en/developer-terms/agreement-and-policy It is also a condition of use of the dataset that you provide attribution of the dataset to the Digital Observatory.
+access:
+
+ Use of this dataset to rehydrate tweets is solely for non-commercial research purposes and subject to Twitter's terms, including: https://twitter.com/en/tos, https://twitter.com/en/privacy, https://developer.twitter.com/en/developer-terms/agreement-and-policy. It is also a condition of use of the dataset that you provide attribution of the dataset to the Digital Observatory.
 ---
 category: datasets
 ---
-description:
-
-This dataset consists of three (3) .csv files, including two containing Tweet IDs and one containing candidate information. Use of the two Tweet ID .csv files to rehydrate tweets is solely for non-commercial research purposes and subject to Twitter's terms, including Twitter Terms of Service, Privacy Policy, Developer Agreement and Policy. It is a condition of use to cite these .csv files. The candidate .csv file is licensed under Creative Commons Attribution 4.0 International Licence (http://creativecommons.org/licenses/by/4.0/). The two fact sheets included in this dataset are licensed under Creative Commons Attribution 4.0 International Licence (http://creativecommons.org/licenses/by/4.0/) 
+description: This dataset consists of three (3) .csv files, including two containing Tweet IDs and one containing candidate information. Use of the two Tweet ID .csv files to rehydrate tweets is solely for non-commercial research purposes and subject to Twitter's terms, including Twitter Terms of Service, Privacy Policy, Developer Agreement and Policy. It is a condition of use to cite these .csv files. The candidate .csv file is licensed under Creative Commons Attribution 4.0 International Licence (http://creativecommons.org/licenses/by/4.0/). The two fact sheets included in this dataset are licensed under Creative Commons Attribution 4.0 International Licence (http://creativecommons.org/licenses/by/4.0/) .
 ---
 doi:
 
