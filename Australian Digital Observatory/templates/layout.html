@@ -29,8 +29,11 @@
           </ul>
         </li>
         <li class="nav-item">
+          <a href='/data-governance-guide' {% if this.is_child_of('/data-governance-guide') %} class="active nav-link"{% endif %} class="dropbtn nav-link">Data Governance Guide</a>
+        </li>
+        <li class="nav-item">
           <a href='/about' {% if this.is_child_of('/about') %} class="active nav-link"{% endif %} class="dropbtn nav-link">About</a>
-        </li>  
+        </li>
       </ul>
     
     </nav>
