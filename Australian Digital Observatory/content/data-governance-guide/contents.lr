@@ -97,8 +97,8 @@ Good data governance requires considering data implications throughout the entir
                     <li>What is the risk of compromise and data breach?</li>
                     <li>How long is it stored? In what format?</li>
                     <li>How is anonymisation of data enabled? How to mitigate the risk of re-identification?</li>
-                    <li>Will it be encrypted? What encryption method will be used?Dynamic Human-Related Digital Data</li>
-                    <li>What are the other data attributes to be considered (Richness, Complexity, Type (text, image, link, video, etc), Size)?</li>
+                    <li>Will it be encrypted? What encryption method will be used?</li>
+                    <li>What are the other data attributes to be considered (Richness, Complexity, Type [text, image, link, video, etc.], Size)?</li>
                     <li>What is the process for deletion of data?</li>
                     <li>What about uncharacterizable data?</li>
                     <li>What are the costs of storing data?</li>
@@ -127,7 +127,7 @@ Good data governance requires considering data implications throughout the entir
                     <li>How to mitigate the risk of harm to data subjects?</li>
                     <li>How to mitigate the risk of re-identification?</li>
                     <li>How to manifest duty of care to the data subjects?</li>
-                    <li>How to protect the researchers, especially those working with potentially emotionally taxing topis such as hate speech, suicide, etc.)</li>
+                    <li>How to protect the researchers, especially those working with potentially emotionally taxing topics such as hate speech, suicide, etc.?</li>
                 </ul>
             </div>
         </div>
@@ -140,16 +140,16 @@ Good data governance requires considering data implications throughout the entir
         </h4>
         <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#dataLifecycleAccordion">
             <div class="accordion-body">
-                <p>Sharing research data is in line with the FAIR (<strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, and <strong>R</strong>eusable) principles and comply with the requirements of many research funding agencies and publishers. However, sharing of dynamic digital data such as social media data is fraught with challenges. Sharing data in ways that are legal and ethical is accepted best practice. Some of the key legal and ethical challenges are:</p>
+                <p>Sharing research data is in line with the FAIR (<strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, and <strong>R</strong>eusable) principles and is often required to comply with the requirements of many research funding agencies and publishers. However, sharing of dynamic digital data such as social media data is fraught with challenges. Sharing data in ways that are legal and ethical is accepted best practice. Some of the key legal and ethical challenges are:</p>
                 <ul>
                     <li>Privacy constraints (consent and anonymity)</li>
                     <li>Copyright (platform users own the copyright to their posts)</li>
                     <li>Terms of service restrictions</li>
-                    <li>Research integrity (i.e. research reproducibility, transparency, provenance)</li>
+                    <li>Research integrity (i.e., research reproducibility, transparency, provenance)</li>
                 </ul>
                 <p>Other considerations are:</p>
                 <ul>
-                    <li>What data is being shared (e.g. data as collected, data as transformed, or data as analysed) as well as the potential consequences?</li>
+                    <li>What data is being shared (e.g., data as collected, data as transformed, or data as analysed) as well as the potential consequences?</li>
                     <li>Data provenance (documentation of data origin and methodology)</li>
                     <li>How data is being shared to ensure methodological transparency?</li>
                     <li>What is the cost of not sharing? What is the total cost of duplication of effort across multiple groups? How much will it cost to maintain?</li>
