@@ -28,8 +28,12 @@
            {% endfor %}
           </ul>
         </li>
-        <li class="nav-item">
-          <a href='/data-governance-guide' {% if this.is_child_of('/data-governance-guide') %} class="active nav-link"{% endif %} class="dropbtn nav-link">Data Governance Guide</a>
+        <li class="dropdown nav-item">
+          <a href="#" {% if this.is_child_of('/data-governance-guide') or this.is_child_of('/factsheets') %} class="active nav-link dropdown-toggle"{% endif %} class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Data Governance Guide</a>
+          <ul class="dropdown-menu">
+            <li><a href="/data-governance-guide" class="dropdown-item">Data governance guide</a></li>
+            <li><a href="/factsheets" class="dropdown-item">Platform factsheets</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a href='/about' {% if this.is_child_of('/about') %} class="active nav-link"{% endif %} class="dropbtn nav-link">About</a>
