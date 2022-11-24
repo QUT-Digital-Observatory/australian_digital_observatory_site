@@ -21,7 +21,7 @@ The framework outlines the general data considerations relevant to each stage of
 
     <h4> FAIR and CARE principles </h4>
 
-    <p> The <a href="https://www.nature.com/articles/sdata201618">FAIR principles</a>: data resources, tools, vocabularies and infrastructures should be Findable, Accessible, Interoperable, and Reusable. The FAIR principles may be adhered to in any combination and incrementally - it is not and 'all or nothing' framework. </p>
+    <p> The <a href="https://www.nature.com/articles/sdata201618">FAIR principles</a>: data resources, tools, vocabularies, and infrastructures should be Findable, Accessible, Interoperable, and Reusable. The FAIR principles may be adhered to in any combination and incrementally - it is not an 'all or nothing' framework. </p>
 
     <p> The <a href="https://www.nature.com/articles/s41597-021-00892-0">CARE principles</a> propose how research data are used to foster the wellbeing of people. The concerns related to the purpose of data are Collective benefit, Authority to control, Responsibility, and Ethics. </p>
 
@@ -45,7 +45,7 @@ A challenge for researchers working with human-related dynamic digital data is n
 
     <h4> Legal and ethical landscape </h4>
 
-    <p> In addition to data governance considerations, in Australia there are also legal and ethical implications around the use of human data. For example, mishandling of personal data might lead to violation of the Privacy Act 1988. Also, depending on the subjects’ geographical backgrounds of your research, you might have to comply with data regulations in different regions such as the General Data Protection Regulation (GDPR). As a researcher, it is advisable to be aware of this ethical and legal landscape. Read more about the different legislation and ethical guidelines that might be relevant to Australian researchers:</p>
+    <p> In addition to data governance considerations, in Australia there are also legal and ethical implications around the use of human data. For example, mishandling of personal data might lead to violation of the Privacy Act 1988. Also, depending on the geographical background(s) of the subject(s) of your research, you might have to comply with data regulations in different regions such as the General Data Protection Regulation (GDPR). As a researcher, it is advisable to be aware of this ethical and legal landscape. Read more about the different legislation and ethical guidelines that might be relevant to Australian researchers:</p>
 
     <ul>
         <li> <a href="https://www.oaic.gov.au/privacy/the-privacy-act/history-of-the-privacy-act">History of the Privacy Act</a></li>
@@ -96,15 +96,15 @@ Good data governance requires considering data implications throughout the entir
                     <li>What are the legal implications of the geography of storage?</li>
                     <li>What is the risk of compromise and data breach?</li>
                     <li>How long is it stored? In what format?</li>
-                    <li>How is anonymisation of data enabled? How to mitigate the risk of re-identification?</li>
-                    <li>Will it be encrypted? What encryption method will be used?</li>
-                    <li>What are the other data attributes to be considered (Richness, Complexity, Type [text, image, link, video, etc.], Size)?</li>
+                    <li>How is anonymisation of data enabled? How is the risk of re-identification being mitigated?</li>
+                    <li>Will the data be encrypted? What encryption method will be used?</li>
+                    <li>What are the other data attributes to be considered (richness, complexity, type [e.g., text, image, link, video], size)?</li>
                     <li>What is the process for deletion of data?</li>
-                    <li>What about uncharacterizable data?</li>
+                    <li>What about uncharacterisable data?</li>
                     <li>What are the costs of storing data?</li>
                     <li>How to ensure sustainability?</li>
                     <li>What to do with sensitive and objectionable content?</li>
-                    <li>How to deal with data for marginalised and sensitive population?</li>
+                    <li>How to deal with data for marginalised and sensitive populations?</li>
                 </ul>
             </div>
         </div>
@@ -117,15 +117,15 @@ Good data governance requires considering data implications throughout the entir
         </h4>
         <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#dataLifecycleAccordion">
             <div class="accordion-body">
-                <p>The research study design and planning will specify the type of analyses of the data. These analyses should consider the following:</p>
+                <p>The research study design and planning should specify the type of analyses of the data. These analyses should consider the following:</p>
                 <ul>
-                    <li>What is the purpose of processing?</li>
+                    <li>What is the purpose of processing/analysis?</li>
                     <li>What are the privacy implications of processing personal and relational data?</li>
                     <li>How will the results of the analyses be reported? Will they be publicly or privately disseminated?</li>
                     <li>If public (e.g., academic publication), how will consent from the data subject be obtained? If a waiver is acquired, on what basis?</li>
                     <li>How will the data subjects’ privacy be respected and their contributions honoured?</li>
-                    <li>How to mitigate the risk of harm to data subjects?</li>
-                    <li>How to mitigate the risk of re-identification?</li>
+                    <li>How is the risk of harm to data subjects being mitigated?</li>
+                    <li>How is the risk of re-identification being mitigated?</li>
                     <li>How to manifest duty of care to the data subjects?</li>
                     <li>How to protect the researchers, especially those working with potentially emotionally taxing topics such as hate speech, suicide, etc.?</li>
                 </ul>
