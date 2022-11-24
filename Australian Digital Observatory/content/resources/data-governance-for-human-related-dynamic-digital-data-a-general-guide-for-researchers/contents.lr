@@ -1,0 +1,25 @@
+title: Data Governance for Human-Related Dynamic Digital Data: A General Guide for Researchers
+---
+category: documentation
+---
+datePublished: 2022-11-16
+---
+description:
+
+As human lives are becoming more digitised now than ever, we see new forms of data, especially social media data and streaming data, increasingly incorporated in research endeavours. While there are standard practices regarding dealing with traditional research data, no such standards exist for these **human-related dynamic digital data**. This calls for a new data governance framework to guide researchers or anyone working with digital data.
+
+This framework outlines the general data considerations relevant to each stage of the research data lifecycle (i.e., collection, storage, pre-processing, analysis, sharing, publishing, and archiving). In doing so, we attempt to describe the current best practices, underpinned by the [FAIR](https://www.nature.com/articles/sdata201618) and [CARE](https://www.nature.com/articles/s41597-021-00892-0) principles, that are aligned with the research community’s goals and emerging directions.
+---
+link: https://www.digitalobservatory.net.au/data-governance-guide
+---
+owner: Queensland University of Technology
+---
+tags:
+
+collect
+analyse
+storage
+---
+feature: no
+---
+poc: Dr Marissa Takahashi (digitalobservatory@qut.edu.au)

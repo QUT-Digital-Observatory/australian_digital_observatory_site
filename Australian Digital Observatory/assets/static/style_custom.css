@@ -52,8 +52,11 @@ h3, h4 {
   line-height: 140%;
 }
 
-
-
+.accordion-header * {
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+  color: #0066b9;
+}
 
 header{
   background: #012A4C;
@@ -96,3 +99,20 @@ header nav ul {
 /*    background:  #EFF6FB;*/
 /*    border: 1px solid #DBDBDB;*/
 /*}*/
+
+.breakout {
+  margin: 1em 10%;
+  padding: 1em 1.5em;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  clear: both;
+}
+
+.breakout.infobox {
+  background-color: #D6DEFF;
+  border-color: #D6DEFF;
+  /* optional icon background graphic, something cheesy like a lightbulb */
+}
