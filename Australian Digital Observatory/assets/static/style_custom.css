@@ -114,5 +114,9 @@ header nav ul {
 .breakout.infobox {
   background-color: #D6DEFF;
   border-color: #D6DEFF;
-  /* optional icon background graphic, something cheesy like a lightbulb */
+}
+
+.last-updated {
+  font-size: 14px;
+  font-style: italic;
 }

@@ -43,3 +43,5 @@ See the following link for more information about [Twitter API access levels and
 - [tweetexploR](https://github.com/QUT-Digital-Observatory/tweetexploR) is an R package for exploring and visualising tidy Twitter data created with the tidy_tweet library.
 ---
 title: Platform Factsheet: Twitter
+---
+date_updated: 2022-11-28
