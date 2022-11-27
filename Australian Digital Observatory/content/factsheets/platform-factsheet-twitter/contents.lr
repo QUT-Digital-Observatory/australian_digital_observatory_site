@@ -1,0 +1,47 @@
+show_toc: 
+---
+body:
+
+This platform-specific fact sheet is intended to provide researchers with tips and resources to get started using Twitter in their research.
+
+Researchers should be aware that platforms can and do change over time, so for the most up to date information please refer to Twitter's [official documentation](https://developer.twitter.com/en/docs). We have provided some links to Twitter's documentation below and will endeavour to keep them up to date.
+
+### Is there an API?
+
+[Yes](https://developer.twitter.com/en/docs/twitter-api)
+
+### Is there a Terms of Service?
+
+[Yes](https://twitter.com/en/tos)
+
+### Developer guides and documentation
+
+- [Developer and API documentation](https://developer.twitter.com/en/docs)
+
+- [Query builder for v2 API](https://developer.twitter.com/apitools/query)
+
+- [Building high-quality filters for getting Twitter data](https://developer.twitter.com/en/docs/tutorials/building-high-quality-filters)
+
+### Basic information about the API
+
+Twitter's API has three access levels: Essential, Elevated, and Academic Research.
+
+Rate limits:
+
+- Essential allows you to retrieve 500,000 tweets per month (only tweets from the past 7 days).
+- Elevated allows you to retrieve 2 million tweets per month.
+- Academic Research allows you to retrieve 10 million tweets per month.
+
+See the following link for more information about [Twitter API access levels and versions](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-level).
+
+### Tools
+
+- [twarc](https://twarc-project.readthedocs.io/) is a command line tool and Python library for collecting an archiving Twitter JSON data via the Twitter API. It has an ecosystem of plugins for doing things with the collected data.
+
+- [tidy_tweet](https://pypi.org/project/tidy-tweet/) tidies Twitter JSON collected with twarc into relational tables. The resulting SQLite database is ideal for importing into analytical tools, or for using as a datasource for a programmatic analytical workflow that is more efficient than working directly from the raw JSON.
+
+- [tweetexploR](https://github.com/QUT-Digital-Observatory/tweetexploR) is an R package for exploring and visualising tidy Twitter data created with the tidy_tweet library.
+---
+title: Platform Factsheet: Twitter
+---
+date_updated: 2022-11-28

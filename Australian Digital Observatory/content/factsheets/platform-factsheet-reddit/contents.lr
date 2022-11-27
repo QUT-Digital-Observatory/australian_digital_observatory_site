@@ -1,0 +1,41 @@
+show_toc: 
+---
+body:
+
+This platform-specific fact sheet is intended to provide researchers with tips and resources to get started using Reddit in their research.
+
+Researchers should be aware that these platforms can and do change over time. Therefore, for the most up to date information, please refer to Reddit's [official documentation](https://www.reddit.com/dev/api). The links below are helpful starting points.
+
+### Is there an API?
+
+[Yes](https://github.com/reddit-archive/reddit/wiki/API)
+
+### Is there a Terms of Service?
+
+[Yes](https://www.redditinc.com/policies/user-agreement-september-12-2021)
+
+### Developer guides and documentation
+
+- [Reddit API documentation](https://www.reddit.com/dev/api)
+
+- [Reddit Developer subreddit](https://www.reddit.com/r/redditdev/)
+
+### Basic information about the API
+
+OAuth2 is required to access the API. Read more on how to set up OAuth2 for Reddit API [here](https://github.com/reddit-archive/reddit/wiki/OAuth2).
+
+Rate limits: up 60 requests per minute. API usage metadata are included in the response headers so that the rate limit can be monitored. Read more about Reddit rate limits [here](https://github.com/reddit-archive/reddit/wiki/API#rules).
+
+Reddit API allows more up-to-date data retrieval, but it is not suitable for getting large quantities of historical data. The [Pushshift API](https://www.reddit.com/r/pushshift/comments/bcxguf/new_to_pushshift_read_this_faq/) can be used to retrieve historical data.
+
+### Tools
+
+- [PRAW: Python Reddit API Wrapper](https://praw.readthedocs.io/en/stable/)
+
+- Pushshift API: 
+    - [API documentation](https://github.com/pushshift/api) 
+    - [Overview of the Pushshift dataset](https://arxiv.org/pdf/2001.08435.pdf)
+---
+title: Platform Factsheet: Reddit
+---
+date_updated: 2022-11-28

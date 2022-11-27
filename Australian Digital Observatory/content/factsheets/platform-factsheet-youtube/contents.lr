@@ -1,0 +1,38 @@
+show_toc: 
+---
+body:
+
+This platform-specific fact sheet is intended to provide researchers with tips and resources to get started using YouTube data in their research.
+
+Researchers should be aware that these platforms can and do change over time. Therefore, for the most up to date information, please refer to YouTube Data API's [official documentation](https://developers.google.com/youtube/v3). The links below are helpful starting points.
+
+### Is there an API?
+
+[Yes](https://developers.google.com/youtube/v3)
+
+### Is there a Terms of Service?
+
+[Yes](https://developers.google.com/youtube/terms/api-services-terms-of-service)
+
+### Developer guides and documentation
+
+[YouTube API v.3 documentation](https://developers.google.com/youtube/v3/getting-started)
+
+### Basic information about the API
+
+A Google Account and YouTube Data API key are required to access the Data API.
+
+YouTube Data API controls API rate limits via a quota system, whereby each request, valid or invalid, incurs a quota cost of at least one point. Different endpoints will use up different quota costs. Refer to [YouTube Data API's documentation](https://developers.google.com/youtube/v3/determine_quota_cost) for more details on costs of each endpoint.
+
+A free Google Account is allocated 10,000 points per day, which reset at midnight Pacific Time. You can complete an [Audit and Quota Extension form](https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits) to request additional quota on top of your default allocation.
+
+### Tools
+
+- [Client libraries to interact with YouTube Data API](https://developers.google.com/youtube/v3/libraries). Google provides client libraries to interact with their APIs, including YouTube Data API. The libraries are available in a number of programming languages such as Java, Python, and JavaScript.
+
+- [youte](https://github.com/QUT-Digital-Observatory/youte). An early-stage commandline tool that makes querying and tidying data from YouTube Data API easy.
+
+---
+title: Platform Factsheet: YouTube
+---
+date_updated: 2022-11-28
