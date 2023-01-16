@@ -1,0 +1,24 @@
+title: youte
+---
+access: Open sourced under MIT licence
+---
+category: software
+---
+datePublished: 2022-09-21
+---
+description: youte is a command-line tool that collects and tidies YouTube video metadata and comments from YouTube Data API v.3. At the moment, the tool supports collecting public data that does not require OAuth 2.0.
+---
+doi: http://researchdatafinder.qut.edu.au/individual/n28177
+---
+feature: no
+---
+link: https://qut-digital-observatory.github.io/youte/
+---
+owner: QUT Digital Observatory
+---
+poc: digitalobservatory@qut.edu.au
+---
+tags:
+
+collect
+tidy and model

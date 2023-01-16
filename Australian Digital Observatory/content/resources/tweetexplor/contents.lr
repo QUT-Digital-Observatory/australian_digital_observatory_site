@@ -1,0 +1,17 @@
+title: tweetexploR
+---
+access: Open sourced under MIT licence
+---
+category: software
+---
+datePublished: 2022-09-07
+---
+description: tweetexploR is an R package for exploring and visualising a collection of Tweets that has been tidied into an SQLite database file by the tidy_tweet library.
+---
+link: https://github.com/QUT-Digital-Observatory/tweetexploR
+---
+owner: QUT Digital Observatory
+---
+poc: digitalobservatory@qut.edu.au
+---
+tags: analyse
