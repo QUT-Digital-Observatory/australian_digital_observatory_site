@@ -6,7 +6,7 @@ category: software
 ---
 datePublished: 2022-09-07
 ---
-description: tweetexploR is an R package for exploring and visualising a collection of Tweets that has been tidied into an SQLite database file by the tidy_tweet library.
+description: tweetexploR is an R package for exploring and visualising a collection of Tweets that has been tidied into an SQLite database file by the <a href="https://pypi.org/project/tidy-tweet/" target="_blank">tidy_tweet</a> library.
 ---
 link: https://github.com/QUT-Digital-Observatory/tweetexploR
 ---
