@@ -120,3 +120,7 @@ header nav ul {
   font-size: 14px;
   font-style: italic;
 }
+
+div.accordion {
+  margin-bottom: 1rem;
+}
