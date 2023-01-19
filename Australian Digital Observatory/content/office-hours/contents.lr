@@ -1,0 +1,198 @@
+_model: page
+---
+show_toc:
+---
+body:
+
+We invite Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives, and much more to attend our regular online office hours. Bring your technical questions, research problems and rough ideas and get advice and feedback from the combined expertise of four ARDC research infrastructure projects.
+
+These sessions run over Zoom from 2-3pm (Australia/Sydney time) every second Tuesday – drop in and bring your research questions relating to all of the topics below (and more!) and ask our experts directly. No question is too small, and even if we don’t know the answer we are likely to be able to point you to who can.
+
+Office Hours will resume for 2023 on 17 January:
+
+- 17 Jan, 2pm Sydney/Melbourne, 1pm Brisbane
+- 31 Jan, 2pm Sydney/Melbourne, 1pm Brisbane
+- 14 Feb, 2pm Sydney/Melbourne, 1pm Brisbane
+- 28 Feb, 2pm Sydney/Melbourne, 1pm Brisbane
+
+### Register to Attend
+
+You can register to attend here: [https://qut.zoom.us/meeting/register/tZEvcOqrrjkvHNH2ZqG5yed7Gh15Rp19Vatm](https://qut.zoom.us/meeting/register/tZEvcOqrrjkvHNH2ZqG5yed7Gh15Rp19Vatm).
+
+Note that the Zoom link for 2023 is different from the 2022 Zoom link – returning participants will need to re-register for their first attendance in 2023, and then you can continue to use that link for other sessions in 2023.
+
+### What We Can Help With
+
+The following is an incomplete list of the kinds of things we can help with. You can see some more specific details of the partner projects below.
+
+- How can I make interactive web maps for humanities research?
+- How can I find place names in Australia?
+- How can I see change over time on a map?
+- How can I collect data from the web or social media platforms?
+- How can I access and use existing collections of social media data?
+- What kind of analysis can I do with the social media data I have?
+- What are useful tools which I can use in working with text?
+- What sort of analyses are possible with the data which I have?
+- What format should my data be in if I want to carry out a certain analysis?
+- What language data relevant to my problem already exists in Australia?
+- How can I gain access to language data held in different places and collections?
+- I’m trying to use this software for my research, where do I start?
+
+### FAQs
+
+Below are some answers to questions we’d like to be asked. If you have any other questions about Office Hours and whether it’s the right place for you, please reach out to our team via digitalobservatory@qut.edu.au.
+
+<div class="accordion" id="faq-office-hours">
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            Why did you start Office Hours?
+            </button>
+        </h4>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faq-office-hours">
+            <div class="accordion-body">
+                We think there’s a need for a community space enabling interdisciplinary discussion of computational and digital approaches to research. As a group of Australian research infrastructure projects we think we’re the right group to get something like this started, and we thought it better to combine our efforts rather than further fragmenting the options.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Why are these sessions run via Zoom?
+            </button>
+        </h4>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faq-office-hours">
+            <div class="accordion-body">
+                These sessions are online first to be accessible to all Australian researchers, we’re not just on Zoom because of the pandemic. The time was chosen to be accessible during business hours from New Zealand to Western Australia.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Why are these sessions run via Zoom?
+            </button>
+        </h4>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faq-office-hours">
+            <div class="accordion-body">
+                These sessions are online first to be accessible to all Australian researchers, we’re not just on Zoom because of the pandemic. The time was chosen to be accessible during business hours from New Zealand to Western Australia.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            How do you run sessions?
+            </button>
+        </h4>
+        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faq-office-hours">
+            <div class="accordion-body">
+                Our office hours are informal – people are welcome to just drop in. A typical session looks like:
+                <ol>
+                    <li>Introductions around the call for people who are new.</li>
+                    <li>A quick poll of why people are there today: do they have specific questions, or are they here to have a more general discussion? Does someone want to show us something they’ve been working on?</li>
+                    <li>For specific questions we usually allocate a breakout room for the researcher who has brought the question, and assign one of our experts to help them 1:1.</li>
+                    <li>General discussions continue in the main room.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="heading5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            I don’t really have a question, can I still drop in?
+            </button>
+        </h4>
+        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faq-office-hours">
+            <div class="accordion-body">
+                Of course! We love to meet new people and hear more about what’s happening in people’s research.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="heading6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+            Can you help me with X?
+            </button>
+        </h4>
+        <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#faq-office-hours">
+            <div class="accordion-body">
+                If it’s in the list above, we can definitely help. If it’s not in the list above, we might be able to help anyway! Even if we can’t help directly we may be able to point you in the right direction. If you’re at all concerned about whether your question is something we can help with reach out beforehand via email.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="heading7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+            I’m just starting with Y, can I ask your advice on where to get started?
+            </button>
+        </h4>
+        <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#faq-office-hours">
+            <div class="accordion-body">
+                Absolutely! We love to talk to people at very early stages – bring along your initial ideas and draw on our collective expertise. We specifically want to help people build on existing resources and materials as well as avoid dead ends.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="heading8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+            This is great – how can we help out?
+            </button>
+        </h4>
+        <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#faq-office-hours">
+            <div class="accordion-body">
+                We’d love it if you could help us spread the word. A short blurb in a newsletter or mentioning us to a colleague is much appreciated. If you need more marketing collateral please <a href="mailto:digitalobservatory@qut.edu.au">reach out</a>.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="heading9">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+            How long are you planning to run these sessions?
+            </button>
+        </h4>
+        <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#faq-office-hours">
+            <div class="accordion-body">
+                We're planning to continue Office Hours throughout 2023. We will be making adjustments as necessary to the format based on researcher demand and feedback.
+            </div>
+        </div>
+    </div>
+</div>
+
+### About the partners
+
+#### [Time Layered Cultural Map](https://tlcmap.org/)
+
+TLCMap is a set of tools that work together for mapping Australian history and culture. Some questions we can answer:
+
+- How can I make interactive web maps for humanities research?
+- How can I find place names in Australia?
+- How can I see change over time on a map?
+
+#### Australian Digital Observatory
+
+The Australian Digital Observatory is an ecosystem of tools and services for dealing with dynamic digital data.
+
+We can answer questions like:
+
+- How can I collect data from the web or social media platforms?
+- How can I access and use existing collections of social media data?
+- What kind of analysis can I do with the social media data I have?
+
+#### [Australian Text Analytics Platform (ATAP)](https://ardc.edu.au/project/australian-text-analytics-platform/)
+
+The Australian Text Analytics Platform provides tools for computational analysis of text data. The platform is currently in development, but we can answer questions like:
+
+- What are useful tools which I can use in working with text?
+- What sort of analyses are possible with the data which I have?
+- What format should my data be in if I want to carry out a certain analysis?
+
+#### [Language Data Commons of Australia](https://ardc.edu.au/project/language-data-commons-of-australia-ldaca/)
+
+The Language Data Commons of Australia will provide a single point of entry for finding and accessing language data in Australia. The facility is currently in development, but we can answer questions such as:
+
+- What language data relevant to my problem already exists in Australia?
+- How can I gain access to language data held in different places and collections?
+
+---
+title: Office Hours
