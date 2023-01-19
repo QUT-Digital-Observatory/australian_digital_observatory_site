@@ -16,7 +16,6 @@ p {
   line-height: 140%;
 }
 
-
 @media screen and (max-width: 500px) {
   body {
     font-size: 15px;
@@ -26,6 +25,11 @@ p {
     font-size: 15px;
     line-height: 160%;
   }
+}
+
+h1 > a {
+  text-decoration: inherit;
+  color: inherit;
 }
 
 a.dropdown-item{
@@ -42,6 +46,7 @@ h1.display-1 {
   text-align: center;
   color: white;
   font-weight: bolder;
+  font-size: 300%;
 }
 
 h2 {
@@ -61,6 +66,8 @@ h3, h4 {
 header{
   background: #012A4C;
   padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 header nav ul {
@@ -119,6 +126,11 @@ header nav ul {
 .last-updated {
   font-size: 14px;
   font-style: italic;
+}
+
+.container-lg {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 div.accordion {
