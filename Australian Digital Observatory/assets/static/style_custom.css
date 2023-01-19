@@ -132,3 +132,7 @@ header nav ul {
   padding-left: 5%;
   padding-right: 5%;
 }
+
+div.accordion {
+  margin-bottom: 1rem;
+}
