@@ -9,7 +9,7 @@
   <header class="container-lg">
     <h1 class="display-1">Australian Digital Observatory</h1>
     <nav class="container pt-4">
-      
+
       <ul class="nav justify-content-center nav-pills">
         <li class="nav-item">
           <a href="{{ '/'|url }}" {% if this._path == '/' %} class="active nav-link"{% endif%} class="nav-link">Welcome</a>
@@ -35,14 +35,18 @@
             <li><a href="/factsheets" class="dropdown-item">Platform factsheets</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a href='/about' {% if this.is_child_of('/about') %} class="active nav-link"{% endif %} class="dropbtn nav-link">About</a>
+        <li class="dropdown nav-item">
+          <a href="#" {% if this.is_child_of('/about') or this.is_child_of('/office-hours') %} class="active nav-link dropdown-toggle"{% endif %} class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+          <ul class="dropdown-menu">
+            <li><a href="/about" class="dropdown-item">About us</a></li>
+            <li><a href="/office-hours" class="dropdown-item">Office hours</a></li>
+          </ul>
         </li>
       </ul>
-    
+
     </nav>
   </header>
-  
+
   <div class="container-lg pt-5">
     {% block body %}{% endblock %}
   </div>
