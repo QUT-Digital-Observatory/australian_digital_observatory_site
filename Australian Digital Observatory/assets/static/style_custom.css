@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     margin: 10%;
     margin-top: 0%;
@@ -13,7 +13,7 @@ body {
 }
 
 p {
-  line-height: 140%;
+  line-height: 150%;
 }
 
 @media screen and (max-width: 500px) {
@@ -32,25 +32,27 @@ h1 > a {
   color: inherit;
 }
 
-a.dropdown-item{
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
 h1, h2, h3, h4, h5 {
-  font-weight: 800;
-  font-family: 'Open Sans', sans-serif;
-  color: #0066b9;
+  font-weight: 400;
+  color: black;
 }
 
 h1.display-1 {
   text-align: center;
   color: white;
-  font-weight: bolder;
-  font-size: 300%;
+  font-size: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
 }
 
-h2 {
+.accordion-header {
+  margin: auto;
+}
+
+h2, h3, h4 {
   margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 h3, h4 {
@@ -59,25 +61,20 @@ h3, h4 {
 
 .accordion-header * {
   font-weight: 800;
-  font-family: 'Open Sans', sans-serif;
   color: #0066b9;
 }
 
-header{
-  background: #012A4C;
-  padding-top: 3%;
-  padding-left: 3%;
-  padding-right: 3%;
+header {
+  padding: 1.5%;
 }
 
-header nav ul {
-    font-family: 'Open Sans', sans-serif;
+.header-wrapper {
+  background-color: #085CA1;
 }
-
 
 .nav-link {
     color: #FFF;
-    font-weight: 1000;
+    font-weight: 300;
 }
 
 
@@ -135,4 +132,40 @@ header nav ul {
 
 div.accordion {
   margin-bottom: 1rem;
+}
+
+#ado-logo {
+  max-width: 100%;
+}
+
+@keyframes growOut {
+  0% {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100% !important;
+  }
+
+.dropdown-menu.show {
+  display: block;
+  animation: growOut 300ms ease-in-out forwards;
+  transform-origin: top left;
+}
+
+.nav-item:hover, a.nav-link:hover {
+  text-decoration: underline white;
+  color: white;
+}
+
+.nav-link.dropdown-toggle.show {
+  color: #fff;
 }

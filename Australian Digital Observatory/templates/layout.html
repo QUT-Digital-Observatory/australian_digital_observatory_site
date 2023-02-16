@@ -6,48 +6,62 @@
 <link rel="stylesheet" href="{{ '/static/style_custom.css'|url }}">
 <title>{% block title %}Welcome{% endblock %} — Australian Digital Observatory</title>
 <body>
-  <header class="container-lg">
-    <h1 class="display-1"><a href="/">Australian Digital Observatory</a></h1>
-    <nav class="container pt-4">
-
-      <ul class="nav justify-content-center nav-pills">
-        <li class="nav-item">
-          <a href="{{ '/'|url }}" {% if this._path == '/' %} class="active nav-link"{% endif%} class="nav-link">Welcome</a>
-        </li>
-        <li class="nav-item">
-          <a href='/the-ado-ecosystem/' {% if this.is_child_of('/the-ado-ecosystem') %} class="active nav-link"{% endif %} class="dropbtn nav-link">ADO Ecosystem</a>
-        </li>
-        <li class="dropdown nav-item">
-           <a href="#" {% if this.is_child_of('/resources') or this.is_child_of('resource-categories') %} class="active nav-link dropdown-toggle"{% endif %} class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
-           <ul class="dropdown-menu">
-             <li><a href="/resources" class="dropdown-item">About ADO resources</a></li>
-             <li><hr class="dropdown-divider"></hr></li>
-             <li><h6 class="dropdown-header">Categories</h6></li>
-           {% for category in site.query("/resource-categories") %}
-              <li><a href="{{ category|url }}" class="dropdown-item">{{ category.name }}</a></li>
-           {% endfor %}
-          </ul>
-        </li>
-        <li class="dropdown nav-item">
-          <a href="#" {% if this.is_child_of('/data-governance-guide') or this.is_child_of('/factsheets') %} class="active nav-link dropdown-toggle"{% endif %} class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Data Governance Guide</a>
-          <ul class="dropdown-menu">
-            <li><a href="/data-governance-guide" class="dropdown-item">Data governance guide</a></li>
-            <li><a href="/factsheets" class="dropdown-item">Platform factsheets</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item">
-          <a href="#" {% if this.is_child_of('/about') or this.is_child_of('/office-hours') %} class="active nav-link dropdown-toggle"{% endif %} class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
-          <ul class="dropdown-menu">
-            <li><a href="/about" class="dropdown-item">About us</a></li>
-            <li><a href="/office-hours" class="dropdown-item">Office hours</a></li>
-          </ul>
-        </li>
-      </ul>
-
-    </nav>
+  <div class="header-wrapper">
+    <header class="container-lg">
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-1">
+            <img id="ado-logo" src="{{ 'static/images/aus-icon.png' | asseturl }}">
+          </div>
+          <div class="col">      
+            <h1 class="display-1">
+              <a href="/">Australian Digital Observatory</a>
+            </h1>
+          </div>
+          
+          <div class="col-9">
+            <nav class="container">
+              <ul class="nav justify-content-center nav-pills">
+                <li class="nav-item">
+                  <a href="{{ '/'|url }}" {% if this._path == '/' %} class="active nav-link"{% endif%} class="nav-link">Welcome</a>
+                </li>
+                <li class="nav-item">
+                  <a href='/the-ado-ecosystem/' {% if this.is_child_of('/the-ado-ecosystem') %} class="active nav-link"{% endif %} class="dropbtn nav-link">ADO Ecosystem</a>
+                </li>
+                <li class="dropdown nav-item">
+                  <a href="#" {% if this.is_child_of('/resources') or this.is_child_of('resource-categories') %} class="active nav-link dropdown-toggle"{% endif %} class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/resources" class="dropdown-item">About ADO resources</a></li>
+                    <li><hr class="dropdown-divider"></hr></li>
+                    <li><h6 class="dropdown-header">Categories</h6></li>
+                  {% for category in site.query("/resource-categories") %}
+                      <li><a href="{{ category|url }}" class="dropdown-item">{{ category.name }}</a></li>
+                  {% endfor %}
+                  </ul>
+                </li>
+                <li class="dropdown nav-item">
+                  <a href="#" {% if this.is_child_of('/data-governance-guide') or this.is_child_of('/factsheets') %} class="active nav-link dropdown-toggle"{% endif %} class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Data Governance Guide</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/data-governance-guide" class="dropdown-item">Data governance guide</a></li>
+                    <li><a href="/factsheets" class="dropdown-item">Platform factsheets</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown nav-item">
+                  <a href="#" {% if this.is_child_of('/about') or this.is_child_of('/office-hours') %} class="active nav-link dropdown-toggle"{% endif %} class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/about" class="dropdown-item">About us</a></li>
+                    <li><a href="/office-hours" class="dropdown-item">Office hours</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div> 
+    </div>
   </header>
 
-  <div class="container-lg pt-5">
+  <div class="container-lg">
     {% block body %}{% endblock %}
   </div>
   <footer class="container p-5">
