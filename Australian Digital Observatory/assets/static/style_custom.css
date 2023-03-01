@@ -160,3 +160,12 @@ div.accordion {
   transform-origin: top left;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #0066b9;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: #0066b9;
+  background-color: #55e2fd;
+  border-radius: 10px;
+}
