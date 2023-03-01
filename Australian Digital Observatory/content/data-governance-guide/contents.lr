@@ -63,11 +63,11 @@ Good data governance requires considering data implications throughout the entir
 <div class="accordion" id="dataLifecycleAccordion">
     <div class="accordion-item">
         <h4 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             Data collection
             </button>
         </h4>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#dataLifecycleAccordion">
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#dataLifecycleAccordion">
             <div class="accordion-body">
                 <ul>
                     <li>Is the data collection documented with methodology and metadata that enables its future reusability and reproducibility, in accordance with the FAIR principles?</li>
@@ -80,7 +80,7 @@ Good data governance requires considering data implications throughout the entir
     </div>
     <div class="accordion-item">
         <h4 class="accordion-header" id="headingTwo">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
             Data storage
             </button>
         </h4>
@@ -111,7 +111,7 @@ Good data governance requires considering data implications throughout the entir
     </div>
     <div class="accordion-item">
         <h4 class="accordion-header" id="heading3">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
             Data analysis
             </button>
         </h4>
@@ -134,7 +134,7 @@ Good data governance requires considering data implications throughout the entir
     </div>
     <div class="accordion-item">
         <h4 class="accordion-header" id="heading4">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
             Data sharing
             </button>
         </h4>
@@ -160,7 +160,7 @@ Good data governance requires considering data implications throughout the entir
     </div>
     <div class="accordion-item">
         <h4 class="accordion-header" id="heading5">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
             Data archiving
             </button>
         </h4>

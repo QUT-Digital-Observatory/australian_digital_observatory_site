@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-    <h2>{{ this.title }}</h2>
+    <h1>{{ this.title }}</h1>
     <a class="category_label" href="{{ site.get('/resource-categories').children.get('/{}'.format(this.category) ) |url }}">{{ this.category.capitalize() }}</a>
     <p class="description">{{ this.description }}</p>
     <p><strong><a href='/the-ado-ecosystem/#what-is-it-for'>Data-centric activities</a> this resource may assist with:</strong>

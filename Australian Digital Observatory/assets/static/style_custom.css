@@ -32,8 +32,12 @@ h1 > a {
   color: inherit;
 }
 
+#title {
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5 {
-  font-weight: 400;
+  font-weight: 300;
   color: black;
 }
 
@@ -46,11 +50,16 @@ h1.display-1 {
   display: inline-block;
 }
 
+.navbar-brand {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
 .accordion-header {
   margin: auto;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
   margin-bottom: 3%;
   margin-top: 3%;
 }
@@ -67,16 +76,6 @@ h3, h4 {
 header {
   padding: 1.5%;
 }
-
-.header-wrapper {
-  background-color: #085CA1;
-}
-
-.nav-link {
-    color: #FFF;
-    font-weight: 300;
-}
-
 
 .category_label, .tag_label {
     background-color: #ddd;
@@ -135,7 +134,7 @@ div.accordion {
 }
 
 #ado-logo {
-  max-width: 100%;
+  max-width: 70%;
 }
 
 @keyframes growOut {
@@ -161,11 +160,3 @@ div.accordion {
   transform-origin: top left;
 }
 
-.nav-item:hover, a.nav-link:hover {
-  text-decoration: underline white;
-  color: white;
-}
-
-.nav-link.dropdown-toggle.show {
-  color: #fff;
-}
