@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  <h2>{{ this.title }}</h2>
+  <h1>{{ this.title }}</h1>
     {% if this.show_toc %}
       <ul class="toc">
       {% for item in this.body.toc recursive %}
