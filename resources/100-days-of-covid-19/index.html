@@ -25,62 +25,71 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHVG8B2"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <header class="container-lg">
-    <h1 class="display-1"><a href="/">Australian Digital Observatory</a></h1>
-    <nav class="container pt-4">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHVG8B2"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    <header class="container-fluid">
+      <div class="d-flex justify-content-center">
+        <a class="navbar-brand" href="../../">
+          <img src="../../static/images/ado-logo-logotype-dark-cropped.png?h=80106029" alt="Bootstrap" width="150">
+        </a>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light p-3"">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+              <li class="nav-item">
+                <a href="../../"  class="nav-link mx-3">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href='/the-ado-ecosystem/'  class="dropbtn nav-link mx-3">ADO Ecosystem</a>
+              </li>
+              <li class="dropdown nav-item">
+                <a href="#"  class="active nav-link dropdown-toggle" class="nav-link dropdown-toggle mx-3" data-bs-toggle="dropdown">Resources</a>
+                <ul class="dropdown-menu mx-3">
+                  <li><a href="/resources" class="dropdown-item">About ADO resources</a></li>
+                  <li><hr class="dropdown-divider"></hr></li>
+                  <li><h6 class="dropdown-header">Categories</h6></li>
+                
+                    <li><a href="../categories/datasets/" class="dropdown-item">Datasets and data sources</a></li>
+                
+                    <li><a href="../categories/documentation/" class="dropdown-item">Documentation</a></li>
+                
+                    <li><a href="../categories/publications/" class="dropdown-item">Publications</a></li>
+                
+                    <li><a href="../categories/services/" class="dropdown-item">Services</a></li>
+                
+                    <li><a href="../categories/software/" class="dropdown-item">Software and technical utilities/systems</a></li>
+                
+                </ul>
+              </li>
+              <li class="dropdown nav-item">
+                <a href="#"  class="nav-link dropdown-toggle mx-3" data-bs-toggle="dropdown">Data Governance Guide</a>
+                <ul class="dropdown-menu mx-3">
+                  <li><a href="/data-governance-guide" class="dropdown-item">Data governance guide</a></li>
+                  <li><a href="/factsheets" class="dropdown-item">Platform factsheets</a></li>
+                </ul>
+              </li>
+              <li class="dropdown nav-item">
+                <a href="#"  class="nav-link dropdown-toggle mx-3" data-bs-toggle="dropdown">About</a>
+                <ul class="dropdown-menu mx-3">
+                  <li><a href="/about" class="dropdown-item">About us</a></li>
+                  <li><a href="/office-hours" class="dropdown-item">Office hours</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-      <ul class="nav justify-content-center nav-pills">
-        <li class="nav-item">
-          <a href="../../"  class="nav-link">Welcome</a>
-        </li>
-        <li class="nav-item">
-          <a href='/the-ado-ecosystem/'  class="dropbtn nav-link">ADO Ecosystem</a>
-        </li>
-        <li class="dropdown nav-item">
-           <a href="#"  class="active nav-link dropdown-toggle" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
-           <ul class="dropdown-menu">
-             <li><a href="/resources" class="dropdown-item">About ADO resources</a></li>
-             <li><hr class="dropdown-divider"></hr></li>
-             <li><h6 class="dropdown-header">Categories</h6></li>
-           
-              <li><a href="../categories/datasets/" class="dropdown-item">Datasets and data sources</a></li>
-           
-              <li><a href="../categories/documentation/" class="dropdown-item">Documentation</a></li>
-           
-              <li><a href="../categories/publications/" class="dropdown-item">Publications</a></li>
-           
-              <li><a href="../categories/services/" class="dropdown-item">Services</a></li>
-           
-              <li><a href="../categories/software/" class="dropdown-item">Software and technical utilities/systems</a></li>
-           
-          </ul>
-        </li>
-        <li class="dropdown nav-item">
-          <a href="#"  class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Data Governance Guide</a>
-          <ul class="dropdown-menu">
-            <li><a href="/data-governance-guide" class="dropdown-item">Data governance guide</a></li>
-            <li><a href="/factsheets" class="dropdown-item">Platform factsheets</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item">
-          <a href="#"  class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
-          <ul class="dropdown-menu">
-            <li><a href="/about" class="dropdown-item">About us</a></li>
-            <li><a href="/office-hours" class="dropdown-item">Office hours</a></li>
-          </ul>
-        </li>
-      </ul>
-
-    </nav>
-  </header>
-
-  <div class="container-lg pt-5">
+  <div class="container-lg">
     
-    <h2>100 Days of Covid-19</h2>
+    <h1>100 Days of Covid-19</h1>
     <a class="category_label" href="../categories/datasets/">Datasets</a>
     <p class="description"><p>The Australian Twittersphere is a longitudinal collection of tweets from a periodically updated list of Twitter accounts that are identified as Australian (i.e., have a stated connection to Australia in the free text fields of the account profile). The Australian Twittersphere was originally set up through the <a href="https://research.qut.edu.au/dmrc/projects/trisma-tracking-infrastructure-for-social-media-analysis/">TrISMA project</a>, and has been managed by the QUT Digital Observatory since early 2018. This dataset includes 3.7 million Australian Twitter accounts, with 1.8 billion tweets captured to date. Since the beginning of 2019, there have been about 800,000 new tweets per day, from 100,000 daily active users. The <em>100 days of COVID-19 in the Australian Twittersphere</em> dataset consists of 2.8 million tweet IDs corresponding to tweets from the Australian Twittersphere that mention the COVID-19 pandemic, either through Coronavirus specific hashtags or keywords. The tweets were created on or after 20 January 2020, and up until 23 May 2020 (the 15 weeks that form the first ‘100 days’ of COVID-19 in Australia). This dataset provides a glimpse of the experiences and attitudes of Australians presently living through this global pandemic. We are all in this together and as such this dataset has been released as rapidly as possible to enable use by the broader research community.</p>
 </p>

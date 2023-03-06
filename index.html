@@ -25,63 +25,72 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHVG8B2"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <header class="container-lg">
-    <h1 class="display-1"><a href="/">Australian Digital Observatory</a></h1>
-    <nav class="container pt-4">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHVG8B2"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    <header class="container-fluid">
+      <div class="d-flex justify-content-center">
+        <a class="navbar-brand" href="./">
+          <img src="static/images/ado-logo-logotype-dark-cropped.png?h=80106029" alt="Bootstrap" width="150">
+        </a>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light p-3"">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+              <li class="nav-item">
+                <a href="./"  class="active nav-link" class="nav-link mx-3">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href='/the-ado-ecosystem/'  class="dropbtn nav-link mx-3">ADO Ecosystem</a>
+              </li>
+              <li class="dropdown nav-item">
+                <a href="#"  class="nav-link dropdown-toggle mx-3" data-bs-toggle="dropdown">Resources</a>
+                <ul class="dropdown-menu mx-3">
+                  <li><a href="/resources" class="dropdown-item">About ADO resources</a></li>
+                  <li><hr class="dropdown-divider"></hr></li>
+                  <li><h6 class="dropdown-header">Categories</h6></li>
+                
+                    <li><a href="resources/categories/datasets/" class="dropdown-item">Datasets and data sources</a></li>
+                
+                    <li><a href="resources/categories/documentation/" class="dropdown-item">Documentation</a></li>
+                
+                    <li><a href="resources/categories/publications/" class="dropdown-item">Publications</a></li>
+                
+                    <li><a href="resources/categories/services/" class="dropdown-item">Services</a></li>
+                
+                    <li><a href="resources/categories/software/" class="dropdown-item">Software and technical utilities/systems</a></li>
+                
+                </ul>
+              </li>
+              <li class="dropdown nav-item">
+                <a href="#"  class="nav-link dropdown-toggle mx-3" data-bs-toggle="dropdown">Data Governance Guide</a>
+                <ul class="dropdown-menu mx-3">
+                  <li><a href="/data-governance-guide" class="dropdown-item">Data governance guide</a></li>
+                  <li><a href="/factsheets" class="dropdown-item">Platform factsheets</a></li>
+                </ul>
+              </li>
+              <li class="dropdown nav-item">
+                <a href="#"  class="nav-link dropdown-toggle mx-3" data-bs-toggle="dropdown">About</a>
+                <ul class="dropdown-menu mx-3">
+                  <li><a href="/about" class="dropdown-item">About us</a></li>
+                  <li><a href="/office-hours" class="dropdown-item">Office hours</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-      <ul class="nav justify-content-center nav-pills">
-        <li class="nav-item">
-          <a href="./"  class="active nav-link" class="nav-link">Welcome</a>
-        </li>
-        <li class="nav-item">
-          <a href='/the-ado-ecosystem/'  class="dropbtn nav-link">ADO Ecosystem</a>
-        </li>
-        <li class="dropdown nav-item">
-           <a href="#"  class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
-           <ul class="dropdown-menu">
-             <li><a href="/resources" class="dropdown-item">About ADO resources</a></li>
-             <li><hr class="dropdown-divider"></hr></li>
-             <li><h6 class="dropdown-header">Categories</h6></li>
-           
-              <li><a href="resources/categories/datasets/" class="dropdown-item">Datasets and data sources</a></li>
-           
-              <li><a href="resources/categories/documentation/" class="dropdown-item">Documentation</a></li>
-           
-              <li><a href="resources/categories/publications/" class="dropdown-item">Publications</a></li>
-           
-              <li><a href="resources/categories/services/" class="dropdown-item">Services</a></li>
-           
-              <li><a href="resources/categories/software/" class="dropdown-item">Software and technical utilities/systems</a></li>
-           
-          </ul>
-        </li>
-        <li class="dropdown nav-item">
-          <a href="#"  class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Data Governance Guide</a>
-          <ul class="dropdown-menu">
-            <li><a href="/data-governance-guide" class="dropdown-item">Data governance guide</a></li>
-            <li><a href="/factsheets" class="dropdown-item">Platform factsheets</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item">
-          <a href="#"  class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
-          <ul class="dropdown-menu">
-            <li><a href="/about" class="dropdown-item">About us</a></li>
-            <li><a href="/office-hours" class="dropdown-item">Office hours</a></li>
-          </ul>
-        </li>
-      </ul>
-
-    </nav>
-  </header>
-
-  <div class="container-lg pt-5">
+  <div class="container-lg">
     
     <div class="container-fluid fs-5">
-    <h2>Welcome to Australian Digital Observatory!</h2>
+    <h1 id="title">Welcome to Australian Digital Observatory!</h1>
     <p>The <a href="https://ardc.edu.au/project/australian-digital-observatory/">Australian Digital Observatory</a>
 is an <a href="https://ardc.edu.au">ARDC</a> platform working to establish a national
 infrastructure for accessing and analysing dynamic digital data, including existing
@@ -95,7 +104,7 @@ data pipelines. These tasks can be time-consuming and often involve a steep lear
 curve for specific technical skills. The ADO can reduce or
 eliminate this burden so that researchers can focus on analysis and interpretation.</p>
 <p>The ADO is curating a broad <a href="the-ado-ecosystem/">ecosystem</a> encompassing <a href="resources/categories/software/">software tools</a> and <a href="resources/categories/datasets/">datasets</a>, as well as all of the above.</p>
-<h3 id="chat-with-us">Chat with us</h3><p>We host a joint <a href="office-hours">fortnightly office hours</a> with the <a href="https://www.atap.edu.au/">Australian Text Analytics Platform</a> and the <a href="https://tlcmap.org/">Time Layered Cultural Map</a> every second Tuesday afternoon.</p>
+<h2 id="chat-with-us">Chat with us</h2><p>We host a joint <a href="office-hours">fortnightly office hours</a> with the <a href="https://www.atap.edu.au/">Australian Text Analytics Platform</a> and the <a href="https://tlcmap.org/">Time Layered Cultural Map</a> every second Tuesday afternoon.</p>
 
 
     <div class="row pt-3">
