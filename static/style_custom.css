@@ -8,12 +8,13 @@ body {
     margin-top: 0%;
 }
 
-body {
-  font-size: 18px;
+body,
+.fs-5 {
+  font-size: var(--font-content-size) !important;
 }
 
 p {
-  line-height: 150%;
+  line-height: 175%;
 }
 
 @media screen and (max-width: 500px) {
@@ -39,6 +40,18 @@ h1 > a {
 h1, h2, h3, h4, h5 {
   font-weight: 300;
   color: black;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
 }
 
 h1.display-1 {
@@ -164,4 +177,11 @@ div.accordion {
   color: #0066b9;
   background-color: #55e2fd;
   border-radius: 10px;
+}
+
+:root {
+  --font-content-size: 1rem;
+  --h1-font-size: calc(1.2rem + 1.1vw);
+  --h2-font-size: calc(1.1rem + 0.7vw);
+  --h3-font-size: calc(1.1rem + 0.3vw);
 }
