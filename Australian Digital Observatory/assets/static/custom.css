@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import "landing.css";
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 10%;
+    margin-top: 0%;
+}
+
+body,
+.fs-5 {
+  font-size: var(--font-content-size) !important;
+}
+
+
+p {
+  line-height: 175%;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 15px;
+}
+
+  p {
+    font-size: 15px;
+    line-height: 160%;
+  }
+}
+
+h1 > a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+#title {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 300;
+  color: black;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h1.display-1 {
+  text-align: center;
+  color: white;
+  font-size: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.navbar-brand {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.accordion-header {
+  margin: auto;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+h3, h4 {
+  line-height: 140%;
+}
+
+.accordion-header * {
+  font-weight: 400;
+  color: #0066b9;
+  font-size: 18px;
+}
+
+header {
+  padding: 1.5%;
+}
+
+.category_label, .tag_label {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.tag_label {
+  padding: 1px 10px;
+}
+
+.active.list-group-item a {
+  color: white;
+}
+
+/*.resources .panel {*/
+/*    background:  #EFF6FB;*/
+/*    border: 1px solid #DBDBDB;*/
+/*}*/
+
+.breakout {
+  margin: 1em 10%;
+  padding: 1em 1.5em;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  clear: both;
+}
+
+.breakout.infobox {
+  background-color: #D6DEFF;
+  border-color: #D6DEFF;
+}
+
+.last-updated {
+  font-size: 14px;
+  font-style: italic;
+}
+
+div.accordion {
+  margin-bottom: 1rem;
+}
+
+#ado-logo {
+  max-width: 70%;
+}
+
+@keyframes growOut {
+  0% {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100% !important;
+  }
+
+.dropdown-menu.show {
+  display: block;
+  animation: growOut 300ms ease-in-out forwards;
+  transform-origin: top left;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0066b9;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: #0066b9;
+  background-color: #55e2fd;
+  border-radius: 10px;
+}
+
+:root {
+  --font-content-size: 1rem;
+  --h1-font-size: calc(1.2rem + 1.1vw);
+  --h2-font-size: calc(1.1rem + 0.7vw);
+  --h3-font-size: calc(1.1rem + 0.3vw);
+}
+
