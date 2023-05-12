@@ -1,4 +1,4 @@
-title: Welcome to Australian Digital Observatory!
+title: Australian Digital Observatory
 ---
 _template: homepage.html
 ---
@@ -17,7 +17,7 @@ tidying, pre-processing, analytics, and visualisation to support academics’ re
 data pipelines. These tasks can be time-consuming and often involve a steep learning
 curve for specific technical skills. The ADO can reduce or
 eliminate this burden so that researchers can focus on analysis and interpretation.
-
+ 
 The ADO is curating a broad [ecosystem](../the-ado-ecosystem/) encompassing [software tools](../resources/categories/software/) and [datasets](../resources/categories/datasets/), as well as all of the above.
 
 ## Chat with us
