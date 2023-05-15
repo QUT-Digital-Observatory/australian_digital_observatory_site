@@ -1,0 +1,69 @@
+.cta {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    background: #0066b9;
+    padding: 4%;
+    border-radius: 16px;
+  }
+  
+  .cta {
+    width: calc(10rem + 1vw);
+  }
+  
+  .cta:hover {
+    background: #e7f1ff;
+  }
+  
+  svg {
+    fill: white;
+  }
+  
+  svg:hover,
+  .cta:hover svg {
+    fill: #0066b9;
+  }
+  
+  .card-title {
+    color: #0066BA;
+    font-weight: bold;
+  }
+  
+  .cta-button img,
+  .cta-button svg {
+    width: 20%;
+    margin-right: 2%;
+  }
+  
+  .cta-button {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  
+  #landing-cards .card {
+    background: #e7f1ff;
+    border-style: none;
+  }
+  
+  #landing-cards .card-body img {
+    width: 15%;
+    margin-bottom: 5%;
+  }
+  
+  
+  #landing-cards .card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  .blockquote {
+    font-size: var(--font-content-size) !important;
+    font-style: italic;
+  }
+  
+  .quote {
+    margin-bottom: 3%;
+  }
+  
