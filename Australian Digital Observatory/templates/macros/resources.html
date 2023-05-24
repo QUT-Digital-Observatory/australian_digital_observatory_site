@@ -19,3 +19,13 @@
   {% endfor %}
   </ul>
 {% endmacro %}
+
+
+{% macro generate_metadata_table(item, name) %}
+  {% if item %}
+    <tr>
+    <th scope="row">{{ name }}</th>
+    <td>{{ item }}</td>
+    </tr>
+  {% endif %}
+{% endmacro %}
