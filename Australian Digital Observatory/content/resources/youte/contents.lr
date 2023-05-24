@@ -8,7 +8,7 @@ datePublished: 2022-09-21
 ---
 description: youte is a command-line tool that collects and tidies YouTube video metadata and comments from YouTube Data API v.3. At the moment, the tool supports collecting public data that does not require OAuth 2.0.
 ---
-doi: http://researchdatafinder.qut.edu.au/individual/n28177
+doi: https://doi.org/10.25912/RDF_1684202566368
 ---
 feature: no
 ---
