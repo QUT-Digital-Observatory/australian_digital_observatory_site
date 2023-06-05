@@ -26,3 +26,9 @@ tags:
 
 tidy and model
 analyse
+---
+howToUse:
+
+The Coordination Network Toolkit is fully open-sourced and can be downloaded from [PyPI](https://pypi.org/project/coordination-network-toolkit/). Alternatively, the tool can be installed from source at GitHub at [https://github.com/QUT-Digital-Observatory/coordination-network-toolkit](https://github.com/QUT-Digital-Observatory/coordination-network-toolkit). 
+---
+seeMore: https://github.com/QUT-Digital-Observatory/coordination-network-toolkit
