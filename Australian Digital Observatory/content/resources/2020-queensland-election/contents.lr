@@ -8,7 +8,11 @@ datePublished: 2022-10-07
 ---
 description:
 
-This is a curated collection of tweets from the official Twitter accounts candidates in the 2020 Queensland state election, from 17 October 2020 to 03 November 2020 (shortly after election day on 31 October 2020). This dataset consists of three (3) .csv files, including two containing Tweet IDs and one containing candidate information. Use of the two Tweet ID .csv files to rehydrate tweets is solely for non-commercial research purposes and subject to Twitter's terms, including Twitter Terms of Service, Privacy Policy, Developer Agreement and Policy. 
+This is a curated collection of tweets from the official Twitter accounts candidates in the 2020 Queensland state election, from 17 October 2020 to 03 November 2020 (shortly after election day on 31 October 2020). 
+
+This dataset consists of three (3) .csv files, including two containing Tweet IDs and one containing candidate information. 
+
+Use of the two Tweet ID .csv files to rehydrate tweets is solely for non-commercial research purposes and subject to Twitter's terms, including Twitter Terms of Service, Privacy Policy, Developer Agreement and Policy. 
 ---
 doi: https://doi.org/10.25912/RDF_1665115527020
 ---
@@ -22,3 +26,9 @@ explore
 collect
 ---
 link: https://researchdatafinder.qut.edu.au/display/n18105
+---
+howToUse:
+
+The CSV files can be downloaded from [https://researchdatafinder.qut.edu.au/display/n18105](https://researchdatafinder.qut.edu.au/display/n18105). The Tweet IDs can be used to retrieve full tweet details with tools such as [Twarc](https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/#hydrate). 
+---
+seeMore: https://researchdatafinder.qut.edu.au/display/n18105
