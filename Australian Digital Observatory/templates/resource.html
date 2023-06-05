@@ -1,37 +1,46 @@
 {% extends "layout.html" %}
 {% from "macros/resources.html" import generate_metadata_table %}
-  {% block title %}{{ this.title }}{% endblock %}
-    {% block body %}
-    <h1>{{ this.title }}</h1>
-  <a class="category_label"
-    href="{{ site.get('/resource-categories').children.get('/{}'.format(this.category) ) |url }}">{{
-    this.category.capitalize() }}</a>
-  <p class="description">{{ this.description }}</p>
-  <p><strong><a href='/the-ado-ecosystem/#what-is-it-for'>Data-centric activities</a> this resource may assist
-      with:</strong>
-    {% if this.tags %}
-    {% for t in this.tags %}
-    <a class="tag_label" href="{{ ('/resources@tag/' ~ t.lower())|url }}">#{{ t }}</a>
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<h1>{{ this.title }}</h1>
+<a class="category_label"
+  href="{{ site.get('/resource-categories').children.get('/{}'.format(this.category) ) |url }}">{{
+  this.category.capitalize() }}</a>
+<p class="description">{{ this.description }}</p>
+
+<div id="how-to-use">
+  <h2>How to use this resource</h2>
+  {{ this.howToUse }}
+</div>
+
+<div>
+  <a id="use-cta" href="{{ this.seeMore }}">See more</a>
+</div>
+
+<h2>Additional information</h2>
+
+<table class="table">
+  <tbody>
+    {% set metadata = {
+    "Organisations/Institutions": this.owner,
+    "Date published": this.datePublished.strftime("%d-%m-%Y") if this.datePublished,
+    "URL": this.link,
+    "DOI": this.doi,
+    "Access conditions": this.access,
+    "Point of contact": this.poc,
+    }
+    %}
+    {% for k, i in metadata.items() %}
+    {{ generate_metadata_table(item=i, name=k) }}
     {% endfor %}
-    {% endif %}
-  </p>
+  </tbody>
+</table>
 
-  <h2>Additional information</h2>
-
-  <table class="table">
-    <tbody>
-      {% set metadata = {
-        "Organisations/Institutions": this.owner,
-        "Date published": this.datePublished.strftime("%d-%m-%Y") if this.datePublished,
-        "URL": this.link,
-        "DOI": this.doi,
-        "Access conditions": this.access,
-        "Point of contact": this.poc,
-        } 
-      %}
-      {% for k, i in metadata.items() %}
-        {{ generate_metadata_table(item=i, name=k) }}
-      {% endfor %}
-    </tbody>
-  </table>
+<p>Tags:
+  {% if this.tags %}
+  {% for t in this.tags %}
+  <a class="tag_label" href="{{ ('/resources@tag/' ~ t.lower())|url }}">#{{ t }}</a>
+  {% endfor %}
+  {% endif %}
+</p>
 {% endblock %}
