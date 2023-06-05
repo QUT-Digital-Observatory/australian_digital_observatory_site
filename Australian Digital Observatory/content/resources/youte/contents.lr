@@ -22,3 +22,7 @@ tags:
 
 collect
 tidy and model
+---
+howToUse: youte is fully open-sourced and can be downloaded from [PyPI](https://pypi.org/project/youte/). Alternatively, the tool can be installed from source at GitHub at https://github.com/QUT-Digital-Observatory/youte.
+---
+seeMore: https://youte.readthedocs.io/
