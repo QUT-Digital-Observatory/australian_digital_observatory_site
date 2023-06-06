@@ -10,7 +10,7 @@ description: youte is a command-line tool that collects and tidies YouTube video
 ---
 doi: https://doi.org/10.25912/RDF_1684202566368
 ---
-feature: no
+feature: yes
 ---
 link: https://github.com/QUT-Digital-Observatory/youte
 ---
