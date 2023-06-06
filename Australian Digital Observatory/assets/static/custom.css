@@ -196,7 +196,7 @@ div.accordion {
 
 /* Responsive design */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1600px) {
   body {
     font-size: 15px;
     margin: 0;
@@ -238,7 +238,60 @@ tr:nth-child(even) {
   text-align: center;
 }
 
-#use-cta:hover {
+#use-cta:hover,
+.featured-cta:hover {
   background: #e7f1ff;
   color: #0066b9;
+}
+
+/* Featured cards */
+
+#featured {
+  margin: 2% auto 0;
+}
+
+.truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.truncate p {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.featured-cta {
+  margin-top: 2%;
+  background-color: #0066b9;
+  border-color: #0066b9;
+}
+
+.card-title {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.bg-primary {
+  background-color: #0066b9 !important;
+}
+
+/* Pill colours */
+
+.datasets {
+  background-color: #E86A92 !important;
+}
+
+.services {
+  background-color: #0066b9 !important;
+}
+
+.software {
+  background-color: #34403A !important;
+}
+
+.documentation {
+  background-color: #BAD7F2 !important;
 }
