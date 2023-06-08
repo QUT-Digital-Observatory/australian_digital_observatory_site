@@ -72,15 +72,6 @@
               {% endfor %}
             </ul>
           </li>
-          <li class="dropdown nav-item">
-            <a href="#" {% if this.is_child_of('/data-governance-guide') or this.is_child_of('/factsheets') %}
-              class="active nav-link dropdown-toggle mx-3" {% endif %} class="nav-link dropdown-toggle mx-3"
-              data-bs-toggle="dropdown">Data Governance Guide</a>
-            <ul class="dropdown-menu mx-3">
-              <li><a href="/data-governance-guide" class="dropdown-item">Data governance guide</a></li>
-              <li><a href="/factsheets" class="dropdown-item">Platform factsheets</a></li>
-            </ul>
-          </li>
           <li class="nav-item">
             <a href="{{ '/blog'|url }}" {% if this.is_child_of('/blog') %} class="active nav-link" {% endif%}
               class="nav-link mx-3">Blog</a>
