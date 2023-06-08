@@ -1,5 +1,7 @@
 _model: page
 ---
+_template: guide.html
+___
 show_toc: yes
 ---
 body:
@@ -182,5 +184,10 @@ Good data governance requires considering data implications throughout the entir
         </div>
     </div>
 </div>
+
+### Resources: Platform Factsheets
+
+These fact sheets contain high-level information about a number of platforms, including their APIs, usage policy and terms of services, as well as some useful open-source tools that can be used. The fact sheets aim to be a starting point for researchers interested in working with these platforms.
+
 ---
 title: Data Governance for Human-Related Dynamic Digital Data: A General Guide for Researchers
