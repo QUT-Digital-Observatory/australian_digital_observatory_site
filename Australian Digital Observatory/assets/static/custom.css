@@ -217,7 +217,6 @@ div.accordion {
   }
 }
 
-
 /* Tables */
 
 tr:nth-child(even) {
@@ -305,4 +304,12 @@ tr:nth-child(even) {
 
 .documentation {
   background-color: #BAD7F2 !important;
+}
+
+/* Blog */
+
+.meta {
+  font-style: italic;
+  font-size: 12px;
+  text-align: right;
 }
