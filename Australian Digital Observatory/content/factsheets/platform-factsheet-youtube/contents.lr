@@ -30,7 +30,7 @@ A free Google Account is allocated 10,000 points per day, which reset at midnigh
 
 - [Client libraries to interact with YouTube Data API](https://developers.google.com/youtube/v3/libraries). Google provides client libraries to interact with their APIs, including YouTube Data API. The libraries are available in a number of programming languages such as Java, Python, and JavaScript.
 
-- [youte](https://github.com/QUT-Digital-Observatory/youte). An early-stage commandline tool that makes querying and tidying data from YouTube Data API easy.
+- [youte](/resources/youte/). An open source commandline tool that makes querying and tidying data from YouTube Data API easy.
 
 ---
 title: Platform Factsheet: YouTube
