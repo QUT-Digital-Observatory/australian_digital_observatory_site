@@ -127,6 +127,8 @@ header {
   color: white;
 }
 
+/* Breakout boxes */
+
 .breakout {
   margin: 1em 10%;
   padding: 1em 1.5em;
@@ -139,11 +141,22 @@ header {
 }
 
 .breakout.infobox {
-  background-color: #D6DEFF;
-  border-color: #D6DEFF;
+  border-color: #0066b9;
 }
 
-.last-updated {
+.breakout h4 {
+  background-color: #D6DEFF;
+  font-weight: 500;
+  padding: 2%;
+}
+
+.breakout h4::before {
+  content: "\2139 ";
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 5px;
+}
+
+.meta {
   font-size: 14px;
   font-style: italic;
 }
@@ -304,12 +317,4 @@ tr:nth-child(even) {
 
 .documentation {
   background-color: #BAD7F2 !important;
-}
-
-/* Blog */
-
-.meta {
-  font-style: italic;
-  font-size: 12px;
-  text-align: right;
 }
