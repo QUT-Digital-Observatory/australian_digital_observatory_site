@@ -7,6 +7,37 @@
     <h1 id="title">{{ this.title }}</h1>
     {{ this.body }}
 
+
+    <h2>Featured resources</h2>
+
+    <p>We offer a diverse catalogue of tools, datasets, documentation, and services that aim to assist researchers with
+        the time-consuming tasks of exploring, collecting, tidying and modelling, storing and organising, analysing, and
+        publishing data that might require specific technical skills. Below are some of our featured sources.</p>
+
+    <p>A full list of ADO resoures can be found <a href="/resources">here</a>.</p>
+
+    <div id="featured-cards" class="row">
+        {% set resources = site.get('/resources') %}
+        {% for resource in resources.children.filter(F.feature == true) %}
+        {% set description = resource.description.html.split('</p>')[0] %}
+        <div class="col">
+            <div class="card" id="featured">
+                <div class="card-body">
+                    <h4 class="card-title">{{ resource.title }}</h4>
+                    <span class="badge bg-primary rounded-pill {{ resource.category }}">{{ resource.category }}</span>
+                    <div class="truncate">
+                        <p class="card-text">{{ description }}</p>
+                    </div>
+                    <a href="{{ resource|url }}" class="btn btn-primary featured-cta">See more</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <a id="use-cta" href="/resources">Explore ADO resources</a>
+
+    <h2>Stakeholders</h2>
     <div class="row pt-3">
         <div class="col-sm">
             <div class="card">
@@ -28,23 +59,5 @@
         </div>
     </div>
 
-</div>
-<hr class="my-5">
-<div class="container-fluid">
-    <h2>Featured resources</h2>
-    {% set resources = site.get('/resources') %}
-    {% for resource in resources.children.filter(F.feature == true) %}
-    {% set description = resource.description.html.split('</p>')[0] %}
-    <div class="card" id="featured">
-        <div class="card-body">
-            <h4 class="card-title">{{ resource.title }}</h4>
-            <span class="badge bg-primary rounded-pill {{ resource.category }}">{{ resource.category }}</span>
-            <div class="truncate">
-                <p class="card-text">{{ description }}</p>
-            </div>
-            <a href="{{ resource|url }}" class="btn btn-primary featured-cta">See more</a>
-        </div>
-    </div>
-    {% endfor %}
 </div>
 {% endblock %}
