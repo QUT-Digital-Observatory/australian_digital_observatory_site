@@ -1,4 +1,4 @@
-title: Research Support
+title: Research support
 ---
 category: services
 ---
@@ -8,13 +8,13 @@ The QUT Digital Observatory collaborates with researchers and organisations to d
 
 The first step in using our services is to contact us by email or the expression of interest form below to set up an initial meeting where we will discuss the project topic and scope.
 ---
-feature: yes
+feature: no
 ---
 access: Subject to discussion with the QUT Digital Observatory
 ---
 datePublished: 2021-12-13
 ---
-link: https://www.qut.edu.au/research/why-qut/infrastructure/digital-observatory/services-and-equipment
+link: https://www.digitalobservatory.net.au/qut-digital-observatory/
 ---
 owner: QUT Digital Observatory
 ---
@@ -28,3 +28,9 @@ analyse
 tidy and model
 store and organise
 publish
+---
+howToUse:
+
+Researchers can contact the QUT Digital Observatory via email or [send a query](/expression-of-interest). 
+---
+seeMore: https://www.digitalobservatory.net.au/qut-digital-observatory/

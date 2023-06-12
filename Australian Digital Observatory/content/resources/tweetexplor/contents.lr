@@ -17,3 +17,7 @@ owner: QUT Digital Observatory
 poc: digitalobservatory@qut.edu.au
 ---
 tags: analyse
+---
+howToUse: tweetexploR is fully open-sourced and can be installed from [GitHub](https://github.com/QUT-Digital-Observatory/tweetexploR).
+---
+seeMore: https://github.com/QUT-Digital-Observatory/tweetexploR

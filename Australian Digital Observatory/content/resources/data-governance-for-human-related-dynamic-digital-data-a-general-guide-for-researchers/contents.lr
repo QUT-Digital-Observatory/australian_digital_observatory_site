@@ -1,4 +1,4 @@
-title: Data Governance for Human-Related Dynamic Digital Data: A General Guide for Researchers
+title: Data Governance Guide for Human-Related Dynamic Digital Data
 ---
 category: documentation
 ---
@@ -20,6 +20,10 @@ collect
 analyse
 storage
 ---
-feature: no
+feature: yes
 ---
 poc: Dr Marissa Takahashi (digitalobservatory@qut.edu.au)
+---
+howToUse: More details are provided in the [Data governance guide](/data-governance-guide).
+---
+seeMore: /data-governance-guide
