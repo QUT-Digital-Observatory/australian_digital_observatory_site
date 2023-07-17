@@ -1,0 +1,38 @@
+title: RIP Australian Twittersphere
+---
+author: QUT Digital Observatory
+---
+pub_date: 2023-07-17
+---
+body: 
+
+As Twitter has been gradually closing off free access to their APIs, *our collectors for the [Australian Twittersphere](/resources/australian-twittersphere/) were officially cut off on 13 July 2023*. 
+
+In this eulogy for the Australian Twittersphere, we will trace back the development of the databank throughout the years, the contributions it has made to the research community, and what lies next for the Digital Observatory.
+
+### About the Australian Twittersphere
+
+The [Australian Twittersphere](/resources/australian-twittersphere/) is a longitudinal collection of tweets from a periodically updated list of Twitter accounts that are identified as Australian (i.e., have a stated connection to Australia in the free text fields of the account profile). 
+
+For six years since its establishment, the Twittersphere have collected over **1.9 billion** tweets, from more than **1 million** Twitter accounts considered to be Australian. The earliest tweet captured was in 09 January 2007.
+
+
+#### Historical background
+
+Preceding the Digital Observatory, the Twittersphere started of as the [TrISMA project](https://research.qut.edu.au/dmrc/projects/trisma-tracking-infrastructure-for-social-media-analysis/) and began collecting tweets from roughly 530,000 Twitter accounts deemed as "Australian".
+
+There was a gap between May 2017, when the project ended, and early 2018, when our newly established QUT Digital Observatory took over the collection and improved on it. After that, we built another collector and developed methods to identify Australian accounts. The list of accounts was sporadically updated and expanded to account for new users and deleted accounts. Two account updates were made in late 2020 and 2021. More details on this can be found in the [Australian Twittersphere factsheet](https://qut-digital-observatory.github.io/australian_twittersphere_fact_sheet/).
+
+
+#### Research impacts
+
+The Twittersphere was our first major resource as a research infrastructure facility, providing historial, Australia-specific data to researchers at the time when it was not possible to geo-locate Twitter data (it still is). So much so that the Digital Observatory became synonymous with Australian Twittersphere.
+
+Data from Twittersphere have helped inform impactful research into [insert disciplines]. Most notably, [list a few major publications].
+
+### What's next for DO
+
+Twitter is only one of many cases where the gates to research-friendly, free-access APIs are gradually closing. Companies have begun to gatekeep their data by charging a considerable amount for their API access. We at the Digital Observatory are continuously looking for alternatives for researchers. We would love to hear from you on your research questions, the data you need for your research, and what data-related problems you are encountering. This will help us navigate the path forward in this "post-API" world.
+
+[State some updates: web archiving, platforms where API access is still possible (YouTube)]
+
