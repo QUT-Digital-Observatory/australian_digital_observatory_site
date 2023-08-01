@@ -73,6 +73,10 @@
             </ul>
           </li>
           <li class="nav-item">
+            <a href="{{ '/events'|url }}" {% if this.is_child_of('/events') %} class="active nav-link" {% endif%}
+              class="nav-link mx-3">Events</a>
+          </li>
+          <li class="nav-item">
             <a href="{{ '/blog'|url }}" {% if this.is_child_of('/blog') %} class="active nav-link" {% endif%}
               class="nav-link mx-3">Blog</a>
           </li>
