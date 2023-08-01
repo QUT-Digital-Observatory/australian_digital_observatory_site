@@ -8,13 +8,14 @@ body:
 
 As Twitter has been gradually closing off free access to their APIs, *our collectors for the [Australian Twittersphere](/resources/australian-twittersphere/) were officially cut off on 13 July 2023*. 
 
-In this eulogy for the Australian Twittersphere, we will trace back the development of the databank throughout the years, the contributions it has made to the research community, and what comes next for the Digital Observatory.
+In this eulogy for the Australian Twittersphere, we will trace back its evolution over the years, the contributions it has made to the research community, and what comes next for the Digital Observatory.
 
 ### About the Australian Twittersphere
 
 The [Australian Twittersphere](/resources/australian-twittersphere/) is a longitudinal collection of tweets from a periodically updated list of Twitter accounts that are identified as Australian (i.e., have a stated connection to Australia in the free text fields of the account profile). 
 
-Since the Australian Twittersphere's establishment six years ago, over **1.9 billion** tweets have been collected from more than **1 million** Twitter accounts considered to be Australian. The earliest tweet captured was posted on 9 January 2007.
+Since the Australian Twittersphere's establishment six years ago, over **1.9 billion** tweets have been collected from more than **1 million** Twitter accounts considered to be Australian.
+The earliest tweet captured was posted on 9 January 2007.
 
 
 #### Historical background
@@ -34,17 +35,17 @@ More details on this can be found in the [Australian Twittersphere factsheet](ht
 #### Research impacts
 
 The Australian Twittersphere was our first major resource as a research infrastructure facility.
-It provided historial, Australia-specific data to researchers at a time when it was not possible to geo-locate Twitter data (which is still the case).
+It provided historial, Australia-specific data to researchers at a time when it was not possible to geo-locate Twitter data in significant volumes (which is still the case: roughly 1% of tweets include precise geolocation information).
 At the time, so much of our work was related to the Australian Twittersphere that we became synonymous with it.
 
-Data from the Australian Twittersphere have helped inform impactful research into [insert disciplines]. Most notably, [list a few major publications].
+The Australian Twittersphere has helped inform impactful research into [insert disciplines]. Most notably, [list a few major publications].
 
 ### What's next for DO
 
 Twitter is only one of many cases where the gates to research-friendly, free-to-access APIs are gradually closing.
 Platforms have begun to gatekeep their data by charging a considerable amount for their API access.
 At the Digital Observatory we are continuously looking for alternatives for researchers, and indeed have been working with other platforms for several years.
-We would love to hear from you on your research questions, the data you need for your research, and what data-related problems you are encountering.
+We would love to hear from you about your research questions, the data you need for your research, and what data-related problems you are encountering.
 This will help us navigate the path forward in this "post-API" world.
 
 [State some updates: web archiving, platforms where API access is still possible (YouTube)]
