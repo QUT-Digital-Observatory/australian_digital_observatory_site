@@ -24,9 +24,9 @@ The Australian Twittersphere began as the [TrISMA project](https://research.qut.
 There was a gap in tweet collection between May 2017 and early 2018 which coincided with the TrISMA project ending and the QUT Digital Observatory being established.
 
 It was at this time that we (the [QUT Digital Observatory](qut-digital-observatory)) took over the tweet collection and made improvements to secure it as a stable longitudinal collection.
-Subsequently, we built another collector and developed methods to identify more Australian accounts.
-With these, we sporadically updated and expanded the list of accounts to account for new and revised accounts on the Twitter platform - the updates were completed in late 2020 and 2021. As a result, we were able to identify more Australian accounts and collect more tweets from them. The Twittersphere ended up with twice the number of accounts it first started with.
-
+Subsequently, we built another collector and developed a method to identify more Australian accounts.
+The method allowed us to periodically update the list of accounts and collect more tweets from them.
+Updates were completed in late 2020 and 2021, resulting in twice the number of accounts compared to the original list.
 
 More details on this can be found in the [Australian Twittersphere factsheet](https://qut-digital-observatory.github.io/australian_twittersphere_fact_sheet/).
 
@@ -45,15 +45,21 @@ The Australian Twittersphere has helped inform impactful research into education
 Twitter/X is only one of many cases where the gates to research-friendly, free-to-access APIs are gradually closing.
 Other platforms have also begun to gatekeep their data by charging for API access.
 
-The bad news is that researchers working with Twitter data are now having to bear the extra costs of the API. It's not cheap: a reasonable amount of 1 million tweets cost no less than $5,000 USD per month. There are also new limitations on the platform that you should be aware of. This [article](https://www.rmit.edu.au/news/crosscheck/navigating-x-formerly-twitter) gives a good overview of how to nagivate the new Twitter/X.
+For example, researchers working with Twitter data are now having to bear the extra costs of the API. It's not cheap: a reasonable amount of 1 million tweets costs no less than $5,000 USD per month.
+These costs mean that further collection for the Australian Twittersphere is no longer feasible, but we will continue to make the existing data available to researchers.
+There are also new limitations on the Twitter/X platform that researchers should be aware of.
+This [article](https://www.rmit.edu.au/news/crosscheck/navigating-x-formerly-twitter) gives a good overview of how to navigate the new Twitter/X.
 
-The good news is, not all doors are closed. Platforms such as [YouTube](https://developers.google.com/youtube/v3) or [Tiktok](https://developers.tiktok.com/products/research-api/) still maintain free API access for researchers (albeit with some limitations). You can, in addition, leverage other maturing methods of collecting Web data, such as web archiving and data donation. (Keep an eye out on this space. We will have some resources on these soon.)
+The good news is that not all doors are closed. Platforms such as [YouTube](https://developers.google.com/youtube/v3) and [Tiktok](https://developers.tiktok.com/products/research-api/) still provide free API access for researchers (albeit with some limitations).
+Indeed, the Digital Observatory has been working on different platforms and alternatives for researchers for several years. Our [youte](/resources/youte) tool is a fantastic example of this work.
+Researchers can also leverage other maturing methods of collecting Web data, such as web archiving and data donation.
+The Digital Observatory is working on resources for web archiving, so watch this space!
 
-While it's sad terminating such a meaningful and significant data collection, at the Digital Observatory we are continuously looking for alternatives for researchers, and indeed have been working with other platforms for several years. Tools such as [youte](/resources/youte) were developed to aid data collection from these platforms. The transition away from Twitter will be uncomfortable for some, but let us not forget that other vast sources of data still exist on the Web.
+The transition away from Twitter will be uncomfortable for some, but it is important to remember that other sources of data still exist on the Web.
 
 ##### Tell us your challenges at our Research Data Roundtable
 
-For us to navigate the path forward and work out how best to support researchers in this "post-API" world,  we would appreciate your feedback and input. Join us at our [Research Data Roundtable](https://bit.ly/research-data-roundtable) and share your research problems, the data you need for your research, and what data-related challenges you are encountering. Express your interest here via this form: https://bit.ly/research-data-roundtable.
+For us to navigate the path forward and work out how best to support researchers in this "post-API" world, we would appreciate your feedback and input. Join us at our [Research Data Roundtable](https://bit.ly/research-data-roundtable) and share your research problems, the data you need for your research, and what data-related challenges you are encountering. Express your interest here via this form: https://bit.ly/research-data-roundtable.
 
 ### Publications using the Australian Twittersphere
 
