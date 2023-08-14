@@ -6,15 +6,15 @@ pub_date: 2023-07-17
 ---
 body: 
 
-As Twitter has been gradually closing off free access to their APIs, *our collectors for the [Australian Twittersphere](/resources/australian-twittersphere/) were officially cut off on 13 July 2023*. 
+As Twitter began restricting free research access to their data, *our collectors for the [Australian Twittersphere](/resources/australian-twittersphere/) were officially cut off on 13 July 2023*. 
 
-In this eulogy for the Australian Twittersphere, we will trace back its evolution over the years, the contributions it has made to the research community, and what comes next for the Digital Observatory.
+In this eulogy for the Australian Twittersphere, we will trace back its evolution over the years, the contributions it has made to the research community, and what comes next for researchers and the Digital Observatory.
 
 ### About the Australian Twittersphere
 
 The [Australian Twittersphere](/resources/australian-twittersphere/) is a longitudinal collection of tweets from a periodically updated list of Twitter accounts that are identified as Australian (i.e., have a stated connection to Australia in the free text fields of the account profile). 
 
-Since the Australian Twittersphere's establishment six years ago, over **1.9 billion** tweets have been collected from more than **1 million** Twitter accounts considered to be Australian.
+Since the Twittersphere's establishment six years ago, over **1.9 billion** tweets have been collected from more than **1 million** Twitter accounts considered to be Australian.
 The earliest tweet captured was posted on 9 January 2007.
 
 
@@ -23,11 +23,10 @@ The earliest tweet captured was posted on 9 January 2007.
 The Australian Twittersphere began as the [TrISMA project](https://research.qut.edu.au/dmrc/projects/trisma-tracking-infrastructure-for-social-media-analysis/), during which tweets were collected from roughly 530,000 Twitter accounts deemed as "Australian".
 There was a gap in tweet collection between May 2017 and early 2018 which coincided with the TrISMA project ending and the QUT Digital Observatory being established.
 
-It was at this time that we (the QUT Digital Observatory) took over the tweet collection and made improvements to it to secure it as a stable, longitudinal collection.
-Subsequently, we built another collector and developed methods to identify Australian accounts.
-The list of accounts was sporadically updated and expanded to account for new and revised accounts on the Twitter platform.
-In other words, we were able to identify more Australian accounts and collect more tweets from them.
-Account updates were completed in late 2020 and 2021.
+It was at this time that we (the [QUT Digital Observatory](qut-digital-observatory)) took over the tweet collection and made improvements to secure it as a stable longitudinal collection.
+Subsequently, we built another collector and developed methods to identify more Australian accounts.
+With these, we sporadically updated and expanded the list of accounts to account for new and revised accounts on the Twitter platform - the updates were completed in late 2020 and 2021. As a result, we were able to identify more Australian accounts and collect more tweets from them. The Twittersphere ended up with twice the number of accounts it first started with.
+
 
 More details on this can be found in the [Australian Twittersphere factsheet](https://qut-digital-observatory.github.io/australian_twittersphere_fact_sheet/).
 
@@ -36,9 +35,27 @@ More details on this can be found in the [Australian Twittersphere factsheet](ht
 
 The Australian Twittersphere was our first major resource as a research infrastructure facility.
 It provided historial, Australia-specific data to researchers at a time when it was not possible to geo-locate Twitter data in significant volumes (which is still the case: roughly 1% of tweets include precise geolocation information).
-At the time, so much of our work was related to the Australian Twittersphere that we became synonymous with it.
+At the time, so much of our work was related to the Australian Twittersphere that the Digital Observatory became synonymous with it.
 
-The Australian Twittersphere has helped inform impactful research into education, health, business, law, and the humanities and social sciences.
+The Australian Twittersphere has helped inform impactful research into education, health, business, law, and the humanities and social sciences. A non-exhaustive list of publications arising from this databank is listed below.
+
+
+### What's next for researchers
+
+Twitter/X is only one of many cases where the gates to research-friendly, free-to-access APIs are gradually closing.
+Other platforms have also begun to gatekeep their data by charging for API access.
+
+The bad news is that researchers working with Twitter data are now having to bear the extra costs of the API. It's not cheap: a reasonable amount of 1 million tweets cost no less than $5,000 USD per month. There are also new limitations on the platform that you should be aware of. This [article](https://www.rmit.edu.au/news/crosscheck/navigating-x-formerly-twitter) gives a good overview of how to nagivate the new Twitter/X.
+
+The good news is, not all doors are closed. Platforms such as [YouTube](https://developers.google.com/youtube/v3) or [Tiktok](https://developers.tiktok.com/products/research-api/) still maintain free API access for researchers (albeit with some limitations). You can also leverage other methods of collecting Web data, such as web archiving and data donation. Keep an eye out on this space. We will have some resources on these soon.
+
+While it's sad terminating such a meaningful and significant data collection, at the Digital Observatory we are continuously looking for alternatives for researchers, and indeed have been working with other platforms for several years. Tools such as [youte](/resources/youte) were developed to aid data collection from these platforms. The transition away from Twitter will be uncomfortable for some, but let us not forget that other vast sources of data still exist on the Web.
+
+##### Tell us your challenges at our Research Data Roundtable
+
+For us to navigate the path forward and work out how best to support researchers in this "post-API" world,  we would appreciate your feedback and input. Join us at our [Research Data Roundtable](https://bit.ly/research-data-roundtable) and share your research problems, the data you need for your research, and what data-related challenges you are encountering. Express your interest here via this form: https://bit.ly/research-data-roundtable.
+
+### Publications using the Australian Twittersphere
 
 Publications that have used the Australian Twittersphere include:
 
@@ -59,15 +76,3 @@ Publications that have used the Australian Twittersphere include:
 - Yigitcanlar, T., Hewa Heliyagoda Kankanamge, R. N. E., & Vella, K. (2020). How are smart city concepts and technologies perceived and utilized? A systematic geo-Twitter analysis of smart cities in Australia. Journal of Urban Technology, 1–20. Retrieved January 11, 2021, from https://eprints.qut.edu.au/199301/
 - Yigitcanlar, T., Kankanamge, N., Preston, A., Gill, P. S., Rezayee, M., Ostadnia, M., Xia, B., et al. (2020). How can social media analytics assist authorities in pandemic-related policy decisions? Insights from Australian states and territories. Health Information Science and Systems, 8(1), 37. Retrieved January 11, 2021, from https://doi.org/10.1007/s13755-020-00121-9
 - Yigitcanlar, T., Regona, M., Kankanamge, N., Mehmood, R., D’Costa, J., Lindsay, S., Nelson, S., et al. (2022). Detecting Natural Hazard-Related Disaster Impacts with Social Media Analytics: The Case of Australian States and Territories. Sustainability, 14(2), 810. Retrieved April 18, 2022, from https://www.mdpi.com/2071-1050/14/2/810
-
-
-### What's next for DO
-
-Twitter is only one of many cases where the gates to research-friendly, free-to-access APIs are gradually closing.
-Platforms have begun to gatekeep their data by charging a considerable amount for their API access.
-At the Digital Observatory we are continuously looking for alternatives for researchers, and indeed have been working with other platforms for several years.
-We would love to hear from you about your research questions, the data you need for your research, and what data-related problems you are encountering.
-This will help us navigate the path forward in this "post-API" world.
-
-[State some updates: web archiving, platforms where API access is still possible (YouTube)]
-
