@@ -1,0 +1,84 @@
+title: RIP Australian Twittersphere
+---
+author: QUT Digital Observatory
+---
+pub_date: 2023-07-17
+---
+body: 
+
+As Twitter began restricting free research access to their data, *our collectors for the [Australian Twittersphere](/resources/australian-twittersphere/) were officially cut off on 13 July 2023*. 
+
+In this eulogy for the Australian Twittersphere, we will trace back its evolution over the years, the contributions it has made to the research community, and what comes next for researchers and the Digital Observatory.
+
+### About the Australian Twittersphere
+
+The [Australian Twittersphere](/resources/australian-twittersphere/) is a longitudinal collection of tweets from a periodically updated list of Twitter accounts that are identified as Australian (i.e., have a stated connection to Australia in the free text fields of the account profile). 
+
+Since the Twittersphere's establishment six years ago, over **1.9 billion** tweets have been collected from more than **1 million** Twitter accounts considered to be Australian.
+The earliest tweet captured was posted on 9 January 2007.
+
+
+#### Historical background
+
+The Australian Twittersphere began as the [TrISMA project](https://research.qut.edu.au/dmrc/projects/trisma-tracking-infrastructure-for-social-media-analysis/), during which tweets were collected from roughly 530,000 Twitter accounts deemed as "Australian".
+There was a gap in tweet collection between May 2017 and early 2018 which coincided with the TrISMA project ending and the QUT Digital Observatory being established.
+
+It was at this time that we (the [QUT Digital Observatory](qut-digital-observatory)) took over the tweet collection and made improvements to secure it as a stable longitudinal collection.
+Subsequently, we built another collector and developed a method to identify more Australian accounts.
+The method allowed us to periodically update the list of accounts and collect more tweets from them.
+Updates were completed in late 2020 and 2021, resulting in twice the number of accounts compared to the original list.
+
+More details on this can be found in the [Australian Twittersphere factsheet](https://qut-digital-observatory.github.io/australian_twittersphere_fact_sheet/).
+
+
+#### Research impacts
+
+The Australian Twittersphere was our first major resource as a research infrastructure facility.
+It provided historial, Australia-specific data to researchers at a time when it was not possible to geo-locate Twitter data in significant volumes (which is still the case: roughly 1% of tweets include precise geolocation information).
+At the time, so much of our work was related to the Australian Twittersphere that the Digital Observatory became synonymous with it.
+
+The Australian Twittersphere has helped inform impactful research into education, health, business, law, and the humanities and social sciences. A non-exhaustive list of publications arising from this databank is listed below.
+
+
+### What's next for researchers
+
+Twitter/X is only one of many cases where the gates to research-friendly, free-to-access APIs are gradually closing.
+Other platforms have also begun to gatekeep their data by charging for API access.
+
+For example, researchers working with Twitter data are now having to bear the extra costs of the API. It's not cheap: a reasonable amount of 1 million tweets costs no less than $5,000 USD per month.
+These costs mean that further collection for the Australian Twittersphere is no longer feasible, but we will continue to make the existing data available to researchers.
+There are also new limitations on the Twitter/X platform that researchers should be aware of.
+This [article](https://www.rmit.edu.au/news/crosscheck/navigating-x-formerly-twitter) gives a good overview of how to navigate the new Twitter/X.
+
+The good news is that not all doors are closed. Platforms such as [YouTube](https://developers.google.com/youtube/v3) and [Tiktok](https://developers.tiktok.com/products/research-api/) still provide free API access for researchers (albeit with some limitations).
+Indeed, the Digital Observatory has been working on different platforms and alternatives for researchers for several years. Our [youte](/resources/youte) tool is a fantastic example of this work.
+Researchers can also leverage other maturing methods of collecting Web data, such as web archiving and data donation.
+The Digital Observatory is working on resources for web archiving, so watch this space!
+
+The transition away from Twitter will be uncomfortable for some, but it is important to remember that other sources of data still exist on the Web.
+
+##### Tell us your challenges at our Research Data Roundtable
+
+For us to navigate the path forward and work out how best to support researchers in this "post-API" world, we would appreciate your feedback and input. Join us at our [Research Data Roundtable](https://bit.ly/research-data-roundtable) and share your research problems, the data you need for your research, and what data-related challenges you are encountering. Express your interest here via this form: https://bit.ly/research-data-roundtable.
+
+### Publications using the Australian Twittersphere
+
+Publications that have used the Australian Twittersphere include:
+
+- Balasubramaniam, T., Nayak, R., & Bashar, M. A. (2020). Understanding the Spatio-temporal Topic Dynamics of Covid-19 using Nonnegative Tensor Factorization: A Case Study. 2020 IEEE Symposium Series on Computational Intelligence (SSCI). Retrieved January 11, 2021, from https://ausdm20.ausdm.org/index.html
+- Balasubramaniam, T., Nayak, R., Luong, K., & Bashar, Md. A. (2021). Identifying Covid-19 misinformation tweets and learning their spatio-temporal topic dynamics using Nonnegative Coupled Matrix Tensor Factorization. Social Network Analysis and Mining, 11(1), 57. Retrieved June 22, 2021, from https://doi.org/10.1007/s13278-021-00767-7
+- Barnes, N. (2021b). The social life of literacy education: How the 2018 #phonicsdebate is reshaping the field. The Australian Educational Researcher. Retrieved April 20, 2021, from https://doi.org/10.1007/s13384-021-00451-x
+- Barnes, N. (2021a). Parents, carers, and policy labor: Policy networks and new media. New Media & Society, 1461444820979004. Retrieved February 22, 2021, from https://doi.org/10.1177/1461444820979004
+- Bashar, M. A., Nayak, R., & Balasubramaniam, T. (2020). Topic, Sentiment and Impact Analysis: COVID19 Information Seeking on Social Media. arXiv:2008.12435 [cs]. Retrieved January 11, 2021, from http://arxiv.org/abs/2008.12435
+- Bruns, A., Angus, D., & Graham, T. (2019, May). The 2019 election on Twitter: Watergate, mums, and well-organised independents. The Conversation. Retrieved April 22, 2022, from http://theconversation.com/the-2019-election-on-twitter-watergate-mums-and-well-organised-independents-117182
+- Cooper, K., Dedehayir, O., Riverola, C., Harrington, S., & Alpert, E. (2022). Exploring Consumer Perceptions of the Value Proposition Embedded in Vegan Food Products Using Text Analytics. Sustainability, 14(4), 2075. Retrieved February 14, 2022, from https://www.mdpi.com/2071-1050/14/4/2075
+- Layt, S. (2020, June). How social media was ahead of the curve when it came to COVID-19. The Age. Retrieved January 11, 2021, from https://www.theage.com.au/national/queensland/how-social-media-was-ahead-of-the-curve-when-it-came-to-covid-19-20200629-p557cp.html
+- Queensland University of Technology. (2020, November). Social media can guide public pandemic policy: QUT research. QUT News. Retrieved January 11, 2021, from https://www.qut.edu.au/news?id=170713
+- Queensland University of Technology. (2020, June). First 100 days of COVID-19 - Australian Twitter users’ concerns mapped. QUT News. Retrieved January 11, 2021, from https://www.qut.edu.au/news?id=164908
+- Schweinberger, M., Haugh, M., & Hames, S. (2021). Analysing discourse around COVID-19 in the Australian Twittersphere: A real-time corpus-based analysis. Big Data & Society, 8(1), 20539517211021437. Retrieved February 17, 2022, from https://doi.org/10.1177/20539517211021437
+- Tulloch, A. I. T., Miller, A., & Dean, A. J. (2021). Does scientific interest in the nature impacts of food align with consumer information-seeking behavior? Sustainability Science. Retrieved April 30, 2021, from https://doi.org/10.1007/s11625-021-00920-3
+- Vasconcelos Silva, C., Jayasinghe, D., & Janda, M. (2020). What Can Twitter Tell Us about Skin Cancer Communication and Prevention on Social Media? Dermatology, 236(2), 81–89. Retrieved January 11, 2021, from https://www.karger.com/Article/FullText/506458
+- Yigitcanlar, T., Hewa Heliyagoda Kankanamge, R. N. E., Regona, M., Maldonado, A., Rowan, B., Ryu, A., Desouza, K., et al. (2020). Artificial intelligence technologies and related urban planning and development concepts: How are they perceived and utilized in Australia? Journal of Open Innovation: Technology, Market, and Complexity, 6(4), Article number: 187 1–21. Retrieved January 11, 2021, from https://eprints.qut.edu.au/206976/
+- Yigitcanlar, T., Hewa Heliyagoda Kankanamge, R. N. E., & Vella, K. (2020). How are smart city concepts and technologies perceived and utilized? A systematic geo-Twitter analysis of smart cities in Australia. Journal of Urban Technology, 1–20. Retrieved January 11, 2021, from https://eprints.qut.edu.au/199301/
+- Yigitcanlar, T., Kankanamge, N., Preston, A., Gill, P. S., Rezayee, M., Ostadnia, M., Xia, B., et al. (2020). How can social media analytics assist authorities in pandemic-related policy decisions? Insights from Australian states and territories. Health Information Science and Systems, 8(1), 37. Retrieved January 11, 2021, from https://doi.org/10.1007/s13755-020-00121-9
+- Yigitcanlar, T., Regona, M., Kankanamge, N., Mehmood, R., D’Costa, J., Lindsay, S., Nelson, S., et al. (2022). Detecting Natural Hazard-Related Disaster Impacts with Social Media Analytics: The Case of Australian States and Territories. Sustainability, 14(2), 810. Retrieved April 18, 2022, from https://www.mdpi.com/2071-1050/14/2/810
