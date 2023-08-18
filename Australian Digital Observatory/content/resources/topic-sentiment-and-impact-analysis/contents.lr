@@ -1,0 +1,29 @@
+title: Topic, sentiment and impact analysis: COVID19 information seeking on social media
+
+access: Open access
+---
+category: publications
+---
+datePublished: 2020-08-28
+---
+description:
+
+When people notice something unusual, they discuss it on social media.
+They leave traces of their emotions via text expressions.
+A systematic collection, analysis, and interpretation of social media data across time and space can give insights on local outbreaks, mental health, and social issues.
+Such timely insights can help in developing strategies and resources with an appropriate and efficient response.
+This study analysed a large Spatio-temporal tweet dataset of the Australian sphere related to COVID19.
+The methodology included a volume analysis, dynamic topic modelling, sentiment detection, and semantic brand score to obtain an insight on the COVID19 pandemic outbreak and public discussion in different states and cities of Australia over time.
+The obtained insights are compared with independently observed phenomena such as government reported instances.
+
+**Attribution to ADO: Mentioned in-text as the source of the data**
+---
+doi: https://doi.org/10.48550/arXiv.2008.12435
+---
+link: https://arxiv.org/abs/2008.12435
+---
+owner: Md Abul Bashar, Richi Nayak, and Thirunavukarasu Balasubramaniam
+---
+poc: Md Abul Bashar - m1.bashar@qut.edu.au
+---
+tags: analyse
