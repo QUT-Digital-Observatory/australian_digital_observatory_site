@@ -4,7 +4,8 @@ body:
 
 This platform-specific fact sheet is intended to provide researchers with tips and resources to get started using X (formerly Twitter) in their research.
 
-Researchers should be aware that platforms can and do change over time, so for the most up to date information please refer to X/Twitter's [official documentation](https://developer.twitter.com/en/docs). We have provided some links to Twitter's documentation below and will endeavour to keep them up to date.
+Researchers should be aware that platforms can and do change over time, so for the most up to date information please refer to X/Twitter's [official documentation](https://developer.twitter.com/en/docs).
+We have provided some links to X/Twitter's documentation below and will endeavour to keep them up to date.
 
 ### Is there an API?
 
@@ -18,9 +19,11 @@ Researchers should be aware that platforms can and do change over time, so for t
 
 - [Developer and API documentation](https://developer.twitter.com/en/docs)
 
-- [Building high-quality filters for getting X/Twitter data](https://developer.twitter.com/en/docs/tutorials/building-high-quality-filters)
+- [Building high-quality filters for getting X/Twitter data](https://developer.twitter.com/en/docs/tutorials/building-high-quality-filters):
+This guide helps you to determine the most appropriate search strategy for collecting Tweets that are relevant to your research.
 
-- [Navigating X, formerly Twitter: A guide for journalists](https://www.rmit.edu.au/news/crosscheck/navigating-x-formerly-twitter)
+- [Navigating X, formerly Twitter: A guide for journalists](https://www.rmit.edu.au/news/crosscheck/navigating-x-formerly-twitter):
+This article is useful for anyone working with X/Twitter's API, not just journalists.
 
 ### Basic information about the API
 
@@ -37,9 +40,11 @@ See the following link for more information about [X/Twitter API access levels a
 
 ### Tools
 
-- [twarc](https://twarc-project.readthedocs.io/) is a command line tool and Python library for collecting an archiving X/Twitter JSON data via the X/Twitter API. It has an ecosystem of plugins for doing things with the collected data.
+- [twarc](https://twarc-project.readthedocs.io/) is a command line tool and Python library for collecting an archiving X/Twitter JSON data via the X/Twitter API.
+It has an ecosystem of plugins for doing things with the collected data.
 
-- [tidy_tweet](https://pypi.org/project/tidy-tweet/) tidies X/Twitter JSON collected with twarc into relational tables. The resulting SQLite database is ideal for importing into analytical tools, or for using as a datasource for a programmatic analytical workflow that is more efficient than working directly from the raw JSON.
+- [tidy_tweet](https://pypi.org/project/tidy-tweet/) tidies X/Twitter JSON collected with twarc into relational tables.
+The resulting SQLite database is ideal for importing into analytical tools, or for using as a datasource for a programmatic analytical workflow that is more efficient than working directly from the raw JSON.
 
 - [tweetexploR](https://github.com/QUT-Digital-Observatory/tweetexploR) is an R package for exploring and visualising tidy Twitter data created with the tidy_tweet library.
 ---
