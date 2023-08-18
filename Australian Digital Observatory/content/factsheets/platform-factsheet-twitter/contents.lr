@@ -2,9 +2,9 @@ show_toc:
 ---
 body:
 
-This platform-specific fact sheet is intended to provide researchers with tips and resources to get started using Twitter in their research.
+This platform-specific fact sheet is intended to provide researchers with tips and resources to get started using X (formerly Twitter) in their research.
 
-Researchers should be aware that platforms can and do change over time, so for the most up to date information please refer to Twitter's [official documentation](https://developer.twitter.com/en/docs). We have provided some links to Twitter's documentation below and will endeavour to keep them up to date.
+Researchers should be aware that platforms can and do change over time, so for the most up to date information please refer to X/Twitter's [official documentation](https://developer.twitter.com/en/docs). We have provided some links to Twitter's documentation below and will endeavour to keep them up to date.
 
 ### Is there an API?
 
@@ -18,30 +18,31 @@ Researchers should be aware that platforms can and do change over time, so for t
 
 - [Developer and API documentation](https://developer.twitter.com/en/docs)
 
-- [Query builder for v2 API](https://developer.twitter.com/apitools/query)
+- [Building high-quality filters for getting X/Twitter data](https://developer.twitter.com/en/docs/tutorials/building-high-quality-filters)
 
-- [Building high-quality filters for getting Twitter data](https://developer.twitter.com/en/docs/tutorials/building-high-quality-filters)
+- [Navigating X, formerly Twitter: A guide for journalists](https://www.rmit.edu.au/news/crosscheck/navigating-x-formerly-twitter)
 
 ### Basic information about the API
 
-Twitter's API has three access levels: Essential, Elevated, and Academic Research.
+X/Twitter's API has four access levels: Free, Basic, Pro, and Enterprise.
 
 Rate limits:
 
-- Essential allows you to retrieve 500,000 tweets per month (only tweets from the past 7 days).
-- Elevated allows you to retrieve 2 million tweets per month.
-- Academic Research allows you to retrieve 10 million tweets per month.
+- Free access does not allow tweet retrieval, only tweet creation.
+- Basic access allows you to retrieve 10,000 tweets per month at a cost of US$100 per month.
+- Pro access allows you to retrieve 1,000,000 tweets per month at a cost of US$5,000 per month.
+- Essential access is provided on a case-by-case basis.
 
-See the following link for more information about [Twitter API access levels and versions](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-level).
+See the following link for more information about [X/Twitter API access levels and versions](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-level).
 
 ### Tools
 
-- [twarc](https://twarc-project.readthedocs.io/) is a command line tool and Python library for collecting an archiving Twitter JSON data via the Twitter API. It has an ecosystem of plugins for doing things with the collected data.
+- [twarc](https://twarc-project.readthedocs.io/) is a command line tool and Python library for collecting an archiving X/Twitter JSON data via the X/Twitter API. It has an ecosystem of plugins for doing things with the collected data.
 
-- [tidy_tweet](https://pypi.org/project/tidy-tweet/) tidies Twitter JSON collected with twarc into relational tables. The resulting SQLite database is ideal for importing into analytical tools, or for using as a datasource for a programmatic analytical workflow that is more efficient than working directly from the raw JSON.
+- [tidy_tweet](https://pypi.org/project/tidy-tweet/) tidies X/Twitter JSON collected with twarc into relational tables. The resulting SQLite database is ideal for importing into analytical tools, or for using as a datasource for a programmatic analytical workflow that is more efficient than working directly from the raw JSON.
 
 - [tweetexploR](https://github.com/QUT-Digital-Observatory/tweetexploR) is an R package for exploring and visualising tidy Twitter data created with the tidy_tweet library.
 ---
-title: Platform Factsheet: Twitter
+title: Platform Factsheet: X (formerly Twitter)
 ---
-date_updated: 2022-11-28
+date_updated: 2023-08-18
