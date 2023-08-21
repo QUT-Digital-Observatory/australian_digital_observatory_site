@@ -19,7 +19,7 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../../static/custom.css">
-  <title>Platform Factsheet: Twitter — Australian Digital Observatory</title>
+  <title>Platform Factsheet: X (formerly Twitter) — Australian Digital Observatory</title>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-96RSB604XP"></script>
@@ -105,34 +105,40 @@
 
   <div class="container-lg px-5">
     
-  <h1>Platform Factsheet: Twitter</h1>
+  <h1>Platform Factsheet: X (formerly Twitter)</h1>
     
-  <p class="meta">Last updated: 2022-11-28</p>
+  <p class="meta">Last updated: 2023-08-18</p>
 
-  <p>This platform-specific fact sheet is intended to provide researchers with tips and resources to get started using Twitter in their research.</p>
-<p>Researchers should be aware that platforms can and do change over time, so for the most up to date information please refer to Twitter's <a href="https://developer.twitter.com/en/docs">official documentation</a>. We have provided some links to Twitter's documentation below and will endeavour to keep them up to date.</p>
+  <p>This platform-specific fact sheet is intended to provide researchers with tips and resources to get started using X (formerly Twitter) in their research.</p>
+<p>Researchers should be aware that platforms can and do change over time, so for the most up to date information please refer to X/Twitter's <a href="https://developer.twitter.com/en/docs">official documentation</a>.
+We have provided some links to X/Twitter's documentation below and will endeavour to keep them up to date.</p>
 <h3 id="is-there-an-api">Is there an API?</h3><p><a href="https://developer.twitter.com/en/docs/twitter-api">Yes</a></p>
 <h3 id="is-there-a-terms-of-service">Is there a Terms of Service?</h3><p><a href="https://twitter.com/en/tos">Yes</a></p>
 <h3 id="developer-guides-and-documentation">Developer guides and documentation</h3><ul>
 <li><p><a href="https://developer.twitter.com/en/docs">Developer and API documentation</a></p>
 </li>
-<li><p><a href="https://developer.twitter.com/apitools/query">Query builder for v2 API</a></p>
+<li><p><a href="https://developer.twitter.com/en/docs/tutorials/building-high-quality-filters">Building high-quality filters for getting X/Twitter data</a>:
+This guide helps you to determine the most appropriate search strategy for collecting Tweets that are relevant to your research.</p>
 </li>
-<li><p><a href="https://developer.twitter.com/en/docs/tutorials/building-high-quality-filters">Building high-quality filters for getting Twitter data</a></p>
+<li><p><a href="https://www.rmit.edu.au/news/crosscheck/navigating-x-formerly-twitter">Navigating X, formerly Twitter: A guide for journalists</a>:
+This article is useful for anyone working with X/Twitter's API, not just journalists.</p>
 </li>
 </ul>
-<h3 id="basic-information-about-the-api">Basic information about the API</h3><p>Twitter's API has three access levels: Essential, Elevated, and Academic Research.</p>
+<h3 id="basic-information-about-the-api">Basic information about the API</h3><p>X/Twitter's API has four access levels: Free, Basic, Pro, and Enterprise.</p>
 <p>Rate limits:</p>
 <ul>
-<li>Essential allows you to retrieve 500,000 tweets per month (only tweets from the past 7 days).</li>
-<li>Elevated allows you to retrieve 2 million tweets per month.</li>
-<li>Academic Research allows you to retrieve 10 million tweets per month.</li>
+<li>Free access does not allow tweet retrieval, only tweet creation.</li>
+<li>Basic access allows you to retrieve 10,000 tweets per month at a cost of US$100 per month.</li>
+<li>Pro access allows you to retrieve 1,000,000 tweets per month at a cost of US$5,000 per month.</li>
+<li>Essential access is provided on a case-by-case basis.</li>
 </ul>
-<p>See the following link for more information about <a href="https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-level">Twitter API access levels and versions</a>.</p>
+<p>See the following link for more information about <a href="https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-level">X/Twitter API access levels and versions</a>.</p>
 <h3 id="tools">Tools</h3><ul>
-<li><p><a href="https://twarc-project.readthedocs.io/">twarc</a> is a command line tool and Python library for collecting an archiving Twitter JSON data via the Twitter API. It has an ecosystem of plugins for doing things with the collected data.</p>
+<li><p><a href="https://twarc-project.readthedocs.io/">twarc</a> is a command line tool and Python library for collecting an archiving X/Twitter JSON data via the X/Twitter API.
+It has an ecosystem of plugins for doing things with the collected data.</p>
 </li>
-<li><p><a href="https://pypi.org/project/tidy-tweet/">tidy_tweet</a> tidies Twitter JSON collected with twarc into relational tables. The resulting SQLite database is ideal for importing into analytical tools, or for using as a datasource for a programmatic analytical workflow that is more efficient than working directly from the raw JSON.</p>
+<li><p><a href="https://pypi.org/project/tidy-tweet/">tidy_tweet</a> tidies X/Twitter JSON collected with twarc into relational tables.
+The resulting SQLite database is ideal for importing into analytical tools, or for using as a datasource for a programmatic analytical workflow that is more efficient than working directly from the raw JSON.</p>
 </li>
 <li><p><a href="https://github.com/QUT-Digital-Observatory/tweetexploR">tweetexploR</a> is an R package for exploring and visualising tidy Twitter data created with the tidy_tweet library.</p>
 </li>
