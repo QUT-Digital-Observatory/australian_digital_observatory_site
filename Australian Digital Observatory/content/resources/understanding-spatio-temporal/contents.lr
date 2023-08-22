@@ -1,0 +1,28 @@
+title: Understanding the spatio-temporal topic dynamics of Covid-19 using nonnegative tensor factorization: A case study
+---
+access: Open access
+---
+category: publications
+---
+datePublished: 2021-01-05
+---
+description:
+
+Social media platforms facilitate mankind a data-driven world by enabling billions of people to share their thoughts and activities ubiquitously.
+This huge collection of data, if analysed properly, can provide useful insights into people's behavior.
+More than ever, now is a crucial time under the Covid-19 pandemic to understand people's online behaviors detailing what topics are being discussed, and where (space) and when (time) they are discussed.
+Given the high complexity and poor quality of the huge social media data, an effective spatio-temporal topic detection method is needed.
+This paper proposes a tensor-based representation of social media data and Non-negative Tensor Factorization (NTF) to identify the topics discussed in social media data along with the spatio-temporal topic dynamics.
+A case study on Covid-19 related tweets from the Australia Twittersphere is presented to identify and visualize spatio-temporal topic dynamics on Covid-19.
+
+**Attribution to ADO: Acknowledgement**
+---
+doi: https://doi.org/10.1109/SSCI47803.2020.9308265
+---
+link: https://ieeexplore.ieee.org/document/9308265
+---
+owner: Thirunavukarasu Balasubramaniam, Richi Nayak, and Md Abul Bashar
+---
+poc: Thirunavukarasu Balasubramaniam - thirunavukarasu.balas@qut.edu.au
+---
+tags: analyse
