@@ -4,15 +4,21 @@ body:
 
 This platform-specific fact sheet is intended to provide researchers with tips and resources to get started using Reddit in their research.
 
-Researchers should be aware that these platforms can and do change over time. Therefore, for the most up to date information, please refer to Reddit's [official documentation](https://www.reddit.com/dev/api). The links below are helpful starting points.
+Researchers should be aware that these platforms can and do change over time.
+Therefore, for the most up to date information, please refer to Reddit's [official documentation](https://www.reddit.com/dev/api).
+The links below are helpful starting points.
 
 ### Is there an API?
 
-[Yes](https://github.com/reddit-archive/reddit/wiki/API)
+[Yes](https://www.reddit.com/dev/api/)
 
 ### Is there a Terms of Service?
 
-[Yes](https://www.redditinc.com/policies/user-agreement-september-12-2021)
+[Yes: Developer Terms](https://www.redditinc.com/policies/developer-terms)
+
+[Yes: Data API Terms](https://www.redditinc.com/policies/data-api-terms)
+
+Note: There are several other terms (e.g., User Agreement) which can be navigated to from either of the above links.
 
 ### Developer guides and documentation
 
@@ -20,22 +26,34 @@ Researchers should be aware that these platforms can and do change over time. Th
 
 - [Reddit Developer subreddit](https://www.reddit.com/r/redditdev/)
 
+- [Reddit Data API wiki](https://support.reddithelp.com/hc/en-us/articles/16160319875092-Reddit-Data-API-Wiki) including links to Developer Terms and Data API Terms (which are also listed above).
+
+- [Reddit post by Reddit on 10/06/23 regarding changes to the Reddit API](https://www.reddit.com/r/reddit/comments/145bram/addressing_the_community_about_changes_to_our_api/)
+
 ### Basic information about the API
 
-OAuth2 is required to access the API. Read more on how to set up OAuth2 for Reddit API [here](https://github.com/reddit-archive/reddit/wiki/OAuth2).
+There are two ways to access the API: With or without OAuth.
 
-Rate limits: up 60 requests per minute. API usage metadata are included in the response headers so that the rate limit can be monitored. Read more about Reddit rate limits [here](https://github.com/reddit-archive/reddit/wiki/API#rules).
+It is highly recommended to use OAuth, as it provides a more generous rate limit (see below).
+Read more on how to set up OAuth2 for Reddit API [here](https://github.com/reddit-archive/reddit/wiki/OAuth2).
 
-Reddit API allows more up-to-date data retrieval, but it is not suitable for getting large quantities of historical data. The [Pushshift API](https://www.reddit.com/r/pushshift/comments/bcxguf/new_to_pushshift_read_this_faq/) can be used to retrieve historical data.
+As of 1 July 2023 two new rate limits were enforced for API users with API access:
+
+- With OAuth authentication: 100 queries/calls per minute per OAuth client id.
+- Without OAuth authentication: 10 queries/calls per minute.
+
+These rate limits will be an average over a time window of 10 minutes to support bursting requests.
+
+As a caveat, Reddit API allows more up-to-date data retrieval, but it is not suitable for getting large quantities of historical data.
 
 ### Tools
 
-- [PRAW: Python Reddit API Wrapper](https://praw.readthedocs.io/en/stable/)
+- [PRAW](https://praw.readthedocs.io/en/stable/): Python Reddit API Wrapper
 
-- Pushshift API: 
-    - [API documentation](https://github.com/pushshift/api) 
-    - [Overview of the Pushshift dataset](https://arxiv.org/pdf/2001.08435.pdf)
+- [Pushshift API](https://redditsearch.io/): A comprehensive search engine and real-time analytics tracker for Reddit.
+    - [Overview of the Pushshift dataset (PDF)](https://arxiv.org/pdf/2001.08435.pdf)
+    - In light of Reddit API Terms changes, free access to Pushshift is no longer [available to the public](https://www.reddit.com/r/pushshift/comments/13w6j20/advancing_communityled_moderation_an_update_on/). However, some limited forms of Pushshift are available to [approved moderation tools](https://www.reddit.com/r/pushshift/comments/14ei799/pushshift_live_again_and_how_moderators_can/).
 ---
 title: Platform Factsheet: Reddit
 ---
-date_updated: 2022-11-28
+date_updated: 2023-08-25
