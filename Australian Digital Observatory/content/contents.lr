@@ -6,19 +6,26 @@ body:
 
 The [Australian Digital Observatory](https://ardc.edu.au/project/australian-digital-observatory/)
 is an [ARDC](https://ardc.edu.au) platform working to establish a national
-infrastructure for accessing and analysing dynamic digital data, including existing
-collections of national interest across Twitter, FlickR, YouTube, Reddit, Instagram and
-gaming platforms such as Steam.
+infrastructure to support a diverse array of researchers, especially in the humanities, in accessing and working with dynamic digital data, including existing
+collections of national interest across Twitter/X, FlickR, YouTube, Reddit, Instagram and
+gaming platforms such as Steam and Discord.
 
-The Australian Digital Observatory (ADO) is creating an interdisciplinary team of data science
-researchers and support staff at key locations around Australia who offer
-data-related [services](../resources/categories/services/), [training](../resources/categories/training-workshop/), and research support in data collection, storage,
-tidying, pre-processing, analytics, and visualisation to support academics’ research
-data pipelines. These tasks can be time-consuming and often involve a steep learning
-curve for specific technical skills. The ADO can reduce or
-eliminate this burden so that researchers can focus on analysis and interpretation.
- 
-The ADO is curating a broad [ecosystem](../the-ado-ecosystem/) encompassing [software tools](../resources/categories/software/) and [datasets](../resources/categories/datasets/), as well as all of the above.
+The Australian Digital Observatory (ADO) is an interdisciplinary team of data scientists, software developers, support staff, and academics at key locations around Australia, including
+Brisbane ([Queensland University of Technology](../qut-digital-observatory)),
+Sydney (UNSW),
+and Melbourne ([The University of Melbourne](https://www.ado.eresearch.unimelb.edu.au/ado-home/)).
+
+The ADO provides an ecosystem of resources and services that enable research including
+data-related [services](../resources/categories/services/),
+[events](../events),
+[training and workshops](../resources/training-workshops/),
+[datasets](../resources/categories/datasets), and
+[software and technical utilities/systems](../resources/categories/software).
+
+With these resources, the ADO supports researchers throughout all stages of the research data lifecycle (explore, collect, tidy and model, store and organise, analyse, and publish).
+These tasks can be time-consuming and often involve a steep learning curve for specific technical skills.
+The ADO can reduce or eliminate this burden so that researchers can focus on analysis and interpretation.
+
 
 ## Have a specific project?
 

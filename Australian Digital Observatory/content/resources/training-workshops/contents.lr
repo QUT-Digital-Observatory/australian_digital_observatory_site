@@ -4,11 +4,32 @@ access:
 ---
 category: services
 ---
-description: The Australian Digital Observatory provides long and short-form training workshops on a diverse range of topics, including R, Python, SQL, and data analysis.
+description: The Australian Digital Observatory provides long and short-form training workshops and talks on a range of method-specific topics including
+collecting data from the web,
+managing and preparing data for analysis,
+data visualisation and decision-making,
+and network analysis.
+
+We utilise a range of software tools throughout these workshops including R and Python.
+We also demonstrate and teach researchers how to use platform-specific tools for collecting, tidying, and analysing data from the web including
+[youte](https://youte.readthedocs.io/en/latest/),
+[twarc](https://twarc-project.readthedocs.io/en/latest/),
+[tidy_tweet](https://pypi.org/project/tidy-tweet/),
+[tweetexploR](https://github.com/QUT-Digital-Observatory/tweetexploR),
+and [web archiving](https://webrecorder.net/).
 ---
 feature: no
 ---
 owner: ADO project members, including QUT Digital Observatory and Australian Text Analytics Platform (ATAP)
+---
+howToUse:
+
+Our publicly available training workshops and talks are listed on [Eventbrite](https://www.eventbrite.com.au/o/australian-digital-observatory-41198090963). 
+Subscribe to our [newsletter](https://qut.us14.list-manage.com/subscribe?u=af4511b1f437a65735ec33554&id=1484bd46e2) for updates on these workshops.
+
+We can also offer our talks and workshops to groups upon request, such as within Schools, Faculties, and research centres.
+Reach out to us at [digitalobservatory@qut.edu.au](mailto:digitalobservatory@qut.edu.au) to arrange
+tailored training workshops and talks.
 ---
 link: https://www.eventbrite.com.au/o/australian-digital-observatory-41198090963
 ---
