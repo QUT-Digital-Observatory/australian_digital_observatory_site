@@ -107,28 +107,43 @@
     
   <h1>Platform Factsheet: Reddit</h1>
     
-  <p class="meta">Last updated: 2022-11-28</p>
+  <p class="meta">Last updated: 2023-08-25</p>
 
   <p>This platform-specific fact sheet is intended to provide researchers with tips and resources to get started using Reddit in their research.</p>
-<p>Researchers should be aware that these platforms can and do change over time. Therefore, for the most up to date information, please refer to Reddit's <a href="https://www.reddit.com/dev/api">official documentation</a>. The links below are helpful starting points.</p>
-<h3 id="is-there-an-api">Is there an API?</h3><p><a href="https://github.com/reddit-archive/reddit/wiki/API">Yes</a></p>
-<h3 id="is-there-a-terms-of-service">Is there a Terms of Service?</h3><p><a href="https://www.redditinc.com/policies/user-agreement-september-12-2021">Yes</a></p>
+<p>Researchers should be aware that these platforms can and do change over time.
+Therefore, for the most up to date information, please refer to Reddit's <a href="https://www.reddit.com/dev/api">official documentation</a>.
+The links below are helpful starting points.</p>
+<h3 id="is-there-an-api">Is there an API?</h3><p><a href="https://www.reddit.com/dev/api/">Yes</a></p>
+<h3 id="is-there-a-terms-of-service">Is there a Terms of Service?</h3><p><a href="https://www.redditinc.com/policies/developer-terms">Yes: Developer Terms</a></p>
+<p><a href="https://www.redditinc.com/policies/data-api-terms">Yes: Data API Terms</a></p>
+<p>Note: There are several other terms (e.g., User Agreement) which can be navigated to from either of the above links.</p>
 <h3 id="developer-guides-and-documentation">Developer guides and documentation</h3><ul>
 <li><p><a href="https://www.reddit.com/dev/api">Reddit API documentation</a></p>
 </li>
 <li><p><a href="https://www.reddit.com/r/redditdev/">Reddit Developer subreddit</a></p>
 </li>
-</ul>
-<h3 id="basic-information-about-the-api">Basic information about the API</h3><p>OAuth2 is required to access the API. Read more on how to set up OAuth2 for Reddit API <a href="https://github.com/reddit-archive/reddit/wiki/OAuth2">here</a>.</p>
-<p>Rate limits: up 60 requests per minute. API usage metadata are included in the response headers so that the rate limit can be monitored. Read more about Reddit rate limits <a href="https://github.com/reddit-archive/reddit/wiki/API#rules">here</a>.</p>
-<p>Reddit API allows more up-to-date data retrieval, but it is not suitable for getting large quantities of historical data. The <a href="https://www.reddit.com/r/pushshift/comments/bcxguf/new_to_pushshift_read_this_faq/">Pushshift API</a> can be used to retrieve historical data.</p>
-<h3 id="tools">Tools</h3><ul>
-<li><p><a href="https://praw.readthedocs.io/en/stable/">PRAW: Python Reddit API Wrapper</a></p>
+<li><p><a href="https://support.reddithelp.com/hc/en-us/articles/16160319875092-Reddit-Data-API-Wiki">Reddit Data API wiki</a> including links to Developer Terms and Data API Terms (which are also listed above).</p>
 </li>
-<li><p>Pushshift API:</p>
+<li><p><a href="https://www.reddit.com/r/reddit/comments/145bram/addressing_the_community_about_changes_to_our_api/">Reddit post by Reddit on 10/06/23 regarding changes to the Reddit API</a></p>
+</li>
+</ul>
+<h3 id="basic-information-about-the-api">Basic information about the API</h3><p>There are two ways to access the API: With or without OAuth.</p>
+<p>It is highly recommended to use OAuth, as it provides a more generous rate limit (see below).
+Read more on how to set up OAuth2 for Reddit API <a href="https://github.com/reddit-archive/reddit/wiki/OAuth2">here</a>.</p>
+<p>As of 1 July 2023 two new rate limits were enforced for API users with API access:</p>
 <ul>
-<li><a href="https://github.com/pushshift/api">API documentation</a> </li>
-<li><a href="https://arxiv.org/pdf/2001.08435.pdf">Overview of the Pushshift dataset</a></li>
+<li>With OAuth authentication: 100 queries/calls per minute per OAuth client id.</li>
+<li>Without OAuth authentication: 10 queries/calls per minute.</li>
+</ul>
+<p>These rate limits will be an average over a time window of 10 minutes to support bursting requests.</p>
+<p>As a caveat, Reddit API allows more up-to-date data retrieval, but it is not suitable for getting large quantities of historical data.</p>
+<h3 id="tools">Tools</h3><ul>
+<li><p><a href="https://praw.readthedocs.io/en/stable/">PRAW</a>: Python Reddit API Wrapper</p>
+</li>
+<li><p><a href="https://redditsearch.io/">Pushshift API</a>: A comprehensive search engine and real-time analytics tracker for Reddit.</p>
+<ul>
+<li><a href="https://arxiv.org/pdf/2001.08435.pdf">Overview of the Pushshift dataset (PDF)</a></li>
+<li>In light of Reddit API Terms changes, free access to Pushshift is no longer <a href="https://www.reddit.com/r/pushshift/comments/13w6j20/advancing_communityled_moderation_an_update_on/">available to the public</a>. However, some limited forms of Pushshift are available to <a href="https://www.reddit.com/r/pushshift/comments/14ei799/pushshift_live_again_and_how_moderators_can/">approved moderation tools</a>.</li>
 </ul>
 </li>
 </ul>
