@@ -2,18 +2,20 @@
 {% from "macros/pagination.html" import render_pagination %}
 {% block title %}Australian Digital Observatory's Blog{% endblock %}
 {% block body %}
-<h1>Events</h1>
+<div class="container-fluid fs-5">
+    <h1>Events</h1>
 
-<ul class="list-group-flush">
-    {% for event in this.pagination.items %}
-    <li class="list-group-item d-flex justify-content-between align-items-center">
-        <a href="{{ event|url }}">{{ event.title }}</a>
-        on {{ event.event_date|dateformat("long") }}
-    </li>
-    {% endfor %}
-</ul>
+    <ul class="list-group-flush">
+        {% for event in this.pagination.items %}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="{{ event|url }}">{{ event.title }}</a>
+            on {{ event.event_date|dateformat("long") }}
+        </li>
+        {% endfor %}
+    </ul>
 
-{% if this.pagination.pages > 1 %}
-{{ render_pagination(this.pagination) }}
-{% endif %}
-{% endblock %}
+    {% if this.pagination.pages > 1 %}
+    {{ render_pagination(this.pagination) }}
+    {% endif %}
+    {% endblock %}
+</div>
