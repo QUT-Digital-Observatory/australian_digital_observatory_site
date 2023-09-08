@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% from "macros/accordions.html" import generate_accordions %}
+
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<div class="container-fluid fs-5">
+  <h1>{{ this.title }}</h1>
+  {% if this.show_toc %}
+  <ul class="toc">
+    {% for item in this.body.toc recursive %}
+    <li><a href="#{{ item.anchor }}">{{ item.title }}</a>{%
+      if item.children %}<ul>{{ loop(item.children) }}</ul>{% endif %}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {{ this.body }}
+
+  {% if this.extras.blocks %}
+
+    {% for blk in this.extras.blocks %}
+
+      {% if blk._flowblock == 'accordions' %}
+        {{ generate_accordions(blk) }}
+
+      {% elif blk._flowblock == 'text' %}
+      {{ blk.body }}
+
+      {% elif blk._flowblock == 'cta' %}
+      {{ blk }}
+
+      {% endif %}
+
+    {% endfor %}
+
+  {% endif %}
+
+  {% if this.attachments %}
+
+  <h2>Documents</h2>
+    {% for doc in this.attachments.documents %}
+      
+      <div class="card mb-2" style="width: 18rem;">
+        <div class="card-body">
+          <img src="{{ '/static/images/pdf-icon.png' |asseturl }}" style="width: 10%;margin-bottom: 5%">
+          <h5 class="card-title">{{ doc.name }} (PDF)</h5>
+          <a href="{{ doc.path }}" class="card-link">PDF</a>
+        </div>
+      </div>
+
+    {% endfor %}
+  {% endif %}
+
+</div>
+{% endblock %}
