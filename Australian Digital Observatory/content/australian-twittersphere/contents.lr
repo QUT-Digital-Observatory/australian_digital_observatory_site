@@ -12,9 +12,9 @@ The Australian Twittersphere is a longitudinal collection of tweets from a perio
 Since its establishment six years ago, over **1.9 billion** tweets have been collected from more than 1 million Twitter accounts considered to be Australian.
 The earliest tweet captured was posted on 9 January 2007.
 
-Following significant changes at Twitter and its APIs, Digital Observatory's access to the API was revoked early July 2023. 
-The last tweet that was collected as part of the Australian Twittersphere was posted on 13 July 2023. 
-However, some API instabilities were observed in early July . Therefore, **for research purposes, the Australian Twittersphere collection ends on 30 June 2023**.
+Following significant changes at Twitter/X and to its APIs, Digital Observatory's access to the API was revoked in early July 2023.
+The last tweet that was collected as part of the Australian Twittersphere was posted on 13 July 2023.
+However, some API instabilities were observed in early July. Therefore, **for research purposes, the Australian Twittersphere collection ends on 30 June 2023**.
 ---
 _slug: 
 ---
@@ -42,7 +42,7 @@ These two population refreshes ensured that the Australian Twittersphere remaine
 
 In October 2022, Twitter was sold to Elon Musk and API instability was observed throughout the remainder of 2022 and early 2023.
 However, the Digital Observatory was able to continue collection of the Australian Twittersphere.
-Throughout the first half of 2023, Twitter announced significant changes to the API.
+Throughout the first half of 2023, Twitter/X announced significant changes to their API.
 Specifically, the academic access track (which many researchers relied on) was removed, and Twitter/X began charging for API access.
 
 Although the *Pro* level API access allows the collection of 1,000,000 million tweets per month at a cost of US$5,000 per month, this would not have been sufficient to maintain the Australian Twittersphere in its current form.
