@@ -6,7 +6,7 @@ category: software
 ---
 datePublished: 2021-11-18
 ---
-description: tidy_tweet tidies Twitter json collected with <a href="https://twarc-project.readthedocs.io/en/latest/" target="_blank">Twarc</a> into relational tables.
+description: tidy_tweet tidies Twitter JSON data, collected with <a href="https://twarc-project.readthedocs.io/en/latest/" target="_blank">Twarc</a>, into relational SQLite tables.
 ---
 doi: 
 ---
