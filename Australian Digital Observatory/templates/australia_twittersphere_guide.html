@@ -15,30 +15,29 @@
   {% endif %}
   {{ this.body }}
 
-  {% if this.extras.blocks %}
-
-    {% for blk in this.extras.blocks %}
-
+  {% if this.extras %}
+    {% if this.extras.blocks %}
+  
+      {% for blk in this.extras.blocks %}
       {% if blk._flowblock == 'accordions' %}
-        {{ generate_accordions(blk) }}
+      {{ generate_accordions(blk) }}
 
       {% elif blk._flowblock == 'text' %}
       {{ blk.body }}
 
       {% elif blk._flowblock == 'cta' %}
       {{ blk }}
-
       {% endif %}
+      {% endfor %}
 
-    {% endfor %}
-
+    {% endif %}
   {% endif %}
 
   {% if this.attachments %}
+    {% if this.attachments.documents %}
+      <h2>Documents</h2>
 
-  <h2>Documents</h2>
-    {% for doc in this.attachments.documents %}
-      
+      {% for doc in this.attachments.documents %}
       <div class="card mb-2" style="width: 18rem;">
         <div class="card-body">
           <img src="{{ '/static/images/pdf-icon.png' |asseturl }}" style="width: 10%;margin-bottom: 5%">
@@ -46,8 +45,9 @@
           <a href="{{ doc.path }}" class="card-link">PDF</a>
         </div>
       </div>
-
-    {% endfor %}
+      {% endfor %}
+      
+    {% endif %}
   {% endif %}
 
 </div>
