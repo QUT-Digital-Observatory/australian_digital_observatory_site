@@ -4,7 +4,7 @@
 @import "landing.css";
 
 :root {
-  --font-content-size: 15px;
+  --font-content-size: 1rem;
   --h1-font-size: calc(1.2rem + 1.1vw);
   --h2-font-size: calc(1.1rem + 0.7vw);
   --h3-font-size: calc(1.1rem + 0.3vw);
