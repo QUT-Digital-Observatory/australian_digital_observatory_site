@@ -4,7 +4,10 @@ title: Australian Twittersphere
 ---
 category: datasets
 ---
-description: The *Australian Twittersphere* is a longitudinal, curated collection of tweets from approximately 838,000 Twitter accounts identified as ‘Australian’. The Digital Observatory has maintained reliable, ongoing data collection since early 2018, with approximately 22 million tweets being collected per month. There is also an archive of approximately 2 billion tweets from 2006 to 2016. The Digital Observatory currently collects approximately 41 million tweets per month.
+description: The *Australian Twittersphere* is a longitudinal, curated collection of tweets from approximately 838,000 Twitter accounts identified as ‘Australian’.
+The Digital Observatory has maintained reliable, ongoing data collection since early 2018, with approximately 22 million tweets being collected per month.
+There is also an archive of approximately 2 billion tweets from 2006 to 2016.
+The Digital Observatory currently collects approximately 41 million tweets per month.
 ---
 access: By consultation with the QUT Digital Observatory
 ---
@@ -23,6 +26,8 @@ tags:
 explore
 collect
 ---
-howToUse: Data from the Australian Twittersphere is provided on a per project basis by the [QUT Digital Observatory](/qut-digital-observatory). Researchers can contact the QUT DO via email at [digitalobservatory@qut.edu.au](mailto:digitalobservatory@qut.edu.au). Go [here](/australian-twittersphere) for a guide to using the Australian Twittersphere.
+howToUse: Data from the Australian Twittersphere is provided on a per project basis by the [QUT Digital Observatory](/qut-digital-observatory).
+Researchers can contact the QUT DO via email at [digitalobservatory@qut.edu.au](mailto:digitalobservatory@qut.edu.au).
+Read our researchers' guide to the Australian Twittersphere [here](/australian-twittersphere).
 ---
 seeMore: /australian-twittersphere/
