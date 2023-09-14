@@ -4,9 +4,20 @@ category: services
 ---
 description:
 
-The QUT Digital Observatory collaborates with researchers and organisations to determine their data and analytical requirements, allowing them to focus on their analysis and interpretation. 
+The QUT Digital Observatory collaborates with researchers and organisations to provide support for their research projects.
+The research support services that the Digital Observatory offers include:
+- Databanks and data governance [TODO: Link to databanks and data governance landing page]
+- Data infrastructure and development [TODO: Link to data infrastructure and development landing page]
+- Data science [TODO: Link to data science landing page]
+
+Whilst these services sound technical and somewhat high-level, be assured that the Digital Observatory team can tailor research support to your needs and level of technical expertise.
+
+[TODO: Explain in more detail what each of the services are and how they can be used to support research projects.]
+
+If you'd like to read about how the Digital Observatory has supported research projects in the past, please see our case studies [TODO: Link to case studies].
 
 The first step in using our services is to contact us by email or the expression of interest form below to set up an initial meeting where we will discuss the project topic and scope.
+You can also read more about how the Digital Observatory collaborates with researchers in our [researchers' guide to working with the Digital Observatory](/working-with-do)
 ---
 feature: no
 ---
