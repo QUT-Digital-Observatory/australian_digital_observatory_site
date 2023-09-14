@@ -1,0 +1,27 @@
+title: Recap of DO's talk at UNSW: Social Data on the Web and Using Large Language Models for Research
+---
+author: QUT Digital Observatory
+---
+body:
+
+Last week, our colleagues Mat and Rob gave a talk at the University of New South Wales about the current Web social data landscape and how advanced technologies such as AI and Large Language Models (LLMs) can be leveraged to augment research.
+
+## Web social data for research: Recent developments and current landscape
+
+First, we reiterated the value that social data on the web (social media, forums, chats, reviews, etc.) has contributed to the research community, easily demonstrated through the long list of [journal articles and publications](/resources/categories/publications/) using such data.
+
+We stressed the importance of Twitter and Reddit as two open data sources, which before could be readily obtained by researchers via their APIs. Then, with Elon Musk taking over Twitter, and data-gorging AI models such as ChatGPT turning Web data into the new oil, previously freely accessible APIs now charge researchers an exorbitant fee for a fraction of the volume.
+
+**Implications for research**: Gone is the era of free API access - walled gardens such as Facebook and Instagram are now the new norm. It will be harder to get data from any single platform. 
+
+## The path forward
+
+We talked about how we as a research infrastructure facility navigated the path forward: developing tools to collect data from still-friendly platforms, and "diversifying" by harvesting data from multiple platforms.
+
+As part of this, we introduced [a curated databank of reader commentary on new sites](/resources/newstalk/) and [a tool to collect YouTube metadata and comments](/resources/youte/).
+
+## Large Language Models (LLMs)
+
+The latter half of our talk revolved around LLMs and their potential to augment HASS (Humanities and Social Sciences) research quality and scale. We discussed the strengths and weaknesses of LLMs. Based on that, we suggested ways in which LLMs can be leveraged to assist researchers and gave some demos.
+---
+pub_date: 2023-09-14
