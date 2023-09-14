@@ -16,7 +16,7 @@ owner: QUT Digital Observatory
 ---
 poc: digitalobservatory@qut.edu.au
 ---
-tags: tidy
+tags: tidy and model
 ---
 howToUse: tidy_tweet is a fully open-sourced Python package and can be installed with pip (see [tidy_tweet on PyPI](https://pypi.org/project/tidy-tweet/) for more information).
 ---
