@@ -4,9 +4,19 @@ category: services
 ---
 description:
 
-The QUT Digital Observatory collaborates with researchers and organisations to determine their data and analytical requirements, allowing them to focus on their analysis and interpretation. 
+The QUT Digital Observatory collaborates with researchers and organisations to provide support for their research projects.
+The research support services that the Digital Observatory offers include:
+- [Databanks and data governance](https://www.digitalobservatory.net.au/services/databanks-and-data-governance/): Accessing data from the Digital Observatory's databanks, and getting advice on data governance, management, and ethics (especially concerning human-related data collected from the web).
+- [Data infrastructure and development](https://www.digitalobservatory.net.au/services/data-infrastructure-and-development/): Developing software infrastructure for data collection (e.g., web archiving, APIs), data storage, and data analysis.
+- [Data science](https://www.digitalobservatory.net.au/services/data-science/): Data analysis and visualisation, and can leverage existing tools/methods and/or develop new ones.
+The Digital Observatory team is actively exploring the use of large language models in data science workflows, and can provide advice on how to use these models in your research.
+
+Whilst these services sound technical and somewhat high-level, be assured that the Digital Observatory team can tailor research support to your needs and level of technical expertise.
+
+If you'd like to read about how the Digital Observatory has supported research projects in the past, please see our [case studies](https://www.digitalobservatory.net.au/case-studies/).
 
 The first step in using our services is to contact us by email or the expression of interest form below to set up an initial meeting where we will discuss the project topic and scope.
+You can also read more about how the Digital Observatory collaborates with researchers in our [researchers' guide to working with the Digital Observatory](https://www.digitalobservatory.net.au/working-with-do/).
 ---
 feature: no
 ---
