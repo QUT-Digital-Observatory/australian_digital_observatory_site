@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% from 'macros/resources.html' import render_list %}
+{% block title %}Case studies{% endblock %}
+{% block body %}
+<div class="container-fluid fs-5">
+    <h1>Case studies</h1>
+
+    {{ this.body }}
+
+    {{ render_list(this.children) }}
+</div>
+{% endblock %}
