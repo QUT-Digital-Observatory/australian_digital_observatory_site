@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% from "macros/resources.html" import render_list %}
+{% block title %}ADO Services{% endblock %}
+{% block body %}
+<div class="container-fluid fs-5">
+    <h1>Australian Digital Observatory Services</h1>
+
+    {{ this.body }}
+
+    <h2>All services</h2>
+    {{ render_list(this.children) }}
+</div>
+{% endblock %}
