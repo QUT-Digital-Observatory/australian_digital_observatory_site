@@ -16,6 +16,10 @@ Data on COVID-19 cases and deaths in Australia were obtained from the [ABC](http
 QUT's [VISER](https://research.qut.edu.au/viser/) (Visualisation and Interactive Solutions for Engagement and Research) lab then created an online, interactive visualisation of the data.
 The visualisation enabled users to view numbers of cases and deaths alongside the counts of hashtags, domains, and account mentions in each group and subgroup.
 
+Whilst the online visualisation is no longer available, the following screenshots show the landing page and some of the visualisations.
+
+![Image of the landing page for the interactive visualisation](01_LandingPage.jpg)
+
 ## What we found
 
 ### Politicians
@@ -29,7 +33,10 @@ Prime Minister Scott Morrison’s initial defiance over the eventual shutdown of
 
 At the same time that our politicians were becoming the target of online discussion as to the pros and cons of shutdown, another group of accounts rose to swift prominence, those of medical experts.
 Accounts such as Adjunct Professor Bill Bowtell AO and Dr Norman Swan (both professional science communicators) became important sources for information for many.
+
 The importance of physical distancing, and discussion of other moves to #flattenthecurve were amongst the many topics that this group of expert voices helped decipher for Australian users.
+
+<img src="05_About_Snip_04.jpg" style="width:100%" alt="Graph showing the trends in account mentions for medical experts">
 
 ### Hashtags
 
@@ -40,14 +47,20 @@ This can be explained by the presence of the #rubyprincess hashtag which has sus
 In the early weeks of March, when much of Australia was still operating business as usual, a number of Australian Twitter users started promoting specific hashtags to build voluntary participation in measures to slow the spread of the virus by #flatteningthecurve.
 These initial calls to #socialdistance eventually give way to much more explicit hashtags advocating #stayhome and #lockdown measures, some taking on empathetic framings to persuade the community to #stayhomesavelives and #lockdownforlove.
 
+<img src="07_About_Snip_06.jpg" style="width:100%" alt="Graph showing the trends in hashtags relating to mitigation of COVID-19">
+
 ### URL sharing
 
 The embedding of hyperlinks in tweets is a common occurrence on Twitter, in particular the sharing of news stories.
 For Australian Twitter users the sharing of news from international media outlets such as the Guardian (UK), New York Times, and Washington Post was greater than local media such as the ABC, Sydney Morning Herald, and news.com.au.
 Academic media sources such as the Conversation and Nature also featured strongly, but nowhere near the scale of traditional media outlets.
 
+<img src="08_About_Snip_07.jpg" style="width:100%" alt="Graph showing the trends in domains shared in tweets relating to COVID-19">
+
 Twitter can also provide a glimpse into changes in media consumption patterns during the pandemic.
 The promotion and sharing of podcasts, soundcloud, and Spotify playlists showed once again that in dark times it is the arts that we turn to, to entertain, inspire and nurture us through these most difficult times.
+
+<img src="09_About_Snip_08.jpg" style="width:100%" alt="Graph showing the trends in sharing of audio resources in tweets relating to COVID-19">
 
 ## Outcomes
 
