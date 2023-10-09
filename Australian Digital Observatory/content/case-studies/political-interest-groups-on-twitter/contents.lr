@@ -1,0 +1,17 @@
+title: Case Study: Political Interest Groups on Twitter
+---
+body:
+
+A cross-institution group of researchers who are bringing computational social media analysis methods to political science research approached the Digital Observatory to set up infrastructure to make their computational work easier. They wanted a computational lab set up to provide a straightforward environment for R work on a shared dataset of several million tweets.
+
+We worked with the research team to determine their requirements and the methods they intended to use the system for. The final design was to provide an RStudio Server instance for the research team, from which they could access a database of their tweet data, pre-processed and tidied.
+
+Both the RStudio Server and the database were set up on the Nectar Research Cloud, and we provided documentation for the research team to manage their own user accounts and access to their resources. A file syncing process was set up on the RStudio Server virtual machine so that the research team would easily be able to upload and download files from the server to their own local machines.
+
+<img src="interest_groups_architecture.svg"
+alt="Architecture diagram showing a RStudio server VM and a database hosted in Nectar"
+class="img-fluid rounded mx-auto d-block" />
+
+The Digital Observatory team pre-processed and tidied the raw Twitter data that had previously been collected by the research team, so that the tweets were easily accessible and searchable in the database. We provided sample scripts in R on the server itself, so when the research team started an RStudio session connected to the server, they would be able to use our sample code to load and manipulate tweets from the database.
+
+While the completion and handover of the computational lab setup concluded this project, the Digital Observatory is continuing collaborating with this research group to develop and refine analytical methodology.
