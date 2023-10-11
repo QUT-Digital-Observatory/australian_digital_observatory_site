@@ -2,7 +2,7 @@ title: Databanks and Data Governance
 ---
 description:
 
-### Databanks
+## Databanks
 
 The Digital Observatory has curated a number of databanks that researchers can utilise in their research projects.
 The data in these databanks have been collected from a number of online sources and platforms including social media and news websites.
@@ -13,7 +13,7 @@ You can also find out more about each of the databanks by clicking on the links 
 - [Australian Twittersphere](/resources/australian-twittersphere/)
 - [NewsTalk](/resources/newstalk/)
 
-### Data governance
+## Data governance
 
 The Digital Observatory provides guidance and advice on data governance and ethics associated with human-related data from the web (e.g. reviews, comments, forums, social media data).
 The Digital Observatory has written a [general guide for researchers](/data-governance-guide/) about data governance for human-related dynamic digital data, including several platform-specific fact sheets ([Reddit](/factsheets/platform-factsheet-reddit/), [X/Twitter](/factsheets/platform-factsheet-twitter/), and [YouTube](/factsheets/platform-factsheet-youtube/)).
