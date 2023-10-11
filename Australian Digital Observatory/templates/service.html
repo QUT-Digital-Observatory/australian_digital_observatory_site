@@ -17,6 +17,14 @@
 
   {% if not this.extras %}
   <p>Coming soon.</p>
+  {% else %}
+  {% for case in this.extras.blocks %}
+  <ul class="list-group">
+    <li class="list-group-item">
+      <a href="{{ case.link }}">{{ case.title }}</a>
+    </li>
+  </ul>
+  {% endfor %}
   {% endif %}
 
 </div>
