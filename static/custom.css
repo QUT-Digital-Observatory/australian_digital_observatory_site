@@ -95,6 +95,10 @@ h4 {
   line-height: 140%;
 }
 
+figcaption {
+  font-style: italic;
+}
+
 .accordion-header * {
   font-weight: 400;
   color: #0066b9;
