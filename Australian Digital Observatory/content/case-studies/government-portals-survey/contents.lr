@@ -16,7 +16,7 @@ The project went through several stages of design as the Digital Observatory and
 
 **Virtualised browser:** Our final solution centred around a virtualised web browser which participants could load and interact with inside a tab of their own web browser on their own computer. We hosted a [Kasm](https://www.kasmweb.com/community-edition) server on Google Cloud Platform to provide this browser-in-browser experience.
 
-[ILLUSTRATION]
+<img src="virtualised_browser.svg" alt="Illustration of a laptop with a web browser open. Within the web browser's open tab from top to bottom is an information banner reading 'Activity within this inner browser is being recorded', and a virtual web browser. Within the open tab of that virtual browser is a scrawled mocked-up survey question." />
 
 **Web archiving:** We integrated [web archiving](https://en.wikipedia.org/wiki/Web_archiving) tooling ([pywb](https://pywb.readthedocs.io)) into the virtual browser sessions, so that every webpage loaded within them was recorded. 
 
