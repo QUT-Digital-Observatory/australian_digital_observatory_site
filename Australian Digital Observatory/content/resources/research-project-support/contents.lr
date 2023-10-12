@@ -6,9 +6,9 @@ description:
 
 The QUT Digital Observatory collaborates with researchers and organisations to provide support for their research projects.
 The research support services that the Digital Observatory offers include:
-- [Databanks and data governance](https://www.digitalobservatory.net.au/services/databanks-and-data-governance/): Accessing data from the Digital Observatory's databanks, and getting advice on data governance, management, and ethics (especially concerning human-related data collected from the web).
-- [Data infrastructure and development](https://www.digitalobservatory.net.au/services/data-infrastructure-and-development/): Developing software infrastructure for data collection (e.g., web archiving, APIs), data storage, and data analysis.
-- [Data science](https://www.digitalobservatory.net.au/services/data-science/): Data analysis and visualisation, and can leverage existing tools/methods and/or develop new ones.
+- [Databanks and data governance](/services/databanks-and-data-governance/): Accessing data from the Digital Observatory's databanks, and getting advice on data governance, management, and ethics (especially concerning human-related data collected from the web).
+- [Data infrastructure and development](/services/data-infrastructure-and-development/): Developing software infrastructure for data collection (e.g., web archiving, APIs), data storage, and data analysis.
+- [Data science](/services/data-science/): Data analysis and visualisation, and can leverage existing tools/methods and/or develop new ones.
 The Digital Observatory team is actively exploring the use of large language models in data science workflows, and can provide advice on how to use these models in your research.
 
 Whilst these services sound technical and somewhat high-level, be assured that the Digital Observatory team can tailor research support to your needs and level of technical expertise.
