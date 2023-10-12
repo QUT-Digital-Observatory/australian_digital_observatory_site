@@ -7,4 +7,13 @@ description:
 - Build and maintain open-source and bespoke software to aid with data collection, storage, and analysis (e.g., [youte](/resources/youte/), [tidy_tweet](/resources/tidy-tweet), [tweetexploR](/resources/tweetexplor)).
 - We are actively exploring the use of large language models (LLMs) for research and can provide consultancy on potential applications of LLMs for your research.
 ---
-extras: 
+extras:
+
+#### caseStudy ####
+title: Government Portals
+----
+link: /case-studies/government-portals-survey/
+#### caseStudy ####
+title: Political Interest Groups on Twitter
+----
+link: /case-studies/political-interest-groups-on-twitter
