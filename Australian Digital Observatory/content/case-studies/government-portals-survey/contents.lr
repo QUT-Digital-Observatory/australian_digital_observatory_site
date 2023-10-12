@@ -1,13 +1,40 @@
 title: Case Study: Goverment Portals survey
 ---
-_discoverable: yes
----
-author: QUT Digital Observatory
----
 body:
 
-Image: mockup of survey-in-browser-in-browser
+## The problem
 
-- researchers 
----
-pub_date: 2023-09-28
+A research team interested in how people fact-find official government information (e.g. rebate eligibility, policy details) wished to replicate  prior study of theirs where participants had been in a controlled computer lab environment. 
+
+In this past study, participants completed a survey which asked them questions for which the answers going be found in relevant government websites. The web browsers on these lab computers were set up with a plugin that recorded what webpages the participants navigated to in order to find the answers to the survey questions. 
+
+The research team wished to replicate this study without the need for the physical computer lab - participants should be able to complete the survey and have their web browsing recorded while doing so from their own computer.
+
+## The solution
+
+The project went through several stages of design as the Digital Observatory and the research team refined the requirements and methodology and experimented with several technical options. 
+
+**Virtualised browser:** Our final solution centred around a virtualised web browser which participants could load and interact with inside a tab of their own web browser on their own computer. We hosted a [Kasm](https://www.kasmweb.com/community-edition) server on Google Cloud Platform to provide this browser-in-browser experience.
+
+[ILLUSTRATION]
+
+**Web archiving:** We integrated [web archiving](https://en.wikipedia.org/wiki/Web_archiving) tooling ([pywb](https://pywb.readthedocs.io)) into the virtual browser sessions, so that every webpage loaded within them was recorded. 
+
+We also customised the Kasm service to provide a custom landing page, and an information banner at the top of the virtual web browser.
+
+**Landing page:** The link that the research team distributed in their recruitment process went to the landing page we built. This page contained the participant information and consent for the study, and would show a launch button if sessions were available. The number of sessions had to be capped and given a timeout period to control computational cloud resource expenditure. If no sessions were available, the landing page would say so and suggest returning at a later time.
+
+**Information banner:** The information banner displayed above the virtual browser "window" (within the user's real browser tab) contained a reminder that activity within the virtual browser was being recorded, and a help button with additional information about the survey and the virtualised system.
+
+**Survey:** When participants initiated a session, the virtual browser would open with the survey pre-loaded. The survey was implemented by the research team in their institution's Qualtrics system. As participants proceeded through the survey, each question would contain a link which would open either a relevant government website or the Google homepage in a a new tab of the virtual browser. From there, they could browse as desired to find the required information just as they would normally, including navigating to any other webpage or search engine they wished, and all activity would be recorded as long as it was within the virtual browser. 
+
+
+## The data
+
+Once enough responses were recorded, the DO summarised the browsing recordings into a list of URLs and times for the research team to cross-reference with their survey data. We also provided the full web archives so that the researchers could see the pages participants accessed as they were at the time the recordings were made.
+
+## The impact (so far...)
+
+This project was a truly novel one for us at the Digital Observatory. It allowed us not only to use web archiving tooling in a different way than we had previously, but also to stretch our technical expertise while supporting a purely qualitative research project. 
+
+The research team were able to move from a physical computer lab to a virtual one, vastly broadening the potential range of participants and enabling running their study across multiple countries.
