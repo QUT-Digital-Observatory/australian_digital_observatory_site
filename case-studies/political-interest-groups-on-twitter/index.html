@@ -18,9 +18,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../static/custom.css">
-  <link rel="shortcut icon" href="../static/images/favicon.ico?h=be28650d"">
-  <title>Case studies — Australian Digital Observatory</title>
+  <link rel="stylesheet" href="../../static/custom.css">
+  <link rel="shortcut icon" href="../../static/images/favicon.ico?h=be28650d"">
+  <title>Political Interest Groups on Twitter — Australian Digital Observatory</title>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-96RSB604XP"></script>
@@ -39,8 +39,8 @@
   <!-- End Google Tag Manager (noscript) -->
   <header class="container-fluid">
     <div class="d-flex justify-content-center">
-      <a class="navbar-brand" href="../">
-        <img src="../static/images/ado-logo-logotype-dark-cropped.png?h=80106029" alt="Bootstrap" width="150">
+      <a class="navbar-brand" href="../../">
+        <img src="../../static/images/ado-logo-logotype-dark-cropped.png?h=80106029" alt="Bootstrap" width="150">
       </a>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light p-3"">
@@ -52,7 +52,7 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
           <li class="nav-item">
-            <a href="../" 
+            <a href="../../" 
               class="nav-link mx-3">Home</a>
           </li>
           <li class="dropdown nav-item">
@@ -68,24 +68,24 @@
                 <h6 class="dropdown-header">Categories</h6>
               </li>
               
-              <li><a href="../resources/categories/datasets/" class="dropdown-item">Datasets and data sources</a></li>
+              <li><a href="../../resources/categories/datasets/" class="dropdown-item">Datasets and data sources</a></li>
               
-              <li><a href="../resources/categories/documentation/" class="dropdown-item">Documentation</a></li>
+              <li><a href="../../resources/categories/documentation/" class="dropdown-item">Documentation</a></li>
               
-              <li><a href="../resources/categories/publications/" class="dropdown-item">Publications</a></li>
+              <li><a href="../../resources/categories/publications/" class="dropdown-item">Publications</a></li>
               
-              <li><a href="../resources/categories/services/" class="dropdown-item">Services</a></li>
+              <li><a href="../../resources/categories/services/" class="dropdown-item">Services</a></li>
               
-              <li><a href="../resources/categories/software/" class="dropdown-item">Software and technical utilities/systems</a></li>
+              <li><a href="../../resources/categories/software/" class="dropdown-item">Software and technical utilities/systems</a></li>
               
             </ul>
           </li>
           <li class="nav-item">
-            <a href="../events/" 
+            <a href="../../events/" 
               class="nav-link mx-3">Events</a>
           </li>
           <li class="nav-item">
-            <a href="../blog/" 
+            <a href="../../blog/" 
               class="nav-link mx-3">Blog</a>
           </li>
           <li class="dropdown nav-item">
@@ -94,8 +94,8 @@
             <ul class="dropdown-menu mx-3">
               <li><a href="/about" class="dropdown-item">About ADO</a></li>
               <li><a href="/office-hours" class="dropdown-item">Office hours</a></li>
-              <li><a href="../contact-us/" class="dropdown-item">Contact us</a></li>
-              <li><a href="../expression-of-interest/" class="dropdown-item">Expression of interest</a></li>
+              <li><a href="../../contact-us/" class="dropdown-item">Contact us</a></li>
+              <li><a href="../../expression-of-interest/" class="dropdown-item">Expression of interest</a></li>
             </ul>
           </li>
         </ul>
@@ -106,29 +106,22 @@
 
   <div class="container-lg px-5">
     
-<div class="container-fluid fs-5">
-    <h1>Case studies</h1>
+  <div class="container-fluid fs-5">
+    <h1>Political Interest Groups on Twitter</h1>
+    <p>A cross-institution group of researchers who are bringing computational social media analysis methods to political science research approached the Digital Observatory to set up infrastructure to make their computational work easier.
+They wanted a computational lab set up to provide a straightforward environment for R work on a shared dataset of several million tweets.</p>
+<p>We worked with the research team to determine their requirements and the methods they intended to use the system for.
+The final design was to provide an RStudio Server instance for the research team, from which they could access a database of their tweet data, pre-processed and tidied.</p>
+<p>Both the RStudio Server and the database were set up on the Nectar Research Cloud, and we provided documentation for the research team to manage their own user accounts and access to their resources.
+A file syncing process was set up on the RStudio Server virtual machine so that the research team would easily be able to upload and download files from the server to their own local machines.</p>
+<figure>
+    <img src="interest_groups_architecture.svg" style="width: 100%" alt="Architecture diagram showing an RStudio server virtual machine (VM) and a database hosted in Nectar.">
+    <figcaption class="figure-caption text-center">Architecture diagram showing an RStudio server virtual machine (VM) and a database hosted in Nectar</figcaption>
+</figure><p>The Digital Observatory team pre-processed and tidied the raw Twitter data that had previously been collected by the research team, so that the tweets were easily accessible and searchable in the database.
+We provided sample scripts in R on the server itself, so when the research team started an RStudio session connected to the server, they would be able to use our sample code to load and manipulate tweets from the database.</p>
+<p>While the completion and handover of the computational lab setup concluded this project, the Digital Observatory is continuing collaborating with this research group to develop and refine analytical methodology.</p>
 
-    
-
-    
-<ul class="resources list-group-flush">
-  
-  <li class="resource list-group-item d-flex justify-content-between align-items-center">
-    <a href="100-days-of-covid-19-in-the-australian-twittersphere/">100 days of COVID-19 in the Australian Twittersphere</a>
-  </li>
-  
-  <li class="resource list-group-item d-flex justify-content-between align-items-center">
-    <a href="government-portals-survey/">Government Portals survey</a>
-  </li>
-  
-  <li class="resource list-group-item d-flex justify-content-between align-items-center">
-    <a href="political-interest-groups-on-twitter/">Political Interest Groups on Twitter</a>
-  </li>
-  
-</ul>
-
-</div>
+  </div>
 
   </div>
   <footer class="container p-5">

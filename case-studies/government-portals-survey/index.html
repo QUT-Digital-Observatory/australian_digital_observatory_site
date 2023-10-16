@@ -20,7 +20,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../../static/custom.css">
   <link rel="shortcut icon" href="../../static/images/favicon.ico?h=be28650d"">
-  <title>Data Infrastructure and Development — Australian Digital Observatory</title>
+  <title>Government Portals survey — Australian Digital Observatory</title>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-96RSB604XP"></script>
@@ -106,36 +106,29 @@
 
   <div class="container-lg px-5">
     
-<div class="container-fluid fs-5">
-  <h1>Data Infrastructure and Development</h1>
-  
-  <ul>
-<li>Design and build project-specific research data workflows, from collecting to storing to analysing data.</li>
-<li>Assist with collecting, storing and tidying data from the web.</li>
-<li>Build and maintain open-source and bespoke software to aid with data collection, storage, and analysis (e.g., <a href="../../resources/youte/">youte</a>, <a href="../../resources/tidy-tweet">tidy_tweet</a>, <a href="../../resources/tweetexplor">tweetexploR</a>).</li>
-<li>We are actively exploring the use of large language models (LLMs) for research and can provide consultancy on potential applications of LLMs for your research.</li>
-</ul>
+  <div class="container-fluid fs-5">
+    <h1>Government Portals survey</h1>
+    <h2 id="the-problem">The problem</h2><p>A research team was interested in how people fact-find official government information (e.g. rebate eligibility, policy details) and wished to replicate a prior study of theirs where participants had been in a controlled computer lab environment.</p>
+<p>In this past study, participants completed a survey which asked them questions for which the answers going be found in relevant government websites.
+The web browsers on these lab computers were set up with a plugin that recorded what webpages the participants navigated to in order to find the answers to the survey questions.</p>
+<p>The research team wished to replicate this study without the need for the physical computer lab - participants should be able to complete the survey and have their web browsing recorded while doing so from their own computer.</p>
+<h2 id="the-solution">The solution</h2><p>The project went through several stages of design as the Digital Observatory and the research team refined the requirements and methodology and experimented with several technical options.</p>
+<p><strong>Virtualised browser:</strong> Our solution centred around a virtualised web browser which participants could load and interact with inside a tab of their own web browser on their own computer.
+We hosted a <a href="https://www.kasmweb.com/community-edition">Kasm</a> server on Google Cloud Platform to provide this browser-in-browser experience.</p>
+<figure>
+    <img src="virtualised_browser.svg" style="width: 100%" alt="Illustration of a laptop with a web browser open. Within the web browser's open tab from top to bottom is an information banner reading 'Activity within this inner browser is being recorded', and a virtual web browser. Within the open tab of that virtual browser is a scrawled mocked-up survey question.">
+    <figcaption class="figure-caption text-center">Illustration of the components of the virtualised browser from the user's perspective</figcaption>
+</figure><p><strong>Web archiving:</strong> We integrated <a href="https://en.wikipedia.org/wiki/Web_archiving">web archiving</a> tooling (<a href="https://pywb.readthedocs.io">pywb</a>) into the virtual browser sessions, so that every webpage loaded within them was recorded.</p>
+<p>We also customised the Kasm service to provide a custom landing page, and an information banner at the top of the virtual web browser.</p>
+<p><strong>Landing page:</strong> The link that the research team distributed in their recruitment process went to the landing page we built. This page contained the participant information and consent for the study, and would show a launch button if sessions were available. The number of sessions had to be capped and given a timeout period to control computational cloud resource expenditure. If no sessions were available, the landing page would say so and suggest returning at a later time.</p>
+<p><strong>Information banner:</strong> The information banner displayed above the virtual browser "window" (within the user's real browser tab) contained a reminder that activity within the virtual browser was being recorded, and a help button with additional information about the survey and the virtualised system.</p>
+<p><strong>Survey:</strong> When participants initiated a session, the virtual browser would open with the survey pre-loaded. The survey was implemented by the research team in their institution's Qualtrics system. As participants proceeded through the survey, each question would contain a link which would open either a relevant government website or the Google homepage in a a new tab of the virtual browser. From there, they could browse as desired to find the required information just as they would normally, including navigating to any other webpage or search engine they wished, and all activity would be recorded as long as it was within the virtual browser.</p>
+<h2 id="the-data">The data</h2><p>Once enough responses were recorded, the Digital Observatory summarised the browsing recordings into a list of URLs and times for the research team to cross-reference with their survey data.
+We also provided the full web archives so that the researchers could see the pages participants accessed as they were at the time the recordings were made.</p>
+<h2 id="the-impact-so-far..)">The impact (so far...)</h2><p>This project was a truly novel one for us at the Digital Observatory. It allowed us not only to use web archiving tooling in a different way than we had previously, but also to stretch our technical expertise while supporting a purely qualitative research project.</p>
+<p>The research team were able to move from a physical computer lab to a virtual one, vastly broadening the potential range of participants and enabling running their study across multiple countries.</p>
 
-
-  <h2>Case studies</h2>
-
-  
-  
-  <ul class="list-group">
-    <li class="list-group-item">
-      <a href="/case-studies/government-portals-survey/">Government Portals</a>
-    </li>
-  </ul>
-  
-  <ul class="list-group">
-    <li class="list-group-item">
-      <a href="/case-studies/political-interest-groups-on-twitter">Political Interest Groups on Twitter</a>
-    </li>
-  </ul>
-  
-  
-
-</div>
+  </div>
 
   </div>
   <footer class="container p-5">
