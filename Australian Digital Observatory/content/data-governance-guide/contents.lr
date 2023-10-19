@@ -187,7 +187,10 @@ Good data governance requires considering data implications throughout the entir
 
 ### Resources: Platform Factsheets
 
-These fact sheets contain high-level information about a number of platforms, including their APIs, usage policy and terms of services, as well as some useful open-source tools that can be used. The fact sheets aim to be a starting point for researchers interested in working with these platforms.
+These fact sheets contain high-level information about a number of platforms, including their APIs*, usage policy and terms of services, as well as some useful open-source tools that can be used.
+The fact sheets aim to be a starting point for researchers interested in working with these platforms.
+
+_*API stands for Application Programming Interface. You can learn more about APIs by watching [this video](https://www.youtube.com/watch?v=OVvTv9Hy91Q) or reading [this article](https://www.postman.com/what-is-an-api/)._
 
 ---
 title: Data Governance for Human-Related Dynamic Digital Data: A General Guide for Researchers
