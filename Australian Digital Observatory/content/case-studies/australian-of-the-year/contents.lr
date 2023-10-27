@@ -1,0 +1,58 @@
+title: Australian of the Year
+---
+body:
+
+## What we did
+
+The researchers wanted to examine the broader social responses to Australian of the Year (AOTY) recipients on Twitter with particular consideration to the intersection of gender, leadership, and disability.
+The [Australian Twittersphere](/resources/australian-twittersphere/) was selected as the data source for this project.
+
+We searched the Australian Twittersphere for tweets that included the name and/or Twitter handle of the recipients of the Australian of the Year Award from 2018 to 2022. The recipients were:
+
+- Michelle Simmons (2018; could not ascertain a Twitter handle)
+- Richard Harris (2019; [@drharry64](https://twitter.com/drharry64) jointly-awarded)
+- Craig Challen (2019; [@craigchallen](https://twitter.com/craigchallen) jointly-awarded)
+- James Muecke (2020; [@mueckedr](https://twitter.com/mueckedr))
+- Grace Tame (2021; [@tamepunk](https://twitter.com/tamepunk) Twitter account has since been deleted)
+- Dylan Alcott (2022; [@dylanalcott](https://twitter.com/dylanalcott))
+
+A total of 1,189,272 tweets (original tweets and retweets) were extracted from the Australian Twittersphere.
+After excluding retweets and tweets that referred to more than one Australian of the Year recipient, 267,245 tweets remained.
+This is a large number of tweets to analyse using traditional qualitative methods, and therefore a statistical analysis was conducted to determine the relative usage/importance of words in the tweets.
+The goal of this analysis was to examine, for each Australian of the Year recipient, which words were more likely to be used in tweets that referred to them relative to other recipients.
+Additionally, sentiment analysis was conducted in order to examine, for each Australian of the Year recipient, the emotional tone of tweets that referred to them.
+
+## What we found
+
+The top 20 most important words for each Australian of the Year recipient were examined.
+For each Australian of the Year recipient, many of the tokens that appeared in the top 20 were directly related to their work.
+For Michelle Simmons the top tokens included quantum, computing, physics, and professor.
+Michelle Simmons is a Professor of Quantum Physics.
+
+Richard Harris and Craig Challen were jointly-awarded the Australian of the Year in 2019 for their involvement in the Tham Luang cave rescue.
+The top tokens for Richard Harris and Craig Challen included cave, thai, rescue, diver, and heroic.
+
+James Muecke is an opthalmologist who has worked around the world on blindness prevention, as is a co-founder of ‘Sight For All’, a charity that aims to fight blindness and restore sight.
+He has also campaigned for a tax on sugary drinks, since Type 2 diabetes is a major cause of blindness.
+The top tokens for James Muecke included diabetes, dr, sugar, blindness, surgeon, and sightforall.
+
+Grace Tame is a survivor of child sexual abuse and was the first female sexual assualt survivor in Tasmania to win a court order to speak about her experience.
+The top tokens for Grace Tame included women, morrison (likely to be a reference to the former Australian Prime Minister Scott Morrison), janecaro (likely to be a reference to the Australian journalist Jane Caro), brittany (likely to be a reference to Brittany Higgins), and abuse.
+
+Finally, Dylan Alcott is a former professional wheelchair tennis player (both singles and doubles events) who has won many Grand Slam titles and is a Paralympic gold medallist.
+The top tokens for Dylan Alcott included wimbledon, tennis, congratulations, disability, and champion.
+
+With regard to sentiment, the Australian of the Year recipient with the highest proportion of positive tweets was Craig Challen, followed by Michelle Simmons, Dylan Alcott, Richard Harris, James Muecke, and Grace Tame.
+The Australian of the Year recipient with the highest proportion of negative tweets that referred to them was Grace Tame, followed by James Muecke, Dylan Alcott, Richard Harris, Craig Challen, and Michelle Simmons.
+The proportion of neutral tweets was similar for all Australian of the Year recipients, with the exception of Craig Challen, who had a smaller proportion of neutral tweets relative to the other recipients.
+
+## Outcomes
+
+Several publications are in the works, so watch this space!
+
+## Want to explore the Australian Twittersphere?
+
+Data from the Australian Twittersphere is provided on a per project basis by the [QUT Digital Observatory](/qut-digital-observatory).
+Researchers interested in this resource can contact the QUT Digital Observatory at [digitalobservatory@qut.edu.au](mailto:digitalobservatory@qut.edu.au).
+Researchers can refer to our [guide to the Australian Twittersphere](/australian-twittersphere) for more information on the databank and how to access it.
+For a more in-depth technical overview, please read the [Australian Twittersphere technical fact sheet](https://qut-digital-observatory.github.io/australian_twittersphere_fact_sheet/).
