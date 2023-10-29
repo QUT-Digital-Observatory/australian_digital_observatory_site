@@ -26,21 +26,21 @@ Additionally, sentiment analysis was conducted in order to examine, for each Aus
 
 The top 20 most important words for each Australian of the Year recipient were examined.
 For each Australian of the Year recipient, many of the tokens that appeared in the top 20 were directly related to their work.
-For Michelle Simmons the top tokens included quantum, computing, physics, and professor.
+For Michelle Simmons the top tokens included *quantum*, *computing*, *physics*, and *professor*.
 Michelle Simmons is a Professor of Quantum Physics.
 
 Richard Harris and Craig Challen were jointly-awarded the Australian of the Year in 2019 for their involvement in the Tham Luang cave rescue.
-The top tokens for Richard Harris and Craig Challen included cave, thai, rescue, diver, and heroic.
+The top tokens for Richard Harris and Craig Challen included *cave*, *thai*, *rescue*, *diver*, and *heroic*.
 
 James Muecke is an opthalmologist who has worked around the world on blindness prevention, as is a co-founder of ‘Sight For All’, a charity that aims to fight blindness and restore sight.
 He has also campaigned for a tax on sugary drinks, since Type 2 diabetes is a major cause of blindness.
-The top tokens for James Muecke included diabetes, dr, sugar, blindness, surgeon, and sightforall.
+The top tokens for James Muecke included *diabetes*, *dr*, *sugar*, *blindness*, *surgeon*, and *sightforall*.
 
-Grace Tame is a survivor of child sexual abuse and was the first female sexual assualt survivor in Tasmania to win a court order to speak about her experience.
-The top tokens for Grace Tame included women, morrison (likely to be a reference to the former Australian Prime Minister Scott Morrison), janecaro (likely to be a reference to the Australian journalist Jane Caro), brittany (likely to be a reference to Brittany Higgins), and abuse.
+Grace Tame is a survivor of child sexual abuse and was the first female sexual assault survivor in Tasmania to win a court order to speak about her experience.
+The top tokens for Grace Tame included *women*, *morrison* (likely to be a reference to the former Australian Prime Minister Scott Morrison), *janecaro* (likely to be a reference to the Australian journalist Jane Caro), *brittany* (likely to be a reference to Brittany Higgins), and *abuse*.
 
 Finally, Dylan Alcott is a former professional wheelchair tennis player (both singles and doubles events) who has won many Grand Slam titles and is a Paralympic gold medallist.
-The top tokens for Dylan Alcott included wimbledon, tennis, congratulations, disability, and champion.
+The top tokens for Dylan Alcott included *wimbledon*, *tennis*, *congratulations*, *disability*, and *champion*.
 
 With regard to sentiment, the Australian of the Year recipient with the highest proportion of positive tweets was Craig Challen, followed by Michelle Simmons, Dylan Alcott, Richard Harris, James Muecke, and Grace Tame.
 The Australian of the Year recipient with the highest proportion of negative tweets that referred to them was Grace Tame, followed by James Muecke, Dylan Alcott, Richard Harris, Craig Challen, and Michelle Simmons.
