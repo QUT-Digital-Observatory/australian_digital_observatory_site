@@ -22,6 +22,6 @@ explore
 analyse
 
 ---
-howToUse: The first step to access either the API or the Dashboard is to request an API key - API keys are conditionals to non-commercial use and other limitations. Once an API key is obtained, you can either access the Dashboard or, if coding is your thing, you can access the API directly.
+howToUse: The first step to access either the API or the Dashboard is to request an API key. API keys are only for non-commercials use and are subject to other limitations. Once an API key is obtained, you can either access the Dashboard or, if coding is your thing, you can access the API directly.
 ---
 seeMore: https://www.ado.eresearch.unimelb.edu.au/
