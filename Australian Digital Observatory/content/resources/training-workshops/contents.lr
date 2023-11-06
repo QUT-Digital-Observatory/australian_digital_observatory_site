@@ -4,7 +4,9 @@ access:
 ---
 category: services
 ---
-description: The Australian Digital Observatory provides long and short-form training workshops and talks on a range of method-specific topics including
+description:
+
+The Australian Digital Observatory provides long and short-form training workshops and talks on a range of method-specific topics including
 collecting data from the web,
 managing and preparing data for analysis,
 data visualisation and decision-making,
@@ -42,3 +44,5 @@ tidy and model
 store and organise
 ---
 poc: QUT Digital Observatory: digitalobservatory@qut.edu.au
+---
+seeMore: https://www.eventbrite.com.au/o/australian-digital-observatory-41198090963

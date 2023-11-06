@@ -14,7 +14,13 @@
 </div>
 
 <div>
-  <a id="use-cta" href="{{ this.seeMore }}">See more</a>
+  {% if this.seeMore %}
+    {% if 'digitalobservatory.net.au' in this.seeMore or this.seeMore.startswith("/") %}
+      <a id="use-cta" href="{{ this.seeMore }}">See more</a>
+    {% else %}
+      <a id="use-cta" href="{{ this.seeMore }}" target="_blank">See more</a>
+    {% endif %}
+  {% endif %}
 </div>
 
 <h2>Additional information</h2>
@@ -22,13 +28,13 @@
 <table class="table">
   <tbody>
     {% set metadata = {
-    "Organisations/Institutions": this.owner,
-    "Date published": this.datePublished.strftime("%d-%m-%Y") if this.datePublished,
-    "URL": this.link,
-    "DOI": this.doi,
-    "Access conditions": this.access,
-    "Point of contact": this.poc,
-    }
+      "Organisations/Institutions": this.owner,
+      "Date published": this.datePublished.strftime("%d-%m-%Y") if this.datePublished,
+      "URL": this.link,
+      "DOI": this.doi,
+      "Access conditions": this.access,
+      "Point of contact": this.poc,
+      }
     %}
     {% for k, i in metadata.items() %}
     {{ generate_metadata_table(item=i, name=k) }}

@@ -36,9 +36,17 @@
 
 {% macro generate_metadata_table(item, name) %}
 {% if item %}
-<tr>
-  <th scope="row">{{ name }}</th>
-  <td>{{ item }}</td>
-</tr>
+    <tr>
+      <th scope="row">{{ name }}</th>
+      {% if name == "URL" or name == "DOI" %}
+        {% if "digitalobservatory.net.au" in item.host %}
+          <td><a href="{{ item }}">{{ item }}</a></td>
+        {% else %}
+          <td><a href="{{ item }}" target="_blank">{{ item }}</a></td>
+        {% endif %}
+      {% else %}
+        <td>{{ item }}</td>
+      {% endif %}
+    </tr>
 {% endif %}
 {% endmacro %}
