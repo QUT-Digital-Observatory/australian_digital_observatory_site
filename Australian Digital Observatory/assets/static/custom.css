@@ -228,7 +228,7 @@ div.accordion {
     width: 100%;
   }
 
-  p {
+  p, li, table * {
     font-size: 15px;
     line-height: 160%;
   }
