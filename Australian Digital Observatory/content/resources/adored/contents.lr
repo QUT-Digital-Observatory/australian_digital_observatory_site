@@ -2,7 +2,17 @@ title: ADOReD
 ---
 category: datasets
 ---
-description: The Melbourne eResearch Group at the University of Melbourne has set up an API and a Dashboard that allow users to perform some analysis on social media posts, such as word similarity, topic modelling, sentiment analysis, and tweet counts. The first step to access either the API or the Dashboard is to request an API key -API keys are conditionals to non-commercial use and other limitations. Once an API key is obtained, you can either access the Dashboard or, if coding is your thing, you can access the API directly. With either the Dashboard or the API you can download the IDs of tweets (Twitter social media posts), which can be used to get the actual tweet data via the Twitter API for later analysis.
+description:
+
+As part of the Australian Digital Observatory project, the Melbourne eResearch Group at the University of Melbourne has set up an API and a Dashboard that allow users to perform analytics on social media posts from existing collections of national interest across Twitter, Mastodon, FlickR, YouTube, Reddit, and other platforms.
+
+The data accessible through the API and ADOReD (the dashboard) include:
+
+- **Twitter** (~185 million tweets): harvested using the Twitter Streaming API. The stream of tweets is filtered to include only the users that were either located in Australia at the time of posting or that mentioned Australia in their Twitter profile (excluding retweets to avoid document repetitions and to minimize, to the extent possible, content that would likely be produced by “bots”).
+- **Mastodon** (~17 million posts): only public posts from the Mastodon.au node are collected.
+- **Flickr** (~88k posts): filtered geographically, with a bounding box covering the whole of Australia.
+- **YouTube** (~152k posts): filtered using multiple geographic queries that cover the whole country.
+- **Reddit** (~4 million posts): collected from subreddits that have Australian locations as their name.
 ---
 access: Other
 ---
@@ -22,6 +32,6 @@ explore
 analyse
 
 ---
-howToUse: The first step to access either the API or the Dashboard is to request an API key. API keys are only for non-commercials use and are subject to other limitations. Once an API key is obtained, you can either access the Dashboard or, if coding is your thing, you can access the API directly.
+howToUse: The first step to access either the API or the Dashboard is to request an API key. API keys are only for non-commercials use and are subject to other limitations. Once an API key is obtained, you can either access the Dashboard or, if coding is your thing, you can access the API directly. API keys can be obtained from [https://www.ado.eresearch.unimelb.edu.au/api-key-request-form/](https://www.ado.eresearch.unimelb.edu.au/api-key-request-form/).
 ---
 seeMore: https://www.ado.eresearch.unimelb.edu.au/
