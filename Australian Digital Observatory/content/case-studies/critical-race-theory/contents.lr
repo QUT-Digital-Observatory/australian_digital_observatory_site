@@ -1,0 +1,19 @@
+title: Critical Race Theory
+---
+body:
+
+## What we did
+
+A research study proposed to investigate how public engagement, education, and debate about Critical Race Theory (CRT) change the concept's meaning over time, tracking how CRT morphed from an academic theory to a controversial concept in the public sphere.
+
+The study required data collated from multiple platforms, including Twitter, Reddit, YouTube, Wikipedia, and scholarly citation databases . The Digital Observatory implemented custom data collection from all of these platforms via their official APIs. 
+
+**Twitter and Reddit**. All tweets and submissions matching *critical race theory* or *CRT* were captured. 
+
+**Wikipedia**. Content revisions on the Critical Race Theory page were collected from [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page), including the time when revision was made and what was revised. 
+
+**Scholarly citations**. All scholarly articles related to Critical Race Theory were collected via [OpenAlex](https://openalex.org/) and further processed into a format suitable for a network graph.
+
+## Outcomes
+
+Findings from this project were presented at a QUT [Early Career Researcher Symposium](https://www.eventbrite.com.au/e/2022-qut-early-career-researcher-symposium-tickets-423875993507).
