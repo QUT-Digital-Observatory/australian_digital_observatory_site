@@ -110,12 +110,20 @@
 <h1>ADOReD</h1>
 <a class="category_label"
   href="../categories/datasets/">Datasets</a>
-<p class="description"><p>The Melbourne eResearch Group at the University of Melbourne has set up an API and a Dashboard that allow users to perform some analysis on social media posts, such as word similarity, topic modelling, sentiment analysis, and tweet counts. The first step to access either the API or the Dashboard is to request an API key -API keys are conditionals to non-commercial use and other limitations. Once an API key is obtained, you can either access the Dashboard or, if coding is your thing, you can access the API directly. With either the Dashboard or the API you can download the IDs of tweets (Twitter social media posts), which can be used to get the actual tweet data via the Twitter API for later analysis.</p>
+<p class="description"><p>As part of the Australian Digital Observatory project, the Melbourne eResearch Group at the University of Melbourne has set up an API and a Dashboard that allow users to perform analytics on social media posts from existing collections of national interest across Twitter, Mastodon, FlickR, YouTube, Reddit, and other platforms.</p>
+<p>The data accessible through the API and ADOReD (the dashboard) include:</p>
+<ul>
+<li><strong>Twitter</strong> (~185 million tweets): harvested using the Twitter Streaming API. The stream of tweets is filtered to include only the users that were either located in Australia at the time of posting or that mentioned Australia in their Twitter profile (excluding retweets to avoid document repetitions and to minimize, to the extent possible, content that would likely be produced by “bots”).</li>
+<li><strong>Mastodon</strong> (~17 million posts): only public posts from the Mastodon.au node are collected.</li>
+<li><strong>Flickr</strong> (~88k posts): filtered geographically, with a bounding box covering the whole of Australia.</li>
+<li><strong>YouTube</strong> (~152k posts): filtered using multiple geographic queries that cover the whole country.</li>
+<li><strong>Reddit</strong> (~4 million posts): collected from subreddits that have Australian locations as their name.</li>
+</ul>
 </p>
 
 <div id="how-to-use">
   <h2>How to use this resource</h2>
-  <p>The first step to access either the API or the Dashboard is to request an API key. API keys are only for non-commercials use and are subject to other limitations. Once an API key is obtained, you can either access the Dashboard or, if coding is your thing, you can access the API directly.</p>
+  <p>The first step to access either the API or the Dashboard is to request an API key. API keys are only for non-commercials use and are subject to other limitations. Once an API key is obtained, you can either access the Dashboard or, if coding is your thing, you can access the API directly. API keys can be obtained from <a href="https://www.ado.eresearch.unimelb.edu.au/api-key-request-form/">https://www.ado.eresearch.unimelb.edu.au/api-key-request-form/</a>.</p>
 
 </div>
 
