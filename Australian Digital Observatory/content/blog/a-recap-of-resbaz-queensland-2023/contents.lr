@@ -1,0 +1,48 @@
+title: A recap of ResBaz Queensland 2023
+---
+author: QUT Digital Observatory
+---
+pub_date: 2023-11-27
+---
+body:
+
+Last week, the DO team had the wonderful opportunity to present at Research Bazaar (ResBaz) Queensland 2023. A popular conference in the research community, ResBaz holds an annual three-day event featuring keynote speeches, digital research training workshops, and roundtables, all aiming to upskill and connect researchers from diverse backgrounds.
+
+As in previous ResBazzes, the DO team did a number of workshops and talks related to our areas of expertise. Of note this year were two workshops on AI for research, and one showcasing our new data sources.
+
+## Demystifying AI for research
+
+Having done a lot of investigation and experimentation with Large Language Models (LLMs), Robert Fleet and Mat Bettinson did two talks on the capabilities and potential of these powerful tools in aiding research. Specifically, we discussed the characteristics and properties of LLMs, their strengths and weaknesses, and based on those, how to leverage the power of AI to augment research.
+---
+extras:
+
+#### image ####
+link: resbaz_1.jpg
+----
+alt: Photo of man presenting in a room
+----
+width: 80%
+----
+caption: Robert Fleet giving an overview into AI and Large Languange Models (LLMs)
+#### text ####
+body: Next, we gave a demonstration of some actual AI-incorporated workflows to analyse a prepared dataset. The scripts, written in Python, dealt mostly with summarisation tasks, from extracting the different viewpoints to identifying the sentiments related to a topic. Attendees got to see how OpenAI's powerful GPT models can be used to assist with exploring large quantities of text data.
+#### image ####
+link: resbaz_2.jpg
+----
+alt: Photo of two men presenting in a room
+----
+width: 80%
+----
+caption: Robert Fleet and Mat Bettinson giving a demo of AI-powered workflows for summarising text
+#### text ####
+body:
+
+## Introducing DO's new tools
+
+In our final session at ResBaz 2023, we introduced exciting new tools that the DO had recently developed - Youte+ and NewsTalk. Building on top of [youte](https://youte.readthedocs.io/en/latest/), a command-line tool to collect and tidy YouTube metadata, [Youte+](https://youteplus.digitalobservatory.net.au/) is a web interface that makes the process easier for researchers without a technical background. The tool - which is still in the alpha stage, is publicly available and we're keen to get feedback from users trying it out.
+
+[NewsTalk](https://newstalk.digitalobservatory.net.au/home) is a collection of reader commentary on online Australian news websites. Particularly, on-site and/or Reddit comments linking to Australian news articles are harvested and made ready for analysis. We introduced other features of NewsTalk, including those that enable users to identify similar stories and download comments.
+
+Lastly, we showed a demo of text analytics on the data collected from Youte+ using [DSTaR](https://researchdatafinder.qut.edu.au/display/n124876), a R package developed by our Robert Fleet to perform discriminatory text analysis on short texts.
+
+If you have any questions regarding any of our workshops, or simply want to know more, feel free to reach out to the DO via [digitalobservatory@qut.edu.au](mailto:digitalobservatory@qut.edu.au).

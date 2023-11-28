@@ -19,5 +19,31 @@
   {% endif %}
 
   {{ this.body }}
+
+  {% if this.extras %}
+    {% if this.extras.blocks %}
+
+      {% for blk in this.extras.blocks %}
+        {% if blk._flowblock == 'image' %}
+          <figure>
+            {% if blk.width %}
+              <img src="{{ blk.link }}" style="display: block; width: {{ blk.width }}; margin-left: auto; margin-right:auto"
+                alt="{{ blk.alt }}">
+            {% else %}
+              <img src="{{ blk.link }}" style="display: block; width: 100%; margin-left: auto; margin-right:auto"
+                alt="{{ blk.alt }}">
+            {% endif %}
+            <figcaption class="figure-caption text-center">{{ blk.caption }}</figcaption>
+          </figure>
+
+        {% elif blk._flowblock == 'text' %}
+          {{ blk.body }}
+
+        {% endif %}
+      {% endfor %}
+
+    {% endif %}
+  {% endif %}
+
 </div>
 {% endblock %}
