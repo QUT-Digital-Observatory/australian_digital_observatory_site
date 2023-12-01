@@ -112,8 +112,9 @@ body:
 
 Data in the Australian Twittersphere are subject to the [*National Statement on Ethical Conduct in Human Research*](https://www.nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2007-updated-2018).
 
-The Digital Observatory has ethical clearance (granted by QUT's University Human Research Ethics Committee) to collect and maintain the Australian Twittersphere.
-If researchers require access to raw tweet data from the Australian Twittersphere for their research, ethical clearance is a requirement.
+The Digital Observatory has ethical clearance (granted by QUT's University Human Research Ethics Committee) to collect and maintain the Australian Twittersphere. Research projects with an Ethics exemption can access aggregate data from the Australian Twittersphere.
+
+If researchers require access to raw tweet data from the Australian Twittersphere for their research, **ethical clearance is a requirement**.
 For most projects, low risk ethical clearance is sufficient but this depends on your institution's ethics committee.
 
 QUT researchers can find out more here: [https://www.qut.edu.au/research/why-qut/ethics-and-integrity](https://www.qut.edu.au/research/why-qut/ethics-and-integrity) (QUT login required).
