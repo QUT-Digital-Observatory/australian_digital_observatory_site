@@ -1,0 +1,25 @@
+title: The Australian Digital Observatory: Social Media Collection, Discovery and Analytics at Scale
+---
+access: Open access
+---
+category: publications
+---
+datePublished: 2023-05-01
+---
+description: (Taken from abstract) The Australian Digital Observatory was funded by the Australian Research Data Commons in 2021. The goal of the project was to establish the national social media data repository for Australia. This includes collection of social media data at scale, in the first instance from numerous platforms including Twitter, Reddit, FlickR, FourSquare and YouTube. This paper describes the technical architecture of the ADO platform and provides examples of the capabilities that are offered for data discovery, analysis and subsequent download of targeted social media data to support diverse research purposes, noting that the platform needs to respect the terms and conditions of the various social media platforms on data licensing and use, i.e., direct user access to the original raw data is not possible as this would violate the licensing arrangements of the various platforms. We present a case study in the utilization of the platform.
+---
+doi: https://doi.org/10.1007/978-981-99-2233-8_23
+---
+link: https://link.springer.com/chapter/10.1007/978-981-99-2233-8_23
+---
+owner: The University of Melbourne
+---
+poc: Richard O. Sinnott (rsinnott@unimelb.edu.au)
+---
+seeMore: https://link.springer.com/chapter/10.1007/978-981-99-2233-8_23
+---
+tags:
+
+publish
+explore
+collect
