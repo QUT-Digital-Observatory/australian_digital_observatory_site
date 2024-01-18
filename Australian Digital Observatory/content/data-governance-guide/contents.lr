@@ -1,6 +1,8 @@
 _model: page
 ---
-_template: guide.html
+_template:
+
+guide.html
 ___
 show_toc: yes
 ---
@@ -52,7 +54,7 @@ A challenge for researchers working with human-related dynamic digital data is n
     <ul>
         <li> <a href="https://www.oaic.gov.au/privacy/the-privacy-act/history-of-the-privacy-act">History of the Privacy Act</a></li>
         <li> <a href="https://www.oaic.gov.au/privacy/guidance-and-advice/australian-entities-and-the-eu-general-data-protection-regulation">The EU General Data Protection Regulation (GDPR)</a></li>
-        <li> <a href="https://www.nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2007-updated-2018">National Statement on Ethical Conduct in Human Research</a></li>
+        <li> <a href="https://www.nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2023">National Statement on Ethical Conduct in Human Research</a></li>
         <li> <a href="https://aoir.org/reports/ethics3.pdf">Association of Internet Researchers’s Ethical Guidelines For Internet Research 3.0</a></li>
     </ul>
 </div>
