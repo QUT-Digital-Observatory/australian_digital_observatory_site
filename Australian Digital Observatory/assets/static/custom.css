@@ -9,12 +9,12 @@
   --h2-font-size: calc(1.1rem + 0.7vw);
   --h3-font-size: calc(1.1rem + 0.3vw);
   --h4-font-size: calc(1rem + 0.3vw);
+  --h5-font-size: calc(1rem);
 }
 
 body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  margin: 10%;
   margin-top: 0%;
 }
 
@@ -131,6 +131,22 @@ header {
   color: white;
 }
 
+footer {
+  background-color: #f8f9fa;
+}
+
+h5.footer {
+  color: #0066b9;
+  font-weight: bold;
+  font-size: var(--h5-font-size);
+}
+
+ul.footer a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+}
+
 /* Breakout boxes */
 
 .breakout {
@@ -228,7 +244,9 @@ div.accordion {
     width: 100%;
   }
 
-  p, li, table * {
+  p,
+  li,
+  table * {
     font-size: 15px;
     line-height: 160%;
   }
@@ -330,7 +348,7 @@ time.start-time {
   font-size: 1.25em;
 }
 
-time + h1 {
+time+h1 {
   margin-top: 1%;
 }
 
