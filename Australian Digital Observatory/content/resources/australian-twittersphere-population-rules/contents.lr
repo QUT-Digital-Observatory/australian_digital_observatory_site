@@ -1,0 +1,24 @@
+title: Australian Twittersphere Population Rules
+---
+access: Creative Commons Attribution 4.0 (CC-BY) http://creativecommons.org/licenses/by/4.0/
+---
+category: datasets
+---
+description: The [Australian Twittersphere](https://www.digitalobservatory.net.au/resources/australian-twittersphere/) is a longitudinal collection of tweets from a population of Twitter accounts which explicitly self-identify as Australian or having connection to Australia. A publication detailing the method used to determine this population is forthcoming. This dataset contains the rules for inclusion in the Australian Twittersphere which are derived by the population method. These rules were developed by the QUT Digital Observatory team in 2021, and then used to determine the Twitter accounts which were included in the Australian Twittersphere up until the collection ceased in 2023.
+---
+doi: https://doi.org/10.25912/RDF_1711599518062
+---
+howToUse: The rules file can be used with the [twittersphere](https://github.com/QUT-Digital-Observatory/twittersphere) tool to filter a list of Twitter accounts down to those which match the rules and as such would have been suitable for inclusion in the Australian Twittersphere.
+---
+link: https://researchdatafinder.qut.edu.au/display/n41990
+---
+owner: QUT Digital Observatory
+---
+poc: digitalobservatory@qut.edu.au
+---
+seeMore: https://researchdatafinder.qut.edu.au/display/n41990
+---
+tags:
+
+collect
+analyse
