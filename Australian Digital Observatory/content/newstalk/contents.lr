@@ -1,0 +1,114 @@
+_model: page
+---
+_template: australia_twittersphere_guide.html
+---
+show_toc: no
+---
+body:
+
+[NewsTalk](https://newstalk.digitalobservatory.net.au/home) is an ongoing collection of public user commentary on Australian news stories, consisting of:
+
+- user comments posted directly on Australian news websites (**site comments**), and
+- **Reddit comments** linking to stories on Australian news websites.
+
+The collection began in November 2022 and has, as of March 2024, accumulated over 2 million comments, half as site comments and half as Reddit comments. Eighteen (18) Australian news websites and mastheads are being monitored, including:
+
+- ABC News
+- Australian Community Media
+- Crikey
+- Echo Media                 
+- Independent Australia
+- Kotaku AU
+- MSN News
+- MamaMia
+- News.com.au
+- Nine Media
+- Perth Now
+- SBS News
+- Sky News Australia
+- The Conversation
+- The Guardian               
+- The New Daily
+- The Saturday Paper
+- iTnews
+
+Importantly, NewsTalk does **not** store the content of news stories, only comments left on or linking to them.
+
+## Using NewsTalk
+
+NewsTalk data can be searched, viewed, and downloaded via the [NewsTalk](https://newstalk.digitalobservatory.net.au/home) platform. Login is required, and researchers can apply for access by contacting the Digital Observatory via email.
+
+### Getting access to NewsTalk
+
+Interested researchers can contact the Digital Observatory via [email](mailto:digitalobservatory@qut.edu.au) to obtain login credentials for NewsTalk. 
+The following should be provided:
+
+- Description of the research project that will use NewsTalk data,
+- Ethics approval (low-risk and above) for that specific research project,
+- Data management plan (recommended), and
+- Agreement to acknowledge and cite NewsTalk in any publication resulting from the use of its data.
+
+Login credentials are valid for the duration of the research project, and can be extended if necessary. Access can also be revoked upon any breach of NewsTalk databank ethics and governance.
+
+### Ethics and Data management
+
+Data in NewsTalk are subject to the [National Statement on Ethical Conduct in Human Research](https://www.nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2023).
+
+The Digital Observatory has ethical clearance (granted by QUT's University Human Research Ethics Committee) to collect data for and maintain NewsTalk. Research projects with an Ethics exemption can request aggregate data from NewsTalk, but not full access to the NewsTalk platform.
+
+Ethical clearance is required for full access to raw data via the NewsTalk platform. For most projects, low-risk ethical clearance is sufficient, but this depends on your institution's ethics committee.
+
+QUT researchers can find out more here: https://www.qut.edu.au/research/why-qut/ethics-and-integrity (QUT login required). The Digital Observatory will require a copy of your ethical clearance (or exemption, if applicable) before providing access to NewsTalk.
+
+## Frequently Asked Questions
+---
+extras:
+
+#### accordions ####
+id: faq
+----
+children:
+
+##### accordion #####
+heading: Do I have to work at QUT to collaborate with the Digital Observatory and access NewsTalk?
+-----
+body: Absolutely not! We work with researchers from many universities, as long as appropriate ethical clearance is in place (if applicable). Having a QUT collaborator does help, but it is not required. External researchers might be charged on a cost-recovery basis.
+##### accordion #####
+heading: How long does it take to extract data from NewsTalk?
+-----
+body: The [NewsTalk](https://newstalk.digitalobservatory.net.au/home) platform provides a self-service tool to search, view, and download from the databank. Hence, what might take the most time is obtaining access to the platform and gathering necessary documents.
+##### accordion #####
+heading: How far back does the NewsTalk capture?
+-----
+body: NewsTalk was built to be a prospective data collection, with the earliest comment published around the time when the collection started, November 2022.
+##### accordion #####
+heading: How much will it cost me?
+-----
+body:
+
+The Digital Observatory operates to keep costs low for researchers by only charging on a cost-recovery basis. If you are a researcher within QUT, we also offer in-kind services for:
+
+- HDR (Higher-degree research) projects
+- Small projects
+- Projects in support of grant applications
+- ECR (Early-career researchers) projects
+##### accordion #####
+heading: Do I need ethics approval?
+-----
+body:
+
+It depends. If you intend on publishing your findings or need access to raw data (e.g., comment text) then you will need ethics. There are also other situations in which you will require ethics, such as research questions that require data about sensitive topics. Refer to the Ethics section above for more information.
+
+If you are unsure, we can discuss your research question with you and can refer you to the Office of Research Ethics and Integrity or an ethics advisor for further advice if necessary.
+##### accordion #####
+heading: Do I need a Data Management Plan?
+-----
+body: A data management plan is recommended if you work with potentially personally identifiable data from NewsTalk. It might be a requirement in some cases, including HDR and several funded research projects, including ARC (Australian Research Council) and NHMRC (National Health and Medical Research Council).
+##### accordion #####
+heading: Can I get support from the Digital Observatory?
+-----
+body: Absolutely! If you are not comfortable working with the NewsTalk platform, you can collaborate with the Digital Observatory. We can tailor our output and deliverables to your specific needs and skills.
+#### cta ####
+id: contact-us
+---
+title: NewsTalk: A Researcher's Guide
