@@ -4,10 +4,11 @@ title: Australian Twittersphere
 ---
 category: datasets
 ---
-description: The *Australian Twittersphere* is a longitudinal, curated collection of tweets from approximately 838,000 Twitter accounts identified as ‘Australian’.
-The Digital Observatory has maintained reliable, ongoing data collection since early 2018, with approximately 22 million tweets being collected per month.
-There is also an archive of approximately 2 billion tweets from 2006 to 2016.
-The Digital Observatory currently collects approximately 41 million tweets per month.
+description:
+
+The *Australian Twittersphere* is a longitudinal, curated collection of tweets from approximately more than 1 million Twitter accounts identified as ‘Australian’.
+The Digital Observatory maintained reliable, ongoing data collection from early 2018, with approximately 22-41 million tweets collected per month. The collection was ceased on 30 June 2023, following changes to Twitter's API.
+The [rules which identify the population of accounts](/resources/australian-twittersphere-population-rules/) in the Australian Twittersphere are available as open data.
 ---
 access: By consultation with the QUT Digital Observatory
 ---
@@ -26,7 +27,9 @@ tags:
 explore
 collect
 ---
-howToUse: Data from the Australian Twittersphere is provided on a per project basis by the [QUT Digital Observatory](/qut-digital-observatory).
+howToUse:
+
+Data from the Australian Twittersphere is provided on a per project basis by the [QUT Digital Observatory](/qut-digital-observatory).
 Researchers interested in this resource can contact the QUT Digital Observatory at [digitalobservatory@qut.edu.au](mailto:digitalobservatory@qut.edu.au).
 Researchers can refer to our [guide to the Australian Twittersphere](/australian-twittersphere) for more information on the databank and how to access it.
 For a more in-depth technical overview, please read the [Australian Twittersphere technical fact sheet](https://qut-digital-observatory.github.io/australian_twittersphere_fact_sheet/).

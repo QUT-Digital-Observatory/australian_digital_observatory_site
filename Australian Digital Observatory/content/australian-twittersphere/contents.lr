@@ -49,6 +49,18 @@ Although the *Pro* level API access allows the collection of 1,000,000 million t
 In early July 2023, Twitter/X revoked the Digital Observatory's access to the API (as expected), and collection ceased.
 
 The last tweet that was collected as part of the Australian Twittersphere was posted on 13 July 2023, however, some API instabilities were observed in early July and therefore, **for research purposes, the Australian Twittersphere collection ends on 30 June 2023**.
+##### accordion #####
+heading: Criteria for inclusion in the Australian Twittersphere
+-----
+body:
+
+The tweets in the Australian Twittersphere were collected from a selected population of Twitter accounts, and this population was refreshed several times in the collection's lifespan (see Historical background above).
+
+A publication detailing the method used to determine this population is forthcoming. Meanwhile, the set of rules which are the output of the method as used in the final population refresh of the Australian Twittersphere is available [as an open dataset](/resources/australian-twittersphere-population-rules/). These rules were applied to a list of candidate Twitter accounts to determine whether they should be added to the Australian Twittersphere population.
+
+The rules for inclusion in the Australian Twittersphere may be cited as:
+
+Hames, Sam; Takahashi, Marissa; Miller, Alice; QUT Digital Observatory; (2023): Australian Twittersphere Population Rules. Queensland University of Technology. (Dataset) https://doi.org/10.25912/RDF_1711599518062
 #### text ####
 body:
 
