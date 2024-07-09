@@ -1,0 +1,34 @@
+title: A recap of Post-API conference
+---
+author: Boyd Nguyen
+---
+body:
+
+Last month, we had the opportunity to participate in the [Post-API Conference 2024](https://sites.google.com/umich.edu/postapiconference/home?authuser=0), organised by Prof. Dan Agnus, Prof. Deen Freelon, Associate Professor Jo Lukito, Dr. Jo Lukito, and Dr. John Pasek.
+
+First held in Philadelphia in 2023, the Post-API Conference provides a platform for the research community to learn and share their experience working with social media data. 
+As the name suggests, the conference focuses on acquiring social media data for research in an era where data access is becoming increasingly difficult.
+
+As a research infrastructure facility primarily dealing with social media data, the Digital Observatory has been exploring sustainable non-API approaches to data collection. For that reason, we were invited to talk about our tools and resources in this area.
+
+The talk described our three newly established tools:
+1. [youte+](https://youteplus.digitalobservatory.net.au/) for YouTube metadata collection,
+2. [NewsTalk](/resources/newstalk), a databank of public comments on Australian news stories,
+3. AusReddit, a databank of Reddit posts and comments from Australian subreddits (soon to be launched).
+
+We also briefly mentioned TubeTalk, a future project that aims to transcribe with [speaker diarisation](https://en.wikipedia.org/wiki/Speaker_diarisation) YouTube videos.
+
+The interest our talk generated was encouraging, and we had good conversations with researchers to better understand their research problems and needs.
+
+It was also interesting to hear how other researchers approached data collection. As expected, we also discussed the ethical and legal implications of digital data acquisition. 
+---
+extras:
+
+#### image ####
+link: post-api.jpeg
+----
+alt: Photo of a conference room
+----
+width: 
+----
+caption: Our talk on ADO tools and databanks
