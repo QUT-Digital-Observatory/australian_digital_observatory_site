@@ -9,7 +9,7 @@ Last month, we had the opportunity to participate in the [Post-API Conference 20
 First held in Philadelphia in 2023, the Post-API Conference provides a platform for the research community to learn and share their experience working with social media data. 
 As the name suggests, the conference focuses on acquiring social media data for research in an era where data access is becoming increasingly difficult.
 
-As a research infrastructure facility primarily dealing with social media data, the Digital Observatory has been exploring sustainable non-API approaches to data collection. For that reason, we were invited to talk about our tools and resources in this area.
+As a research infrastructure facility primarily dealing with human data on the web such as social media data, the Digital Observatory has been exploring sustainable non-API approaches to data collection. For that reason, we were invited to talk about our tools and resources in this area.
 
 The talk described our three newly established tools:
 1. [youte+](https://youteplus.digitalobservatory.net.au/) for YouTube metadata collection,
@@ -32,3 +32,5 @@ alt: Photo of a conference room
 width: 
 ----
 caption: Our talk on ADO tools and databanks
+---
+pub_date: 2024-07-10
