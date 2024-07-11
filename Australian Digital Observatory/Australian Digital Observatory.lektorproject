@@ -1,6 +1,7 @@
 [project]
 name = Australian Digital Observatory
 locale = en_AU
+url = https://www.digitalobservatory.net.au
 
 [servers.ghpages]
 default = yes
@@ -9,3 +10,4 @@ target = ghpages://QUT-Digital-Observatory/australian_digital_observatory_site
 [packages]
 lektor-markdown-header-anchors = 0.3.1
 lektor-tags = 0.5.1
+lektor-atom = 0.4.0
