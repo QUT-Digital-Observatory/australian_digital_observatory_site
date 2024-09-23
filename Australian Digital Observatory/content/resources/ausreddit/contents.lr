@@ -1,0 +1,20 @@
+title: AusReddit
+---
+category: datasets
+---
+datePublished: 2024-09-23
+---
+description: AusReddit is a research databank of Reddit posts and comments from Australian-related subreddits. The goal is to provide academic researchers with easy access to a rich data source that can give rich insights into Australia's societal issues. As of 28 August 2024, the databank contains more than 4.9 million submissions and nearly 100 million comments from 593 subreddits.
+---
+howToUse: AusReddit will eventually be accessible via a public API and interface. In the mean time, contact the Digital Observatory at digitalobservatory@qut.edu.au to discuss getting access to the databank. Read the attached guide for more information.
+---
+owner: QUT Digital Observatory
+---
+access: Ethics approval is required for access to raw data
+---
+tags:
+
+collect
+analyse
+---
+feature: yes
