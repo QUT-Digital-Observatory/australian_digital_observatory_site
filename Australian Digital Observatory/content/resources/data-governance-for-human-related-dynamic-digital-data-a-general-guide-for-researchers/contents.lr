@@ -20,7 +20,7 @@ collect
 analyse
 storage
 ---
-feature: yes
+feature: no
 ---
 poc: Dr Marissa Takahashi (digitalobservatory@qut.edu.au)
 ---

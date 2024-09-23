@@ -49,4 +49,21 @@
   {% endfor %}
   {% endif %}
 </p>
+
+{% if this.attachments %}
+{% if this.attachments.documents %}
+  <h2>Documents</h2>
+
+  {% for doc in this.attachments.documents %}
+  <div class="card mb-2" style="width: 18rem;">
+    <div class="card-body">
+      <img src="{{ '/static/images/pdf-icon.png' |asseturl }}" style="width: 10%;margin-bottom: 5%">
+      <h5 class="card-title">{{ doc.name }} (PDF)</h5>
+      <a href="{{ doc.path }}" class="card-link">PDF</a>
+    </div>
+  </div>
+  {% endfor %}
+  
+{% endif %}
+{% endif %}
 {% endblock %}
