@@ -18,3 +18,11 @@ collect
 analyse
 ---
 feature: yes
+---
+doi: https://doi.org/10.25912/RDF_1727758207940
+---
+link: https://ausreddit.digitalobservatory.net.au/
+---
+poc: Digital Observatory (digitalobservatory@qut.edu.au)
+---
+seeMore: https://ausreddit.digitalobservatory.net.au/
