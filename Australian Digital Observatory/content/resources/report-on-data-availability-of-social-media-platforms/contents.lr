@@ -1,0 +1,17 @@
+title: Report on data availability of social media platforms
+---
+access: Open access
+---
+category: publications
+---
+datePublished: 2025-02-05
+---
+description:
+
+This report outlines the feasibility of collecting data from a number of social media platforms. The investigated platforms include both mainstream sites (e.g. Facebook, Reddit, Instagram) and decentralised platforms (e.g. Mastodon, BlueSky). Feasibility is assessed based on the availability of Application Programming Interface (API), ease of access, and other practical considerations for data harvesting. The report was completed as part of the Australian Internet Observatory (AIO) Work Package 11.1.
+
+The central finding from the report is that the high-volume social media data access for research has become increasingly difficult to obtain. Platforms are moving to gatekeep and restrict use of their data, while sites that support open data sharing are too small to provide comprehensive data for academic research. Researchers needing large data volume for their projects can consider multi-platform data collection or web archiving.
+---
+howToUse: The PDF report is downloadable on this page.
+---
+owner: Digital Observatory
