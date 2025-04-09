@@ -1,0 +1,22 @@
+title: What do Reddit users discuss about Australia's Federal Election 2025?: An exploration of political discussions on Australian subreddits
+---
+body:
+
+As Australia's [Federal Election 2025](https://www.theguardian.com/australia-news/2025/apr/07/australian-election-guide-date-2025-when-register-enrol-to-vote-early-voting-centres-postal-overseas) is approaching, we at the Digital Observatory are keen to explore public sentiments around key political issues that might have an impact on election outcomes.
+
+Making use of our comprehensive Australian [Reddit databank](/resources/ausreddit), we extracted and summarised thousands of Reddit submissions and comments from twenty politically active subreddits, using AI models such as Google's Gemini Flash and Gemini Pro. The analysis will be done on a regular basis until election day. With this, we aim to track public conversations around election issues and how they evolve as we get closer to election day.
+
+The results of the first week of data are available as a [public dashboard](https://public.tableau.com/app/profile/digital.observatory/viz/AustraliaFederalElection2025WhatdoReddituserssay_17441620537710/AustraliaFederalElection2025onReddit) and a [report](/resources/australian-reddit-political-discussion-report-2025-federal-election-campaign-week-1/). 
+---
+extras:
+
+#### image ####
+link: australia-federal-election-2025-on-reddit.png
+----
+alt: dashboard
+----
+width: 
+----
+caption: Prevalence of key issues discussed about on Reddit, as classified by AI models
+---
+pub_date: 2025-04-09
