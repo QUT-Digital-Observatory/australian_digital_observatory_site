@@ -97,7 +97,7 @@ For a more in-depth technical overview, please read the &lt;a href="https://qut-
 &lt;h3 id="twitter-conversation-analysis"&gt;Twitter conversation analysis&lt;/h3&gt;&lt;p&gt;A researcher is interested in the Twitter conversation around Australia’s federal election. The workflow for answering this problem would include a preliminary feasibility check (to ensure there are sufficient data for analysis), followed by data collection, processing, and analysis.
 To implement this workflow, we use the following tools:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.ado.eresearch.unimelb.edu.au/tutorials/"&gt;ADOReD&lt;/a&gt;: high-level social media analysis via an interactive dashboard. It can be used to derive a list of tweet IDs relevant to the research question.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.aio.eresearch.unimelb.edu.au/"&gt;ADOReD&lt;/a&gt;: high-level social media analysis via an interactive dashboard. It can be used to derive a list of tweet IDs relevant to the research question.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/"&gt;twarc hydrate&lt;/a&gt;: open-source command-line tool for extracting data from Twitter API. It can be used to hydrate full tweet content from tweet IDs.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://pypi.org/project/tidy-tweet/"&gt;tidy_tweet&lt;/a&gt;: in-development open-source Python library for processing raw responses from Twitter API into an SQLite database.&lt;/li&gt;
 &lt;li&gt;&lt;a href="/resources/tweetexplor/"&gt;tweet_exploR&lt;/a&gt;: open-source R package providing descriptive statistics and visualisation of Twitter data within an SQLite database produced by tidy_tweet.&lt;/li&gt;
