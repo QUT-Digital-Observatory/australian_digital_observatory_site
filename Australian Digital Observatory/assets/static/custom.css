@@ -144,6 +144,10 @@ ul.footer a {
   opacity: 0.5;
 }
 
+.italic {
+  font-style: italic;
+}
+
 /* Breakout boxes */
 
 .breakout {
