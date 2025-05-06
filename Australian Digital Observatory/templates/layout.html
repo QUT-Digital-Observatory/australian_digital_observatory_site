@@ -76,25 +76,17 @@
                 {% endfor %}
               </ul>
             </li>
-            <li class="nav-item">
-              <a href="{{ '/events'|url }}" {% if this.is_child_of('/events') %} class="active nav-link" {% endif%}
-                class="nav-link mx-3">Events</a>
-            </li>
+<!--            <li class="nav-item">-->
+<!--              <a href="{{ '/events'|url }}" {% if this.is_child_of('/events') %} class="active nav-link" {% endif%}-->
+<!--                class="nav-link mx-3">Events</a>-->
+<!--            </li>-->
             <li class="nav-item">
               <a href="{{ '/blog'|url }}" {% if this.is_child_of('/blog') %} class="active nav-link" {% endif%}
                 class="nav-link mx-3">Blog</a>
             </li>
-            <li class="dropdown nav-item">
-              <a href="#" {% if this.is_child_of('/about') or this.is_child_of('/office-hours') or
-                this.is_child_of('/contact-us') %} class="active nav-link dropdown-toggle" {% endif %}
-                class="nav-link dropdown-toggle mx-3" data-bs-toggle="dropdown">About</a>
-              <ul class="dropdown-menu mx-3">
-                <li><a href="/about" class="dropdown-item">About ADO</a></li>
-                <li><a href="/office-hours" class="dropdown-item">Office hours</a></li>
-                <li><a href="{{ '/contact-us' | url }}" class="dropdown-item">Contact us</a></li>
-                <li><a href="{{ '/expression-of-interest' | url }}" class="dropdown-item">Expression of interest</a>
-                </li>
-              </ul>
+            <li class="nav-item">
+              <a href="{{ '/about'|url }}" {% if this.is_child_of('/about') %} class="active nav-link" {% endif%}
+              class="nav-link mx-3">About</a>
             </li>
           </ul>
         </div>
