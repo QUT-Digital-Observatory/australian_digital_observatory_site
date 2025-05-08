@@ -87,23 +87,10 @@
                         endif%}
                         class="nav-link mx-3">About</a>
                     </li>
-                    <li class="dropdown nav-item">
-                        <a href="#" {% if this.is_child_of('/resources') or this.is_child_of('resource-categories') %}
-                        class="active nav-link dropdown-toggle" {% endif %} class="nav-link dropdown-toggle mx-3"
-                        data-bs-toggle="dropdown">Resources</a>
-                        <ul class="dropdown-menu mx-3">
-                            <li><a href="/resources" class="dropdown-item">About ADO resources</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                                </hr>
-                            </li>
-                            <li>
-                                <h6 class="dropdown-header">Categories</h6>
-                            </li>
-                            {% for category in site.query("/resource-categories") %}
-                            <li><a href="{{ category|url }}" class="dropdown-item">{{ category.name }}</a></li>
-                            {% endfor %}
-                        </ul>
+                    <li class="nav-item">
+                        <a href="{{ '/resources'|url }}" {% if this.is_child_of('/resources') %} class="active nav-link" {%
+                        endif%}
+                        class="nav-link mx-3">Resources</a>
                     </li>
                 </ul>
             </div>
@@ -139,13 +126,9 @@
                     </li>
                     <li class="mb-2"><a href="/resources">Resources</a></li>
                     <li class="mb-2"><a href="/blog">Blog</a></li>
-                    <li class="mb-2"><a href="/about">About ADO</a></li>
-                    <li class="mb-2">
-                        <a href="/qut-digital-observatory">About QUT Digital Observatory</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="/contact-us">Contact us</a>
-                    </li>
+                    <li class="mb-2"><a href="/about">About</a></li>
+                    <li class="mb-2"><a href="/about-ado">About ADO</a></li>
+                    <li class="mb-2"><a href="/contact-us">Contact</a></li>
                 </ul>
             </div>
 
@@ -156,13 +139,13 @@
                         <a href="/working-with-do">Guide to working with ADO</a>
                     </li>
                     <li class="mb-2">
-                        <a href="/australian-twittersphere">Guide to the Australian Twittersphere</a>
+                        <a href="/data-governance-guide/">Guide for Data Governance of Digital Human Data</a>
                     </li>
                     <li class="mb-2">
                         <a href="/newstalk">Guide to NewsTalk</a>
                     </li>
                     <li class="mb-2">
-                        <a href="/data-governance-guide">Guide to data governance for digital human data</a>
+                        <a href="/australian-twittersphere">Guide to the Australian Twittersphere</a>
                     </li>
                 </ul>
             </div>

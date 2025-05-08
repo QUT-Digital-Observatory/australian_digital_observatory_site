@@ -1,12 +1,14 @@
 {% macro render_category_nav(active=none) %}
 <ul class="resource-category list-group-flush">
     {% for category in site.query('/resource-categories') %}
-    <li {% if category._id==active %} class="active list-group-item d-flex justify-content-between align-items-center"
-        {%
-        endif %} class="list-group-item d-flex justify-content-between align-items-center"><a href="{{ category|url }}">{{
-        category.name }}</a>
-        <span class="badge bg-primary rounded-pill {{ category._slug }}">{{ category.children.count() }}</span>
-    </li>
+    {% if category.hidden != true %}
+        <li {% if category._id==active %} class="active list-group-item d-flex justify-content-between align-items-center"
+            {%
+            endif %} class="list-group-item d-flex justify-content-between align-items-center"><a href="{{ category|url }}">{{
+            category.name }}</a>
+            <span class="badge bg-primary rounded-pill {{ category._slug }}">{{ category.children.count() }}</span>
+        </li>
+    {% endif %}
     {% endfor %}
 </ul>
 {% endmacro %}

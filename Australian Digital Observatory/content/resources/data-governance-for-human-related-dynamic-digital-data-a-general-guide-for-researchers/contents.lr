@@ -1,10 +1,14 @@
 title: Data Governance Guide for Human-Related Dynamic Digital Data
 ---
-category: documentation
+category: guide
 ---
 datePublished: 2022-11-16
 ---
 description:
+
+<script>
+window.location.href = 'https://www.digitalobservatory.net.au/data-governance-guide';
+</script>
 
 As human lives are becoming more digitised now than ever, we see new forms of data, especially social media data and streaming data, increasingly incorporated in research endeavours. While there are standard practices regarding dealing with traditional research data, no such standards exist for these **human-related dynamic digital data**. This calls for a new data governance framework to guide researchers or anyone working with digital data.
 

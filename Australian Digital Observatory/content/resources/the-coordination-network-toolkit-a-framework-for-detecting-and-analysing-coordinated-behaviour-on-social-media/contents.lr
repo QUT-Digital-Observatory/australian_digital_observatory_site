@@ -2,7 +2,7 @@ title: The coordination network toolkit: a framework for detecting and analysing
 ---
 access: Open Access
 ---
-category: publications
+category: paper
 ---
 description: This paper introduces and evaluates the [Coordination Network Toolkit](/resources/coordination-network-toolkit/), an open-source software package and methodological framework designed to detect and analyse coordinated behaviour on social media platforms. As the dynamics of online communication continue to evolve, coordination analysis has emerged as an important field of study with significant implications for understanding online influence, digital astroturfing, and online activism. Recognising the absence of a comprehensive, open-source tool for constructing coordination networks, our approach fills this gap, catering to multiple behaviors across diverse social media platforms. Our approach synthesises and significantly enhances various methods to provide a methodological framework for ‘multi-behaviour’ coordination detection, utilising weighted, directed multigraphs to capture intricate coordination dynamics. We evaluate our approach by revisiting a case study of the 2020 #ReopenAmerica Covid protest movement on Twitter. The paper concludes with a set of recommendations for future work, emphasising the need for a tailored statistical framework for coordination analysis and a deeper exploration into the motives behind online coordination.
 ---

@@ -342,11 +342,11 @@ tr:nth-child(even) {
 
 /* Resource category pill colours */
 
-.datasets {
+.dataset {
     background-color: #e86a92 !important;
 }
 
-.services {
+.service {
     background-color: #0066b9 !important;
 }
 
