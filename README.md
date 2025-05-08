@@ -29,7 +29,7 @@ In order to run the Lektor local development server you will need:
    in)
 2. Change to the 'Australian Digital Observatory' folder within that folder:
    ```bash
-   > cd 'Australian Digital Observatory'
+   > cd 'QUT Digital Observatory'
    ```
 3. Run the Lektor local development server:
    ```bash
