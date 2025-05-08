@@ -306,11 +306,18 @@ tr:nth-child(even) {
 
 .truncate {
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 14px;
+}
+
+.see-more {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    margin-top: 0;
 }
 
 .truncate p {

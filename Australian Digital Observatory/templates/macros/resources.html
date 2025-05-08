@@ -50,3 +50,24 @@
     </tr>
 {% endif %}
 {% endmacro %}
+
+{% macro render_featured_cards() %}
+    <div id="featured-cards" class="row">
+        {% set resources = site.get('/resources') %}
+        {% for resource in resources.children.filter(F.feature == true) %}
+        {% set description = resource.description.html.split('</p>')[0] %}
+        <div class="col">
+            <div class="card" id="featured">
+                <div class="card-body">
+                    <h4 class="card-title">{{ resource.title }}</h4>
+                    <span class="badge bg-primary rounded-pill {{ resource.category }}">{{ resource.category }}</span>
+                    <div class="truncate">
+                        <p class="card-text">{{ description }}</p>
+                    </div>
+                    <a href="{{ resource|url }}" style="position: absolute; bottom: 15px; right: 15px; margin-top: 0;">See more</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endmacro %}

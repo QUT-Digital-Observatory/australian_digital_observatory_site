@@ -1,30 +1,14 @@
 {% extends "layout.html" %}
 {% from "macros/resources.html" import render_resource_list %}
 {% from "macros/partners.html" import render_partner_logos, render_homepage_logos %}
+{% from "macros/resources.html" import render_featured_cards %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 <div class="container-fluid fs-5">
     <h1 id="title">{{ this.title }}</h1>
     {{ this.body }}
 
-    <div id="featured-cards" class="row">
-        {% set resources = site.get('/resources') %}
-        {% for resource in resources.children.filter(F.feature == true) %}
-        {% set description = resource.description.html.split('</p>')[0] %}
-        <div class="col">
-            <div class="card" id="featured">
-                <div class="card-body">
-                    <h4 class="card-title">{{ resource.title }}</h4>
-                    <span class="badge bg-primary rounded-pill {{ resource.category }}">{{ resource.category }}</span>
-                    <div class="truncate">
-                        <p class="card-text">{{ description }}</p>
-                    </div>
-                    <a href="{{ resource|url }}" class="btn btn-primary featured-cta">See more</a>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
+    {{ render_featured_cards() }}
 
     <div class="text-center">
         <a href="../resources/" class="content-button no-arrow">
