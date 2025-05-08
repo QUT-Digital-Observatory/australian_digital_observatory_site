@@ -1,3 +1,7 @@
-name: Documentation
+name: Guides
 ---
 body: Written guides or tutorials to inform researchers on best practices, workflows, and technical methods.
+---
+_slug: guides
+---
+hidden: yes

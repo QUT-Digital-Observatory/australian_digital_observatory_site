@@ -3,10 +3,10 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 <div class="container-fluid fs-5">
-  <h1>Platform Factsheets</h1>
+    <h1>Platform Factsheets</h1>
 
-  {{ this.body }}
+    {{ this.body }}
 
-  {{ render_factsheet_list(this.children) }}
+    {{ render_factsheet_list(this.children) }}
 </div>
 {% endblock %}

@@ -4,66 +4,66 @@
 {% block body %}
 <h1>{{ this.title }}</h1>
 <a class="category_label"
-  href="{{ site.get('/resource-categories').children.get('/{}'.format(this.category) ) |url }}">{{
-  this.category.capitalize() }}</a>
+   href="{{ site.get('/resource-categories').children.get('/{}'.format(this.category) ) |url }}">{{
+    this.category.capitalize() }}</a>
 <p class="description">{{ this.description }}</p>
 
 <div id="how-to-use">
-  <h2>How to use this resource</h2>
-  {{ this.howToUse }}
+    <h2>How to use this resource</h2>
+    {{ this.howToUse }}
 </div>
 
 <div>
-  {% if this.seeMore %}
+    {% if this.seeMore %}
     {% if 'digitalobservatory.net.au' in this.seeMore or this.seeMore.startswith("/") %}
-      <a id="use-cta" href="{{ this.seeMore }}">See more</a>
+    <a id="use-cta" href="{{ this.seeMore }}">See more</a>
     {% else %}
-      <a id="use-cta" href="{{ this.seeMore }}" target="_blank">See more</a>
+    <a id="use-cta" href="{{ this.seeMore }}" target="_blank">See more</a>
     {% endif %}
-  {% endif %}
+    {% endif %}
 </div>
 
 <h2>Additional information</h2>
 
 <table class="table">
-  <tbody>
+    <tbody>
     {% set metadata = {
-      "Organisations/Institutions": this.owner,
-      "Date published": this.datePublished.strftime("%d-%m-%Y") if this.datePublished,
-      "URL": this.link,
-      "DOI": this.doi,
-      "Access conditions": this.access,
-      "Point of contact": this.poc,
-      }
+    "Organisations/Institutions": this.owner,
+    "Date published": this.datePublished.strftime("%d-%m-%Y") if this.datePublished,
+    "URL": this.link,
+    "DOI": this.doi,
+    "Access conditions": this.access,
+    "Point of contact": this.poc,
+    }
     %}
     {% for k, i in metadata.items() %}
     {{ generate_metadata_table(item=i, name=k) }}
     {% endfor %}
-  </tbody>
+    </tbody>
 </table>
 
 <p>Tags:
-  {% if this.tags %}
-  {% for t in this.tags %}
-  <a class="tag_label" href="{{ ('/resources@tag/' ~ t.lower())|url }}">#{{ t }}</a>
-  {% endfor %}
-  {% endif %}
+    {% if this.tags %}
+    {% for t in this.tags %}
+    <a class="tag_label" href="{{ ('/resources@tag/' ~ t.lower())|url }}">#{{ t }}</a>
+    {% endfor %}
+    {% endif %}
 </p>
 
 {% if this.attachments %}
 {% if this.attachments.documents %}
-  <h2>Documents</h2>
+<h2>Documents</h2>
 
-  {% for doc in this.attachments.documents %}
-  <div class="card mb-2" style="width: 18rem;">
+{% for doc in this.attachments.documents %}
+<div class="card mb-2" style="width: 18rem;">
     <div class="card-body">
-      <img src="{{ '/static/images/pdf-icon.png' |asseturl }}" style="width: 10%;margin-bottom: 5%">
-      <h5 class="card-title">{{ doc.name }} (PDF)</h5>
-      <a href="{{ doc.path }}" class="card-link">PDF</a>
+        <img src="{{ '/static/images/pdf-icon.png' |asseturl }}" style="width: 10%;margin-bottom: 5%">
+        <h5 class="card-title">{{ doc.name }} (PDF)</h5>
+        <a href="{{ doc.path }}" class="card-link">PDF</a>
     </div>
-  </div>
-  {% endfor %}
-  
+</div>
+{% endfor %}
+
 {% endif %}
 {% endif %}
 {% endblock %}

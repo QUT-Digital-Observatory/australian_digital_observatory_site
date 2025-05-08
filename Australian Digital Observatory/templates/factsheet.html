@@ -1,9 +1,9 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  <h1>{{ this.title }}</h1>
-    
-  <p class="meta">Last updated: {{ this.date_updated }}</p>
+<h1>{{ this.title }}</h1>
 
-  {{ this.body }}
+<p class="meta">Last updated: {{ this.date_updated }}</p>
+
+{{ this.body }}
 {% endblock %}

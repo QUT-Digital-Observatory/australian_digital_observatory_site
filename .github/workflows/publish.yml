@@ -30,7 +30,7 @@ jobs:
       # We want to keep the readme etc updated also!
       - name: Build with Lektor
         run: |
-          lektor --project 'Australian Digital Observatory' build --output-path $RUNNER_TEMP/build
+          lektor --project 'QUT Digital Observatory' build --output-path $RUNNER_TEMP/build
           cp .gitignore README.md LICENSE CNAME $RUNNER_TEMP/build
 
       - name: Setup git config

@@ -1,11 +1,7 @@
-# Australian Digital Observatory website
+# Digital Observatory website
 
 This repository is open-sourced to make the mechanics of building the website
 easily copyable for other research infrastructures.
-
-If you are a part of the Australian Digital Observatory ARDC Platform and wish
-to contribute website content but do not have access, please contact digitalobservatory@qut.edu.au
-with your node affiliation and GitHub username, and you will be added to the repository.
 
 ## Local development instructions
 
@@ -67,7 +63,7 @@ In order to run the Lektor local development server you will need:
 
 ## Notes on deployment
 
-The Australian Digital Observatory website is published on GitHub Pages, using a custom domain.
+The Digital Observatory website is published on GitHub Pages, using a custom domain.
 
 ### CI for build and deploy
 The site build and deploy process is run on GitHub Actions, with `.github/workflows/publish.yml`.

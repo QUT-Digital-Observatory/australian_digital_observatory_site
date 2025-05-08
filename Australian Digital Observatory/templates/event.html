@@ -3,44 +3,44 @@
 {% block body %}
 <div class="container-fluid fs-5">
 
-  <time class="start-time">{{ this.event_date|datetimeformat('EEEE, d MMMM y') }}</time>
-  <h1>{{ this.title.title() }}</h1>
+    <time class="start-time">{{ this.event_date|datetimeformat('EEEE, d MMMM y') }}</time>
+    <h1>{{ this.title.title() }}</h1>
 
-  <section class="organiser">
-    <div class="organiser">By <strong>{{ this.organiser }}</strong></div>
-  </section>
+    <section class="organiser">
+        <div class="organiser">By <strong>{{ this.organiser }}</strong></div>
+    </section>
 
-  <section class="details">
-    <div class="container details">
-      <div class="row detail-heading">
-        <div class="col inner">
-          When
+    <section class="details">
+        <div class="container details">
+            <div class="row detail-heading">
+                <div class="col inner">
+                    When
+                </div>
+                <div class="col inner">
+                    Where
+                </div>
+                <div class="col">
+                    Type
+                </div>
+            </div>
+            <div class="row">
+                <div class="col inner">
+                    {{ this.event_date|datetimeformat("EEEE, d MMMM y 'at' h:mm a zz") }}
+                </div>
+                <div class="col inner">
+                    {{ this.where }}
+                </div>
+                <div class="col">
+                    {{ this.type.capitalize() }}
+                </div>
+            </div>
         </div>
-        <div class="col inner">
-          Where
-        </div>
-        <div class="col">
-          Type
-        </div>
-      </div>
-      <div class="row">
-        <div class="col inner">
-          {{ this.event_date|datetimeformat("EEEE, d MMMM y 'at' h:mm a zz") }}
-        </div>
-        <div class="col inner">
-          {{ this.where }}
-        </div>
-        <div class="col">
-          {{ this.type.capitalize() }}
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <h2>About this event</h2>
+    <h2>About this event</h2>
 
-  {{ this.description }}
+    {{ this.description }}
 
-  <a id="use-cta" href="{{ this.url }}">Register</a>
+    <a id="use-cta" href="{{ this.url }}">Register</a>
 </div>
 {% endblock %}

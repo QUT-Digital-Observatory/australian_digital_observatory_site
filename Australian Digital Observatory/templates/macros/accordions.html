@@ -1,24 +1,26 @@
 {% macro generate_accordions(block) %}
-    {% set i = 1 %}
-    <div class="accordion" id="{{ block.id }}">
-        
-        {% for item in block.children.blocks %}
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="{{ block.id ~ '-' ~ 'heading' ~ loop.index }}">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="{{ '#' ~ block.id ~ '-' ~ 'collapse' ~ loop.index }}" aria-expanded="true" aria-controls="{{ block.id ~ '-' ~ 'collapse' ~ loop.index }}">
-                    {{ item.heading }}
-                </button>
-            </h4>
-            <div id="{{ block.id ~ '-' ~ 'collapse' ~ loop.index }}" class="accordion-collapse collapse" aria-labelledby="{{ block.id ~ '-' ~ 'heading' ~ loop.index }}"
-                data-bs-parent="{{ block.id }}">
-                <div class="accordion-body">
-                    {{ item.body }}
-                </div>
+{% set i = 1 %}
+<div class="accordion" id="{{ block.id }}">
+
+    {% for item in block.children.blocks %}
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="{{ block.id ~ '-' ~ 'heading' ~ loop.index }}">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="{{ '#' ~ block.id ~ '-' ~ 'collapse' ~ loop.index }}" aria-expanded="true"
+                    aria-controls="{{ block.id ~ '-' ~ 'collapse' ~ loop.index }}">
+                {{ item.heading }}
+            </button>
+        </h4>
+        <div id="{{ block.id ~ '-' ~ 'collapse' ~ loop.index }}" class="accordion-collapse collapse"
+             aria-labelledby="{{ block.id ~ '-' ~ 'heading' ~ loop.index }}"
+             data-bs-parent="{{ block.id }}">
+            <div class="accordion-body">
+                {{ item.body }}
             </div>
         </div>
-        
-        {% endfor %}
-
     </div>
+
+    {% endfor %}
+
+</div>
 {% endmacro %}

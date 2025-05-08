@@ -2,30 +2,33 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 <div class="container-fluid fs-5">
-  <h1>{{ this.title }}</h1>
-  {% if this.show_toc %}
-  <ul class="toc">
-    {% for item in this.body.toc recursive %}
-    <li><a href="#{{ item.anchor }}">{{ item.title }}</a>{%
-      if item.children %}<ul>{{ loop(item.children) }}</ul>{% endif %}</li>
+    <h1>{{ this.title }}</h1>
+    {% if this.show_toc %}
+    <ul class="toc">
+        {% for item in this.body.toc recursive %}
+        <li><a href="#{{ item.anchor }}">{{ item.title }}</a>{%
+            if item.children %}
+            <ul>{{ loop(item.children) }}</ul>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {{ this.description }}
+
+    <h2>Case studies</h2>
+
+    {% if not this.extras %}
+    <p>Coming soon.</p>
+    {% else %}
+    {% for case in this.extras.blocks %}
+    <ul class="list-group">
+        <li class="list-group-item">
+            <a href="{{ case.link }}">{{ case.title }}</a>
+        </li>
+    </ul>
     {% endfor %}
-  </ul>
-  {% endif %}
-  {{ this.description }}
-
-  <h2>Case studies</h2>
-
-  {% if not this.extras %}
-  <p>Coming soon.</p>
-  {% else %}
-  {% for case in this.extras.blocks %}
-  <ul class="list-group">
-    <li class="list-group-item">
-      <a href="{{ case.link }}">{{ case.title }}</a>
-    </li>
-  </ul>
-  {% endfor %}
-  {% endif %}
+    {% endif %}
 
 </div>
 {% endblock %}

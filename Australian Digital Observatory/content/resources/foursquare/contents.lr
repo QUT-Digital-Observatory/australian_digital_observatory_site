@@ -2,7 +2,7 @@ title: Foursquare
 ---
 access: As per https://foursquare.com/legal/api/licenseagreement
 ---
-category: datasets
+category: dataset
 ---
 description: This data set will contain Foursquare check-ins across all major cities of Australia. (Ad hoc data collections made 2014-2016).
 ---
