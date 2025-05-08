@@ -1,112 +1,106 @@
 <!doctype html>
 
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-KHVG8B2');</script>
-  <!-- End Google Tag Manager -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../static/custom.css">
-  <link rel="shortcut icon" href="../static/images/favicon.ico?h=be28650d"">
-  <title>Australian Twittersphere: A Researcher&#39;s Guide — Australian Digital Observatory</title>
-  
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/custom.css">
+    <link rel="shortcut icon" href="../static/images/favicon.ico?h=be28650d"
+    ">
+    <title>Australian Twittersphere: A Researcher&#39;s Guide — Digital Observatory</title>
+    
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src=" https://www.googletagmanager.com/gtag/js?id=G-96RSB604XP">
 </script>
-  <script>
+<script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'G-96RSB604XP');
-  </script>
+</script>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHVG8B2" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <div id="header">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHVG8B2" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="header">
     <header class="container-fluid">
-      <div class="d-flex justify-content-center">
-        <a class="navbar-brand" href="../">
-          <img src="../static/images/ado-logo-logotype-dark-cropped.png?h=80106029" alt="Bootstrap" width="150">
-        </a>
-      </div>
-      <nav class="navbar navbar-expand-lg navbar-light p-3"">
-        <div class=" container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
-            <li class="nav-item">
-              <a href="../" 
-                class="nav-link mx-3">Home</a>
-            </li>
-            <li class="dropdown nav-item">
-              <a href="#"  class="nav-link dropdown-toggle mx-3"
-                data-bs-toggle="dropdown">Resources</a>
-              <ul class="dropdown-menu mx-3">
-                <li><a href="/resources" class="dropdown-item">About ADO resources</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                  </hr>
-                </li>
-                <li>
-                  <h6 class="dropdown-header">Categories</h6>
-                </li>
-                
-                <li><a href="../resources/categories/datasets/" class="dropdown-item">Datasets and data sources</a></li>
-                
-                <li><a href="../resources/categories/documentation/" class="dropdown-item">Documentation</a></li>
-                
-                <li><a href="../resources/categories/publications/" class="dropdown-item">Publications</a></li>
-                
-                <li><a href="../resources/categories/services/" class="dropdown-item">Services</a></li>
-                
-                <li><a href="../resources/categories/software/" class="dropdown-item">Software and technical utilities/systems</a></li>
-                
-              </ul>
-            </li>
-<!--            <li class="nav-item">-->
-<!--              <a href="../events/" -->
-<!--                class="nav-link mx-3">Events</a>-->
-<!--            </li>-->
-            <li class="nav-item">
-              <a href="../blog/" 
-                class="nav-link mx-3">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="../about/" 
-              class="nav-link mx-3">About</a>
-            </li>
-          </ul>
+        <div class="d-flex justify-content-center">
+            <a class="navbar-brand" href="../">
+                <img src="../static/images/ado-logo-logotype-dark-cropped.png?h=80106029" alt="Bootstrap"
+                     width="150">
+            </a>
         </div>
-      </nav>
+        <nav class="navbar navbar-expand-lg navbar-light p-3"
+        ">
+        <div class=" container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item">
+                        <a href="../" 
+                           class="nav-link mx-3">Home</a>
+                    </li>
+                    <!--            <li class="nav-item">-->
+                    <!--              <a href="../events/" -->
+                    <!--                class="nav-link mx-3">Events</a>-->
+                    <!--            </li>-->
+                    <li class="nav-item">
+                        <a href="../blog/" 
+                        class="nav-link mx-3">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../about" 
+                        class="nav-link mx-3">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../resources/" 
+                        class="nav-link mx-3">Resources</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
     </header>
-  </div>
+</div>
 
-  <div class="container-lg px-5 mb-5">
+<div class="container-lg px-5 mb-5">
     
 <div class="container-fluid fs-5">
-  <h1>Australian Twittersphere: A Researcher&#39;s Guide</h1>
-  
-  <p>The Australian Twittersphere is a longitudinal collection of tweets from a periodically updated list of Twitter accounts that were identified as Australian (i.e., have a stated connection to Australia in the free text fields of the account profile).
+    <h1>Australian Twittersphere: A Researcher&#39;s Guide</h1>
+    
+    <p>The Australian Twittersphere is a longitudinal collection of tweets from a periodically updated list of Twitter accounts that were identified as Australian (i.e., have a stated connection to Australia in the free text fields of the account profile).
 Since its establishment six years ago, over <strong>1.9 billion</strong> tweets have been collected from more than 1 million Twitter accounts considered to be Australian.
 The earliest tweet captured was posted on 9 January 2007.</p>
 <p>Following significant changes at Twitter/X and to its APIs, Digital Observatory's access to the API was revoked in early July 2023.
@@ -114,27 +108,29 @@ The last tweet that was collected as part of the Australian Twittersphere was po
 However, some API instabilities were observed in early July. Therefore, <strong>for research purposes, the Australian Twittersphere collection ends on 30 June 2023</strong>.</p>
 
 
-  
     
-  
-      
-      
-      
     
-    <div class="accordion" id="historical-background">
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="historical-background-heading1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#historical-background-collapse1" aria-expanded="true" aria-controls="historical-background-collapse1">
-                    Historical background
-                </button>
-            </h4>
-            <div id="historical-background-collapse1" class="accordion-collapse collapse" aria-labelledby="historical-background-heading1"
-                data-bs-parent="historical-background">
-                <div class="accordion-body">
-                    <p>The Australian Twittersphere began in 2016 as the <a href="https://research.qut.edu.au/dmrc/projects/trisma-tracking-infrastructure-for-social-media-analysis/">Tracking Infrastructure for Social Media Analysis (TrISMA) project</a>.
+
+    
+    
+    
+
+<div class="accordion" id="historical-background">
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="historical-background-heading1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#historical-background-collapse1" aria-expanded="true"
+                    aria-controls="historical-background-collapse1">
+                Historical background
+            </button>
+        </h4>
+        <div id="historical-background-collapse1" class="accordion-collapse collapse"
+             aria-labelledby="historical-background-heading1"
+             data-bs-parent="historical-background">
+            <div class="accordion-body">
+                <p>The Australian Twittersphere began in 2016 as the <a href="https://research.qut.edu.au/dmrc/projects/trisma-tracking-infrastructure-for-social-media-analysis/">Tracking Infrastructure for Social Media Analysis (TrISMA) project</a>.
 Tweets were collected from approximately 530,000 Twitter accounts from early 2016 to May 2017.</p>
 <p>In early 2018, the Digital Observatory was established and continued collecting tweets from the same accounts from March 2018 to December 2018 using Twitter's streaming API.</p>
 <p>In late 2018, the Digital Observatory developed an additional collector which began collecting tweets from the same accounts using a number of Twitter's API endpoints.</p>
@@ -148,170 +144,180 @@ Specifically, the academic access track (which many researchers relied on) was r
 In early July 2023, Twitter/X revoked the Digital Observatory's access to the API (as expected), and collection ceased.</p>
 <p>The last tweet that was collected as part of the Australian Twittersphere was posted on 13 July 2023, however, some API instabilities were observed in early July and therefore, <strong>for research purposes, the Australian Twittersphere collection ends on 30 June 2023</strong>.</p>
 
-                </div>
             </div>
         </div>
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="historical-background-heading2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#historical-background-collapse2" aria-expanded="true" aria-controls="historical-background-collapse2">
-                    Criteria for inclusion in the Australian Twittersphere
-                </button>
-            </h4>
-            <div id="historical-background-collapse2" class="accordion-collapse collapse" aria-labelledby="historical-background-heading2"
-                data-bs-parent="historical-background">
-                <div class="accordion-body">
-                    <p>The tweets in the Australian Twittersphere were collected from a selected population of Twitter accounts, and this population was refreshed several times in the collection's lifespan (see Historical background above).</p>
+    </div>
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="historical-background-heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#historical-background-collapse2" aria-expanded="true"
+                    aria-controls="historical-background-collapse2">
+                Criteria for inclusion in the Australian Twittersphere
+            </button>
+        </h4>
+        <div id="historical-background-collapse2" class="accordion-collapse collapse"
+             aria-labelledby="historical-background-heading2"
+             data-bs-parent="historical-background">
+            <div class="accordion-body">
+                <p>The tweets in the Australian Twittersphere were collected from a selected population of Twitter accounts, and this population was refreshed several times in the collection's lifespan (see Historical background above).</p>
 <p>A publication detailing the method used to determine this population is forthcoming. Meanwhile, the set of rules which are the output of the method as used in the final population refresh of the Australian Twittersphere is available <a href="../resources/australian-twittersphere-population-rules/">as an open dataset</a>. These rules were applied to a list of candidate Twitter accounts to determine whether they should be added to the Australian Twittersphere population.</p>
 <p>The rules for inclusion in the Australian Twittersphere may be cited as:</p>
 <p>Hames, Sam; Takahashi, Marissa; Miller, Alice; QUT Digital Observatory; (2023): Australian Twittersphere Population Rules. Queensland University of Technology. (Dataset) <a href="https://doi.org/10.25912/RDF_1711599518062">https://doi.org/10.25912/RDF_1711599518062</a></p>
 
-                </div>
             </div>
         </div>
-        
-        
-
     </div>
 
-
-      
-      
-      
-      <h2 id="collaboration-process">Collaboration process</h2><p>Getting data from the Australian Twittersphere usually involves four steps:</p>
-
-
-      
-      
-      
-      
     
-    <div class="accordion" id="collab-process">
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="collab-process-heading1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collab-process-collapse1" aria-expanded="true" aria-controls="collab-process-collapse1">
-                    Initial project discussion (1 hour)
-                </button>
-            </h4>
-            <div id="collab-process-collapse1" class="accordion-collapse collapse" aria-labelledby="collab-process-heading1"
-                data-bs-parent="collab-process">
-                <div class="accordion-body">
-                    <ul>
+
+</div>
+
+
+    
+    
+    
+    <h2 id="collaboration-process">Collaboration process</h2><p>Getting data from the Australian Twittersphere usually involves four steps:</p>
+
+
+    
+    
+    
+    
+
+<div class="accordion" id="collab-process">
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="collab-process-heading1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collab-process-collapse1" aria-expanded="true"
+                    aria-controls="collab-process-collapse1">
+                Initial project discussion (1 hour)
+            </button>
+        </h4>
+        <div id="collab-process-collapse1" class="accordion-collapse collapse"
+             aria-labelledby="collab-process-heading1"
+             data-bs-parent="collab-process">
+            <div class="accordion-body">
+                <ul>
 <li><p>Interested researchers can contact the Digital Observatory via <a href="mailto:digitalobservatory@qut.edu.au">email</a> or submitting an <a href="https://www.digitalobservatory.net.au/expression-of-interest/">enquiry form</a>.</p>
 </li>
 <li><p>The Digital Observatory team will get in touch to schedule an initial meeting to discuss your project requirements.</p>
 </li>
 </ul>
 
-                </div>
             </div>
         </div>
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="collab-process-heading2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collab-process-collapse2" aria-expanded="true" aria-controls="collab-process-collapse2">
-                    Feasibility analysis (up to 1 week)
-                </button>
-            </h4>
-            <div id="collab-process-collapse2" class="accordion-collapse collapse" aria-labelledby="collab-process-heading2"
-                data-bs-parent="collab-process">
-                <div class="accordion-body">
-                    <ul>
+    </div>
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="collab-process-heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collab-process-collapse2" aria-expanded="true"
+                    aria-controls="collab-process-collapse2">
+                Feasibility analysis (up to 1 week)
+            </button>
+        </h4>
+        <div id="collab-process-collapse2" class="accordion-collapse collapse"
+             aria-labelledby="collab-process-heading2"
+             data-bs-parent="collab-process">
+            <div class="accordion-body">
+                <ul>
 <li><p>Preliminary investigations are done to determine whether there are enough relevant data in the Australian Twittersphere to address the research question.</p>
 </li>
 <li><p>This may consist of a volume check (basic counts of tweets matching specific search terms) and/or a feasibility analysis (descriptive analysis of tweets matching specific search terms).</p>
 </li>
 </ul>
 
-                </div>
             </div>
         </div>
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="collab-process-heading3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collab-process-collapse3" aria-expanded="true" aria-controls="collab-process-collapse3">
-                    Terms of Engagement (up to 1 week, longer for non-QUT researchers)
-                </button>
-            </h4>
-            <div id="collab-process-collapse3" class="accordion-collapse collapse" aria-labelledby="collab-process-heading3"
-                data-bs-parent="collab-process">
-                <div class="accordion-body">
-                    <ul>
+    </div>
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="collab-process-heading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collab-process-collapse3" aria-expanded="true"
+                    aria-controls="collab-process-collapse3">
+                Terms of Engagement (up to 1 week, longer for non-QUT researchers)
+            </button>
+        </h4>
+        <div id="collab-process-collapse3" class="accordion-collapse collapse"
+             aria-labelledby="collab-process-heading3"
+             data-bs-parent="collab-process">
+            <div class="accordion-body">
+                <ul>
 <li><p>Researcher and the Digital Observatory agree on the project scope, deliverable(s), due date(s), and cost recovery (if applicable) by signing a non-contractual Terms of Engagement.</p>
 </li>
 <li><p>For external (non-QUT) researchers, a contractual QUT Services Agreement is to be signed by the researcher and the Digital Observatory.</p>
 </li>
 </ul>
 
-                </div>
             </div>
         </div>
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="collab-process-heading4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collab-process-collapse4" aria-expanded="true" aria-controls="collab-process-collapse4">
-                    Project delivery (basic data provision is typically up to one week, longer for aggregate data and analytical outputs)
-                </button>
-            </h4>
-            <div id="collab-process-collapse4" class="accordion-collapse collapse" aria-labelledby="collab-process-heading4"
-                data-bs-parent="collab-process">
-                <div class="accordion-body">
-                    <ul>
+    </div>
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="collab-process-heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collab-process-collapse4" aria-expanded="true"
+                    aria-controls="collab-process-collapse4">
+                Project delivery (basic data provision is typically up to one week, longer for aggregate data and analytical outputs)
+            </button>
+        </h4>
+        <div id="collab-process-collapse4" class="accordion-collapse collapse"
+             aria-labelledby="collab-process-heading4"
+             data-bs-parent="collab-process">
+            <div class="accordion-body">
+                <ul>
 <li><p>Agreed deliverables are provided to the researcher in accordance with the Terms of Engagement.</p>
 </li>
 <li><p>This may include raw data from the Australian Twittersphere (typically in .csv format), aggregate data (e.g., descriptive statistics such as hashtag/keyword counts over time), and/or analytical outputs (e.g., sentiment analysis, visualisations).</p>
 </li>
 </ul>
 
-                </div>
             </div>
         </div>
-        
-        
-
     </div>
 
+    
 
-      
-      
-      
-      <div class="cta-button row d-flex mt-4 text-center">
+</div>
+
+
+    
+    
+    
+    <div class="cta-button row d-flex mt-4 text-center">
     <div class="col justify-content-center">
         <a href="../expression-of-interest" class="cta">
             <span>
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    viewBox="0 0 492.014 492.014" xml:space="preserve">
+                     viewBox="0 0 492.014 492.014" xml:space="preserve">
                     <g id="XMLID_144_">
                         <path id="XMLID_151_" d="M339.277,459.566H34.922V32.446h304.354v105.873l32.446-32.447V16.223C371.723,7.264,364.458,0,355.5,0
                       H18.699C9.739,0,2.473,7.264,2.473,16.223v459.568c0,8.959,7.265,16.223,16.226,16.223H355.5c8.958,0,16.223-7.264,16.223-16.223
-                      V297.268l-32.446,32.447V459.566z" />
+                      V297.268l-32.446,32.447V459.566z"/>
                         <path id="XMLID_150_" d="M291.446,71.359H82.751c-6.843,0-12.396,5.553-12.396,12.398c0,6.844,5.553,12.397,12.396,12.397h208.694
-                      c6.845,0,12.397-5.553,12.397-12.397C303.843,76.912,298.29,71.359,291.446,71.359z" />
+                      c6.845,0,12.397-5.553,12.397-12.397C303.843,76.912,298.29,71.359,291.446,71.359z"/>
                         <path id="XMLID_149_"
-                            d="M303.843,149.876c0-6.844-5.553-12.398-12.397-12.398H82.751c-6.843,0-12.396,5.554-12.396,12.398
-                      c0,6.845,5.553,12.398,12.396,12.398h208.694C298.29,162.274,303.843,156.722,303.843,149.876z" />
+                              d="M303.843,149.876c0-6.844-5.553-12.398-12.397-12.398H82.751c-6.843,0-12.396,5.554-12.396,12.398
+                      c0,6.845,5.553,12.398,12.396,12.398h208.694C298.29,162.274,303.843,156.722,303.843,149.876z"/>
                         <path id="XMLID_148_" d="M274.004,203.6H82.751c-6.843,0-12.396,5.554-12.396,12.398c0,6.845,5.553,12.397,12.396,12.397h166.457
-                      L274.004,203.6z" />
+                      L274.004,203.6z"/>
                         <path id="XMLID_147_" d="M204.655,285.79c1.678-5.618,4.076-11.001,6.997-16.07h-128.9c-6.843,0-12.396,5.553-12.396,12.398
-                      c0,6.844,5.553,12.398,12.396,12.398h119.304L204.655,285.79z" />
+                      c0,6.844,5.553,12.398,12.396,12.398h119.304L204.655,285.79z"/>
                         <path id="XMLID_146_" d="M82.751,335.842c-6.843,0-12.396,5.553-12.396,12.398c0,6.843,5.553,12.397,12.396,12.397h108.9
-                      c-3.213-7.796-4.044-16.409-1.775-24.795H82.751z" />
+                      c-3.213-7.796-4.044-16.409-1.775-24.795H82.751z"/>
                         <path id="XMLID_145_"
-                            d="M479.403,93.903c-6.496-6.499-15.304-10.146-24.48-10.146c-9.176,0-17.982,3.647-24.471,10.138
+                              d="M479.403,93.903c-6.496-6.499-15.304-10.146-24.48-10.146c-9.176,0-17.982,3.647-24.471,10.138
                       L247.036,277.316c-5.005,5.003-8.676,11.162-10.703,17.942l-14.616,48.994c-0.622,2.074-0.057,4.318,1.477,5.852
                       c1.122,1.123,2.624,1.727,4.164,1.727c0.558,0,1.13-0.08,1.688-0.249l48.991-14.618c6.782-2.026,12.941-5.699,17.943-10.702
-                      l183.422-183.414c6.489-6.49,10.138-15.295,10.138-24.472C489.54,109.197,485.892,100.392,479.403,93.903z" />
+                      l183.422-183.414c6.489-6.49,10.138-15.295,10.138-24.472C489.54,109.197,485.892,100.392,479.403,93.903z"/>
                     </g>
                 </svg>
             </span>
@@ -322,31 +328,31 @@ In early July 2023, Twitter/X revoked the Digital Observatory's access to the AP
         <a href="mailto:digitalobservatory@qut.edu.au" class="cta">
             <span>
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                    viewBox="0 0 256 256" xml:space="preserve">
+                     viewBox="0 0 256 256" xml:space="preserve">
                     <defs>
                     </defs>
                     <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
-                        transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                       transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
                         <path
-                            d="M 75.546 78.738 H 14.455 C 6.484 78.738 0 72.254 0 64.283 V 25.716 c 0 -7.97 6.485 -14.455 14.455 -14.455 h 61.091 c 7.97 0 14.454 6.485 14.454 14.455 v 38.567 C 90 72.254 83.516 78.738 75.546 78.738 z M 14.455 15.488 c -5.64 0 -10.228 4.588 -10.228 10.228 v 38.567 c 0 5.64 4.588 10.229 10.228 10.229 h 61.091 c 5.64 0 10.228 -4.589 10.228 -10.229 V 25.716 c 0 -5.64 -4.588 -10.228 -10.228 -10.228 H 14.455 z"
-                            style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
-                            transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                d="M 75.546 78.738 H 14.455 C 6.484 78.738 0 72.254 0 64.283 V 25.716 c 0 -7.97 6.485 -14.455 14.455 -14.455 h 61.091 c 7.97 0 14.454 6.485 14.454 14.455 v 38.567 C 90 72.254 83.516 78.738 75.546 78.738 z M 14.455 15.488 c -5.64 0 -10.228 4.588 -10.228 10.228 v 38.567 c 0 5.64 4.588 10.229 10.228 10.229 h 61.091 c 5.64 0 10.228 -4.589 10.228 -10.229 V 25.716 c 0 -5.64 -4.588 -10.228 -10.228 -10.228 H 14.455 z"
+                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
+                                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
                         <path
-                            d="M 11.044 25.917 C 21.848 36.445 32.652 46.972 43.456 57.5 c 2.014 1.962 5.105 -1.122 3.088 -3.088 C 35.74 43.885 24.936 33.357 14.132 22.83 C 12.118 20.867 9.027 23.952 11.044 25.917 L 11.044 25.917 z"
-                            style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
-                            transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                d="M 11.044 25.917 C 21.848 36.445 32.652 46.972 43.456 57.5 c 2.014 1.962 5.105 -1.122 3.088 -3.088 C 35.74 43.885 24.936 33.357 14.132 22.83 C 12.118 20.867 9.027 23.952 11.044 25.917 L 11.044 25.917 z"
+                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
+                                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
                         <path
-                            d="M 46.544 57.5 c 10.804 -10.527 21.608 -21.055 32.412 -31.582 c 2.016 -1.965 -1.073 -5.051 -3.088 -3.088 C 65.064 33.357 54.26 43.885 43.456 54.412 C 41.44 56.377 44.529 59.463 46.544 57.5 L 46.544 57.5 z"
-                            style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
-                            transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                d="M 46.544 57.5 c 10.804 -10.527 21.608 -21.055 32.412 -31.582 c 2.016 -1.965 -1.073 -5.051 -3.088 -3.088 C 65.064 33.357 54.26 43.885 43.456 54.412 C 41.44 56.377 44.529 59.463 46.544 57.5 L 46.544 57.5 z"
+                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
+                                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
                         <path
-                            d="M 78.837 64.952 c -7.189 -6.818 -14.379 -13.635 -21.568 -20.453 c -2.039 -1.933 -5.132 1.149 -3.088 3.088 c 7.189 6.818 14.379 13.635 21.568 20.453 C 77.788 69.973 80.881 66.89 78.837 64.952 L 78.837 64.952 z"
-                            style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
-                            transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                d="M 78.837 64.952 c -7.189 -6.818 -14.379 -13.635 -21.568 -20.453 c -2.039 -1.933 -5.132 1.149 -3.088 3.088 c 7.189 6.818 14.379 13.635 21.568 20.453 C 77.788 69.973 80.881 66.89 78.837 64.952 L 78.837 64.952 z"
+                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
+                                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
                         <path
-                            d="M 14.446 68.039 c 7.189 -6.818 14.379 -13.635 21.568 -20.453 c 2.043 -1.938 -1.048 -5.022 -3.088 -3.088 c -7.189 6.818 -14.379 13.635 -21.568 20.453 C 9.315 66.889 12.406 69.974 14.446 68.039 L 14.446 68.039 z"
-                            style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
-                            transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                d="M 14.446 68.039 c 7.189 -6.818 14.379 -13.635 21.568 -20.453 c 2.043 -1.938 -1.048 -5.022 -3.088 -3.088 c -7.189 6.818 -14.379 13.635 -21.568 20.453 C 9.315 66.889 12.406 69.974 14.446 68.039 L 14.446 68.039 z"
+                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
+                                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
                     </g>
                 </svg>
             </span>
@@ -354,31 +360,33 @@ In early July 2023, Twitter/X revoked the Digital Observatory's access to the AP
         </a>
     </div>
 </div>
-      
-      
-      
-      <h3 id="ethics-and-data-management">Ethics and Data management</h3><p>Projects that use data from the Australian Twittersphere may require ethical clearance and/or a data management plan.</p>
-
-
-      
-      
-      
-      
     
-    <div class="accordion" id="ethical-clearance">
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="ethical-clearance-heading1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#ethical-clearance-collapse1" aria-expanded="true" aria-controls="ethical-clearance-collapse1">
-                    Ethical clearance
-                </button>
-            </h4>
-            <div id="ethical-clearance-collapse1" class="accordion-collapse collapse" aria-labelledby="ethical-clearance-heading1"
-                data-bs-parent="ethical-clearance">
-                <div class="accordion-body">
-                    <p>Data in the Australian Twittersphere are subject to the <a href="https://www.nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2007-updated-2018"><em>National Statement on Ethical Conduct in Human Research</em></a>.</p>
+    
+    
+    <h3 id="ethics-and-data-management">Ethics and Data management</h3><p>Projects that use data from the Australian Twittersphere may require ethical clearance and/or a data management plan.</p>
+
+
+    
+    
+    
+    
+
+<div class="accordion" id="ethical-clearance">
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="ethical-clearance-heading1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#ethical-clearance-collapse1" aria-expanded="true"
+                    aria-controls="ethical-clearance-collapse1">
+                Ethical clearance
+            </button>
+        </h4>
+        <div id="ethical-clearance-collapse1" class="accordion-collapse collapse"
+             aria-labelledby="ethical-clearance-heading1"
+             data-bs-parent="ethical-clearance">
+            <div class="accordion-body">
+                <p>Data in the Australian Twittersphere are subject to the <a href="https://www.nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2007-updated-2018"><em>National Statement on Ethical Conduct in Human Research</em></a>.</p>
 <p>The Digital Observatory has ethical clearance (granted by QUT's University Human Research Ethics Committee) to collect and maintain the Australian Twittersphere.
 Research projects with an Ethics exemption can access aggregate data from the Australian Twittersphere.</p>
 <p>If researchers require access to raw tweet data from the Australian Twittersphere for their research, <strong>ethical clearance is a requirement</strong>.
@@ -386,136 +394,148 @@ For most projects, low risk ethical clearance is sufficient but this depends on 
 <p>QUT researchers can find out more here: <a href="https://www.qut.edu.au/research/why-qut/ethics-and-integrity">https://www.qut.edu.au/research/why-qut/ethics-and-integrity</a> (QUT login required).
 The Digital Observatory will require a copy of your ethical clearance (or exemption, if applicable) before providing access to raw tweet data.</p>
 
-                </div>
             </div>
         </div>
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="ethical-clearance-heading2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#ethical-clearance-collapse2" aria-expanded="true" aria-controls="ethical-clearance-collapse2">
-                    Data management plan
-                </button>
-            </h4>
-            <div id="ethical-clearance-collapse2" class="accordion-collapse collapse" aria-labelledby="ethical-clearance-heading2"
-                data-bs-parent="ethical-clearance">
-                <div class="accordion-body">
-                    <p>The Digital Observatory recommends that a data management plan is written for the project.
+    </div>
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="ethical-clearance-heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#ethical-clearance-collapse2" aria-expanded="true"
+                    aria-controls="ethical-clearance-collapse2">
+                Data management plan
+            </button>
+        </h4>
+        <div id="ethical-clearance-collapse2" class="accordion-collapse collapse"
+             aria-labelledby="ethical-clearance-heading2"
+             data-bs-parent="ethical-clearance">
+            <div class="accordion-body">
+                <p>The Digital Observatory recommends that a data management plan is written for the project.
 A data management plan is a live document that outlines how you will handle your data during and after your research.</p>
 <p>A data management plan is a requirement if your research is funded by the ARC or NHMRC, or you are a HDR student.</p>
 <p>QUT researchers can use the QUT <a href="https://dmp.qut.edu.au/">Data Management Planning Tool</a> and can contact their <a href="https://www.library.qut.edu.au/about/contact/liaisonlibrarians/">liaison librarian</a> (QUT login required) for further assistance.
 External researchers should consult their own institutions to find out how to approach data management.</p>
 
-                </div>
             </div>
         </div>
-        
-        
-
     </div>
 
-
-      
-      
-      
-      <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
-
-      
-      
-      
-      
     
-    <div class="accordion" id="faq">
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="faq-heading1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-collapse1" aria-expanded="true" aria-controls="faq-collapse1">
-                    Do I have to work at QUT to collaborate with the Digital Observatory and access the Australian Twittersphere?
-                </button>
-            </h4>
-            <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-heading1"
-                data-bs-parent="faq">
-                <div class="accordion-body">
-                    <p>Absolutely not! We work with researchers from many universities, as long as appropriate ethical clearance is in place (if applicable).
+
+</div>
+
+
+    
+    
+    
+    <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+
+    
+    
+    
+    
+
+<div class="accordion" id="faq">
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="faq-heading1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-collapse1" aria-expanded="true"
+                    aria-controls="faq-collapse1">
+                Do I have to work at QUT to collaborate with the Digital Observatory and access the Australian Twittersphere?
+            </button>
+        </h4>
+        <div id="faq-collapse1" class="accordion-collapse collapse"
+             aria-labelledby="faq-heading1"
+             data-bs-parent="faq">
+            <div class="accordion-body">
+                <p>Absolutely not! We work with researchers from many universities, as long as appropriate ethical clearance is in place (if applicable).
 Having a QUT collaborator does help, but it is not required. 
 External researchers will be charged on a cost-recovery basis.</p>
 
-                </div>
             </div>
         </div>
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="faq-heading2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-collapse2" aria-expanded="true" aria-controls="faq-collapse2">
-                    What geolocation data do you have?
-                </button>
-            </h4>
-            <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-heading2"
-                data-bs-parent="faq">
-                <div class="accordion-body">
-                    <p>In the Australian Twittersphere, there is a small amount of geolocation data (&lt; 1% of tweets).
+    </div>
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="faq-heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-collapse2" aria-expanded="true"
+                    aria-controls="faq-collapse2">
+                What geolocation data do you have?
+            </button>
+        </h4>
+        <div id="faq-collapse2" class="accordion-collapse collapse"
+             aria-labelledby="faq-heading2"
+             data-bs-parent="faq">
+            <div class="accordion-body">
+                <p>In the Australian Twittersphere, there is a small amount of geolocation data (&lt; 1% of tweets).
 This is because the majority of Twitter users opt against including geolocation information when posting tweets.</p>
 <p>If your research question requires geolocation information, it might be possible to infer location information from the tweet text (e.g., the tweet mentions a specific location) or user profile information (e.g., the user indicates their location in their profile). 
 However, these methods require additional work and are not suitable for all research questions, especially if high accuracy is important or fine-grained geolocation information is required.</p>
 <p>Discuss your needs with us to see if there is a solution for your research question(s).</p>
 
-                </div>
             </div>
         </div>
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="faq-heading3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-collapse3" aria-expanded="true" aria-controls="faq-collapse3">
-                    How long does it take to extract data from the Australian Twittersphere?
-                </button>
-            </h4>
-            <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-heading3"
-                data-bs-parent="faq">
-                <div class="accordion-body">
-                    <p>Extracting data from the Australian Twittersphere does not take long at all. 
+    </div>
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="faq-heading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-collapse3" aria-expanded="true"
+                    aria-controls="faq-collapse3">
+                How long does it take to extract data from the Australian Twittersphere?
+            </button>
+        </h4>
+        <div id="faq-collapse3" class="accordion-collapse collapse"
+             aria-labelledby="faq-heading3"
+             data-bs-parent="faq">
+            <div class="accordion-body">
+                <p>Extracting data from the Australian Twittersphere does not take long at all. 
 However, the work of deciding what to extract requires some discussion and iteration, to ensure that the data will meet the needs of the research question(s).</p>
 
-                </div>
             </div>
         </div>
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="faq-heading4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-collapse4" aria-expanded="true" aria-controls="faq-collapse4">
-                    How far back does the Australian Twittersphere capture?
-                </button>
-            </h4>
-            <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-heading4"
-                data-bs-parent="faq">
-                <div class="accordion-body">
-                    <p>The most reliable data goes back to March 2018, but some data are available before this time. 
+    </div>
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="faq-heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-collapse4" aria-expanded="true"
+                    aria-controls="faq-collapse4">
+                How far back does the Australian Twittersphere capture?
+            </button>
+        </h4>
+        <div id="faq-collapse4" class="accordion-collapse collapse"
+             aria-labelledby="faq-heading4"
+             data-bs-parent="faq">
+            <div class="accordion-body">
+                <p>The most reliable data goes back to March 2018, but some data are available before this time. 
 There are other options for obtaining historical Twitter data (e.g., using Twitter/X’s API at a cost), and we are happy to discuss this with you.</p>
 
-                </div>
             </div>
         </div>
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="faq-heading5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-collapse5" aria-expanded="true" aria-controls="faq-collapse5">
-                    How much will it cost me?
-                </button>
-            </h4>
-            <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-heading5"
-                data-bs-parent="faq">
-                <div class="accordion-body">
-                    <p>The Digital Observatory operates to keep costs low for researchers by only charging on a cost-recovery basis. If you are a researcher within QUT, we also offer in-kind services for:</p>
+    </div>
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="faq-heading5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-collapse5" aria-expanded="true"
+                    aria-controls="faq-collapse5">
+                How much will it cost me?
+            </button>
+        </h4>
+        <div id="faq-collapse5" class="accordion-collapse collapse"
+             aria-labelledby="faq-heading5"
+             data-bs-parent="faq">
+            <div class="accordion-body">
+                <p>The Digital Observatory operates to keep costs low for researchers by only charging on a cost-recovery basis. If you are a researcher within QUT, we also offer in-kind services for:</p>
 <ul>
 <li>HDR (Higher-degree research) projects</li>
 <li>Small projects</li>
@@ -523,158 +543,162 @@ There are other options for obtaining historical Twitter data (e.g., using Twitt
 <li>ECR (Early-career researchers) projects</li>
 </ul>
 
-                </div>
             </div>
         </div>
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="faq-heading6">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-collapse6" aria-expanded="true" aria-controls="faq-collapse6">
-                    Do I need ethics approval?
-                </button>
-            </h4>
-            <div id="faq-collapse6" class="accordion-collapse collapse" aria-labelledby="faq-heading6"
-                data-bs-parent="faq">
-                <div class="accordion-body">
-                    <p>It depends.
+    </div>
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="faq-heading6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-collapse6" aria-expanded="true"
+                    aria-controls="faq-collapse6">
+                Do I need ethics approval?
+            </button>
+        </h4>
+        <div id="faq-collapse6" class="accordion-collapse collapse"
+             aria-labelledby="faq-heading6"
+             data-bs-parent="faq">
+            <div class="accordion-body">
+                <p>It depends.
 If you intend on publishing your findings or need access to raw tweet data (e.g., tweet text, account information) then you will require ethics. 
 There are also other situations in which you will require ethics, such as research questions that require data about sensitive topics.
 Refer to the <a href="#ethics-and-data-management">Ethics section</a> above for more information.</p>
 <p>If you are unsure, we can discuss your research question with you and can refer you to the Office of Research Ethics and Integrity or an ethics advisor for further advice if necessary.</p>
 
-                </div>
             </div>
         </div>
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="faq-heading7">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-collapse7" aria-expanded="true" aria-controls="faq-collapse7">
-                    Do I need a Data Management Plan?
-                </button>
-            </h4>
-            <div id="faq-collapse7" class="accordion-collapse collapse" aria-labelledby="faq-heading7"
-                data-bs-parent="faq">
-                <div class="accordion-body">
-                    <p>A <a href="#ethics-and-data-management">data management plan</a> is recommended if you work with potentially personally identifiable data (e.g. raw tweets) from the Australian Twittersphere.
+    </div>
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="faq-heading7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-collapse7" aria-expanded="true"
+                    aria-controls="faq-collapse7">
+                Do I need a Data Management Plan?
+            </button>
+        </h4>
+        <div id="faq-collapse7" class="accordion-collapse collapse"
+             aria-labelledby="faq-heading7"
+             data-bs-parent="faq">
+            <div class="accordion-body">
+                <p>A <a href="#ethics-and-data-management">data management plan</a> is recommended if you work with potentially personally identifiable data (e.g. raw tweets) from the Australian Twittersphere.
 It might be a requirement in some cases, including HDR and several funded research projects, including ARC (Australian Research Council) and NHMRC (National Health and Medical Research Council).</p>
 
-                </div>
             </div>
         </div>
-        
-        
-        <div class="accordion-item">
-            <h4 class="accordion-header" id="faq-heading8">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-collapse8" aria-expanded="true" aria-controls="faq-collapse8">
-                    Do I need any technical skills to collaborate with the Digital Observatory?
-                </button>
-            </h4>
-            <div id="faq-collapse8" class="accordion-collapse collapse" aria-labelledby="faq-heading8"
-                data-bs-parent="faq">
-                <div class="accordion-body">
-                    <p>Absolutely not!
+    </div>
+
+    
+    <div class="accordion-item">
+        <h4 class="accordion-header" id="faq-heading8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-collapse8" aria-expanded="true"
+                    aria-controls="faq-collapse8">
+                Do I need any technical skills to collaborate with the Digital Observatory?
+            </button>
+        </h4>
+        <div id="faq-collapse8" class="accordion-collapse collapse"
+             aria-labelledby="faq-heading8"
+             data-bs-parent="faq">
+            <div class="accordion-body">
+                <p>Absolutely not!
 We collaborate with researchers from a wide range of technical backgrounds, with different levels of technical know-how.
 We can tailor our output and deliverables to your specific needs and skills.</p>
 
-                </div>
             </div>
         </div>
-        
-        
-
     </div>
 
+    
 
-      
-      
-      
-      <h2 id="appendix">Appendix</h2><ul>
+</div>
+
+
+    
+    
+    
+    <h2 id="appendix">Appendix</h2><ul>
 <li>Technical fact sheet: For more technical information about the Australian Twittersphere, refer to this <a href="https://qut-digital-observatory.github.io/australian_twittersphere_fact_sheet/">Australian Twittersphere technical fact sheet</a>. </li>
 </ul>
 
 
-      
-      
+    
+    
 
     
-  
-
-  
     
-      <h2>Documents</h2>
 
-      
-      <div class="card mb-2" style="width: 18rem;">
+    
+    
+    <h2>Documents</h2>
+
+    
+    <div class="card mb-2" style="width: 18rem;">
         <div class="card-body">
-          <img src="../static/images/pdf-icon.png?h=9cb77160" style="width: 10%;margin-bottom: 5%">
-          <h5 class="card-title">Australian Twittersphere: A researcher&#39;s guide (PDF)</h5>
-          <a href="/australian-twittersphere/australian_twittersphere_guide.pdf" class="card-link">PDF</a>
+            <img src="../static/images/pdf-icon.png?h=9cb77160" style="width: 10%;margin-bottom: 5%">
+            <h5 class="card-title">Australian Twittersphere: A researcher&#39;s guide (PDF)</h5>
+            <a href="/australian-twittersphere/australian_twittersphere_guide.pdf" class="card-link">PDF</a>
         </div>
-      </div>
-      
-      
+    </div>
     
-  
+
+    
+    
 
 </div>
 
-  </div>
+</div>
 
-  <footer class="p-5">
+<footer class="p-5">
     <div id="footer" class="container">
-      <div class="row">
-        <div class="col-lg-3 mb-3">
-          <img src="../static/images/ado-logo-logotype-dark-cropped.png?h=80106029" alt="Bootstrap" width="150">
-          <p class="mt-2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">Licensed under
-            <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank"
-              rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img
-                style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-                src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img
-                style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-                src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>
-        </div>
+        <div class="row">
+            <div class="col-lg-3 mb-3">
+                <img src="../static/images/ado-logo-logotype-dark-cropped.png?h=80106029" alt="Bootstrap"
+                     width="150">
+                <p class="mt-2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">Licensed
+                    under
+                    <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank"
+                       rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img
+                            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img
+                            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>
+            </div>
 
-        <div class="col-lg-3 col-6 offset-lg-2 mb-3">
-          <h5 class="footer mb-3">Site</h5>
-          <ul class="list-unstyled footer">
-            <li class="mb-2">
-              <a href="/">Home</a>
-            </li>
-            <li class="mb-2"><a href="/resources">Resources</a></li>
-            <li class="mb-2"><a href="/blog">Blog</a></li>
-            <li class="mb-2"><a href="/about">About ADO</a></li>
-            <li class="mb-2">
-              <a href="/qut-digital-observatory">About QUT Digital Observatory</a>
-            </li>
-            <li class="mb-2">
-              <a href="/contact-us">Contact us</a>
-            </li>
-          </ul>
-        </div>
+            <div class="col-lg-3 col-6 offset-lg-2 mb-3">
+                <h5 class="footer mb-3">Site</h5>
+                <ul class="list-unstyled footer">
+                    <li class="mb-2">
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="mb-2"><a href="/resources">Resources</a></li>
+                    <li class="mb-2"><a href="/blog">Blog</a></li>
+                    <li class="mb-2"><a href="/about">About</a></li>
+                    <li class="mb-2"><a href="/about-ado">About ADO</a></li>
+                    <li class="mb-2"><a href="/contact-us">Contact</a></li>
+                </ul>
+            </div>
 
-        <div class="col-lg-3 col-6 mb-3">
-          <h5 class="footer mb-3">Useful pages</h5>
-          <ul class="list-unstyled footer">
-            <li class="mb-2">
-              <a href="/working-with-do">Guide to working with ADO</a>
-            </li>
-            <li class="mb-2">
-              <a href="/australian-twittersphere">Guide to the Australian Twittersphere</a>
-            </li>
-            <li class="mb-2">
-              <a href="/newstalk">Guide to NewsTalk</a>
-            </li>
-            <li class="mb-2">
-              <a href="/data-governance-guide">Guide to data governance for digital human data</a>
-            </li>
-          </ul>
+            <div class="col-lg-3 col-6 mb-3">
+                <h5 class="footer mb-3">Useful pages</h5>
+                <ul class="list-unstyled footer">
+                    <li class="mb-2">
+                        <a href="/working-with-do">Guide to working with DO</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="/data-governance-guide/">Guide for Data Governance of Digital Human Data</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="/newstalk">Guide to NewsTalk</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="/australian-twittersphere">Guide to the Australian Twittersphere</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </div>
-  </footer>
+</footer>
 </body>
