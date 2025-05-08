@@ -4,7 +4,7 @@ _template: homepage.html
 ---
 body:
 
-The Digital Observatory (DO) is a interdisciplinary team of data scientists, software developers, and academics within [Queensland University of Technology](https://qut.edu.au)'s Research Infrastructure portfolio dedicated to supporting research into public discourse on important societal issues. The DO focuses on establishing and maintaining infrastructure to support a diverse array of researchers from any institution in accessing and working with dynamic digital data, including existing collections of national interest.
+The Digital Observatory (DO) is a interdisciplinary team of data scientists, software developers, and academics within [Queensland University of Technology](https://qut.edu.au)'s Research Infrastructure portfolio dedicated to supporting research into public discourse on important societal issues. The DO focuses on establishing and maintaining infrastructure to support a diverse array of researchers from all institutions in accessing and working with dynamic digital data, including existing collections of national interest.
 
 <div class="text-center">
   <a href="../resources/categories/services/" class="content-button">
@@ -25,7 +25,7 @@ data-related [services](../resources/categories/services/),
 [events](../events),
 [training and workshops](../resources/training-workshops/),
 [datasets](../resources/categories/datasets), and
-[software and technical utilities/systems](../resources/categories/software).
+[software utilities](../resources/categories/software).
 
 The Digital Observatory started as the [Australian Digital Observatory](https://ardc.edu.au/project/australian-digital-observatory/), an ARDC platform working to establish national infrastructure to support researchers, especially in the humanities.
 
@@ -39,8 +39,6 @@ If you're a researcher embarking on a new project and are considering the potent
     Get in touch
   </a>
 </div>
-<br>
-
 <br>
 
 <h2>Featured resources</h2>

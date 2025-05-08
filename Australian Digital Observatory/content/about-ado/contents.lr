@@ -1,10 +1,8 @@
-title: About Us
+title: About the Australian Digital Observatory
 ---
 _template: about.html
 ---
 body:
-
-### About the Australian Digital Observatory
 
 Social media is a rich source of data that researchers from many disciplines increasingly incorporate into their research. For a number of years, many groups across Australia have independently collected significant social media holdings to serve their local research community. The Australian Digital Observatory is a project funded by the <a href="https://ardc.edu.au/" target="_blank">Australian Research Data Commons (ARDC)</a>, and seeks to sustainably align and connect selected established platforms into a national infrastructure that supports an extended and diverse array of research communities.
 
@@ -40,3 +38,7 @@ The Australian Digital Observatory (ADO) will develop and support an ecosystem o
 The [QUT Digital Observatory](https://www.qut.edu.au/digital-observatory) runs a regular newsletter which also shares Australian Digital Observatory news - [subscribe](https://qut.us14.list-manage.com/subscribe?u=af4511b1f437a65735ec33554&id=1484bd46e2) to get an update to your inbox every 2-3 months!
 
 
+---
+_slug: about-ado
+---
+_discoverable: no
