@@ -60,10 +60,13 @@ Ethical clearance is required for full access to raw data via the NewsTalk platf
 
 QUT researchers can find out more here: https://www.qut.edu.au/research/why-qut/ethics-and-integrity (QUT login required). The Digital Observatory will require a copy of your ethical clearance (or exemption, if applicable) before providing access to NewsTalk.
 
-## Frequently Asked Questions
 ---
 extras:
 
+#### cta ####
+id: contact-us
+#### text ####
+body: ## Frequently Asked Questions
 #### accordions ####
 id: faq
 ----
@@ -107,8 +110,21 @@ body: A data management plan is recommended if you work with potentially persona
 ##### accordion #####
 heading: Can I get support from the Digital Observatory?
 -----
-body: Absolutely! If you are not comfortable working with the NewsTalk platform, you can collaborate with the Digital Observatory. We can tailor our output and deliverables to your specific needs and skills.
-#### cta ####
-id: contact-us
+body:
+
+Absolutely! If you are not comfortable working with the NewsTalk platform, you can collaborate with the Digital Observatory. We can tailor our output and deliverables to your specific needs and skills.
+
+## Appendix
+
+For more technical information about the Australian Twittersphere, refer to the <a href="/static/pages/twittersphere/Digital Observatory - Australian Twittersphere - Fact Sheet.html" target="_blank">Australian Twittersphere technical fact sheet</a>.
+#### text ####
+body:
+
+## Appendix
+
+For more information about Newstalk, refer to the <a href="/static/pages/newstalk/Digital Observatory - Newstalk - Fact Sheet.html" target="_blank">Newstalk fact sheet</a>.
 ---
-title: NewsTalk: A Researcher's Guide
+title:
+
+NewsTalk: A Researcher's Guide
+
