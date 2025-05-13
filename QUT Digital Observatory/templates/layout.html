@@ -73,26 +73,23 @@
                         <a href="{{ '/'|url }}" {% if this._path=='/' %} class="active nav-link" {% endif%}
                            class="nav-link mx-3">Home</a>
                     </li>
-                    <!--            <li class="nav-item">-->
-                    <!--              <a href="{{ '/events'|url }}" {% if this.is_child_of('/events') %} class="active nav-link" {% endif%}-->
-                    <!--                class="nav-link mx-3">Events</a>-->
-                    <!--            </li>-->
-                    <li class="nav-item">
-                        <a href="{{ '/blog'|url }}" {% if this.is_child_of('/blog') %} class="active nav-link" {%
-                        endif%}
-                        class="nav-link mx-3">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="{{ '/about'|url }}" {% if this.is_child_of('/about') %} class="active nav-link" {%
-                        endif%}
-                        class="nav-link mx-3">About</a>
-                    </li>
                     <li class="nav-item">
                         <a href="{{ '/resources'|url }}" {% if this.is_child_of('/resources') %} class="active nav-link"
                         {%
                         endif%}
                         class="nav-link mx-3">Resources</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="{{ '/blog'|url }}" {% if this.is_child_of('/blog') %} class="active nav-link" {%
+                        endif%}
+                        class="nav-link mx-3">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ '/about'|url }}" {% if this._slug=='about'%} class="active nav-link" {%
+                        endif%}
+                        class="nav-link mx-3">About</a>
+                    </li>
+                    
                 </ul>
             </div>
             </nav>
@@ -124,9 +121,9 @@
                 <ul class="list-unstyled footer">
                     <li class="mb-2"><a href="/resources">Resources</a></li>
                     <li class="mb-2"><a href="/blog">Blog</a></li>
-                    <li class="mb-2"><a href="/about">About</a></li>
-                    <li class="mb-2"><a href="/about-ado">About ADO</a></li>
-                    <li class="mb-2"><a href="/contact-us">Contact</a></li>
+                    <li class="mb-2"><a href="/about">About us</a></li>
+                    <li class="mb-2"><a href="/case-studies">Case studies</a></li>
+                    <li class="mb-2"><a href="/contact-us">Contact us</a></li>
                 </ul>
             </div>
 
